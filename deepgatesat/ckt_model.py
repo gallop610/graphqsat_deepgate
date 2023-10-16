@@ -32,7 +32,7 @@ class ckt_net(nn.Module):
     def forward(self, graph):
         # hs: structural embeddings, hf: functional embeddings
         # hs/hf: [N, D]. N: number of gates, D: embedding dimension (default: 128)
-        hs, hf = self.model(graph)
+        hs, hf = self.dg_model(graph)
 
         res = self.mlp(hf)
 

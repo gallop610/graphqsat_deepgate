@@ -170,7 +170,7 @@ class gym_sat_Env(gym.Env):
         PIs = self.aig.PIs
         POs = self.aig.POs
 
-        return self.aig
+        return self.aig, False
 
 
     def parse_state_as_graph(self):
@@ -319,7 +319,7 @@ class gym_sat_Env(gym.Env):
         self.S = GymSolver(self.curr_problem, self.with_restarts, max_decisions_cap)
         self.max_clause_len = 0
 
-        self.curr_state, self.isSolved = self.parse_state_as_graph()
+        # self.curr_state, self.isSolved = self.parse_state_as_graph()
 
         self.curr_state, self.isSolved = self.parse_state_as_graph_modify()
 

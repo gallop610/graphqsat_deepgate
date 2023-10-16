@@ -4,7 +4,6 @@ from minisat.minisat.gym.MiniSATEnv import VAR_ID_IDX
 import torch.nn as nn
 
 
-
 class CircuitAgent:
     def __init__(self, ckt_net, args):
         self.net = ckt_net
@@ -13,7 +12,8 @@ class CircuitAgent:
     def forward(self, graph):
         return self.net(graph)
 
-    def act(self, graph):
+    def act(self, hist_buffer):
+        graph = hist_buffer[-1]
         qs = self.forward(graph)
         return self.choose_actions(qs)
 
