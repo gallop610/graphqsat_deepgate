@@ -1,13 +1,6 @@
-## This is a modified version of the Graph-QSAT which is created from the original source code. The purpose of this project was to review, analyze, reproduce the original results and perform additional experimentation for <a href = "https://arxiv.org/abs/1909.11830">Can Q-Learning with Graph Networks Learn a Generalizable Branching Heuristic for a SAT Solver?</a> 
+## 结合GraphQSAT与DeepGate2代码进行测试
 
-### To run:
-#### unzip data.zip in the same directory and open the GraphQSAT_driver_code.ipynb in Google Colab and run the cells.
-
-#### GraphQSAT_submission_report summarizes the work done in the original paper and in my review and extension project.
-
-
-#### This Project is part of cse 257: Search and Optimization course at UCSD taken during Spring 2021. 
-
-
-
-#### original source code: <a href = "https://github.com/NVIDIA/GraphQSat"> Graph-QSAT </a>
+- aigdata文件夹：存储当前的aig相关数据
+- deepgate文件夹：保存当前的deepgate2 model的相关API
+- deepgatesat文件夹：对gqsat相关内容重新整合
+- dqn_modified.py：对当前的框架进行重新整合
