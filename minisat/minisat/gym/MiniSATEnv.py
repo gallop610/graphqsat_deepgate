@@ -160,7 +160,15 @@ class gym_sat_Env(gym.Env):
         clauses = self.S.getClauses()
         
         # 利用已有变量构造observation—待完成
-
+        edge_index = self.aig.edge_index
+        tt_pair_index = self.aig.tt_pair_index
+        x = self.aig.x
+        tt_dis = self.aig.tt_dis
+        gate = self.aig.gate
+        prob = self.aig.prob
+        name = self.aig.name
+        PIs = self.aig.PIs
+        POs = self.aig.POs
 
         return self.aig
 
