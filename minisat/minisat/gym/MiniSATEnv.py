@@ -139,7 +139,6 @@ class gym_sat_Env(gym.Env):
         var_assignments = self.S.getAssignments()
         num_var = sum([1 for el in var_assignments if el == 2])
 
-        # only valid decisions
         valid_decisions = [
             el
             for i in range(len(var_assignments))
@@ -157,11 +156,10 @@ class gym_sat_Env(gym.Env):
         self.decision_to_var_mapping = {
             i: val_decision for i, val_decision in enumerate(valid_decisions)
         }
-
-        # we should return the vertex/edge numpy objects from the c++ code to make this faster
+    
         clauses = self.S.getClauses()
         
-        # 修改self.aig的字段—待完成
+        # 利用已有变量构造observation—待完成
 
 
         return self.aig
