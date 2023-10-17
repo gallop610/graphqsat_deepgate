@@ -14,7 +14,7 @@ class CircuitAgent:
 
     def act(self, hist_buffer):
         graph = hist_buffer[-1]
-        qs = self.forward(graph)
+        qs = self.forward(graph)[graph.valid_mask, :]
         return self.choose_actions(qs)
 
     def choose_actions(self, qs):

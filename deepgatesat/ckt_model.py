@@ -13,7 +13,7 @@ class MLP(nn.Module):
         super(MLP, self).__init__()
         self.hidden = nn.Linear(128, 16)
         self.act = nn.ReLU()
-        self.output = nn.Linear(16, 1)
+        self.output = nn.Linear(16, 2)
 
     def forward(self, x):
         a = self.act(self.hidden(x))

@@ -25,6 +25,9 @@ class OrderedData(Data):
         self.backward_index = backward_index
         self.rc_pair_index = rc_pair_index
         self.is_rc = is_rc
+        # 增加部分变量
+        self.valid_mask = None
+        
     
     def __inc__(self, key, value, *args, **kwargs):
         if 'index' in key or 'face' in key:

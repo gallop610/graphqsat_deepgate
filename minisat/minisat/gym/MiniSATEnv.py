@@ -43,6 +43,7 @@ from utils.aiger_utils import xdata_to_cnf
 from utils.circuit_utils import get_fanin_fanout
 from utils.cnf_utils import save_cnf
 import deepgate as dg
+import copy
 
 MINISAT_DECISION_CONSTANT = 32767
 VAR_ID_IDX = (
@@ -126,7 +127,7 @@ class gym_sat_Env(gym.Env):
             self.aig_parser = dg.AigParser()
         self.aig = None
 
-    def parse_state_as_graph_modify(self):
+    def new_parse_state_as_graph(self):
         (
             total_var,
             _,
@@ -148,7 +149,6 @@ class gym_sat_Env(gym.Env):
         valid_vars = [
             idx for idx in range(len(var_assignments)) if var_assignments[idx] == 2
         ]
-    
         
         # 告诉我们原始的variable到现在solver的variable的映射关系
         # 如果remapping里面有的variable就是决策空间，如果没有的直接不管
@@ -156,126 +156,14 @@ class gym_sat_Env(gym.Env):
         self.decision_to_var_mapping = {
             i: val_decision for i, val_decision in enumerate(valid_decisions)
         }
-    
+
         clauses = self.S.getClauses()
         
         # 利用已有变量构造observation—待完成
-        edge_index = self.aig.edge_index
-        tt_pair_index = self.aig.tt_pair_index
-        x = self.aig.x
-        tt_dis = self.aig.tt_dis
-        gate = self.aig.gate
-        prob = self.aig.prob
-        name = self.aig.name
-        PIs = self.aig.PIs
-        POs = self.aig.POs
+        self.aig.valid_mask = valid_vars
+        self.aig.valid_decisions = valid_decisions
 
         return self.aig, False
-
-
-    def parse_state_as_graph(self):
-
-        # if S is already Done, should return a dummy state to store in the buffer.
-        if self.S.getDone():
-            # to not mess with the c++ code, let's build a dummy graph which will not be used in the q updates anyways
-            # since we multiply (1-dones)
-            empty_state = self.get_dummy_state()
-            self.decision_to_var_mapping = {
-                el: el
-                for sl in range(empty_state[0].shape[0])
-                for el in (2 * sl, 2 * sl + 1)
-            }
-            return empty_state, True
-
-        # S is not yet Done, parse and return real state
-
-        (
-            total_var,
-            _,
-            current_depth,
-            n_init_clauses,
-            num_restarts,
-            _,
-        ) = self.S.getMetadata()
-        var_assignments = self.S.getAssignments()
-        num_var = sum([1 for el in var_assignments if el == 2])
-
-        # only valid decisions
-        valid_decisions = [
-            el
-            for i in range(len(var_assignments))
-            for el in (2 * i, 2 * i + 1)
-            if var_assignments[i] == 2
-        ]
-        valid_vars = [
-            idx for idx in range(len(var_assignments)) if var_assignments[idx] == 2
-        ]
-        # we need remapping since we keep only unassigned vars in the observations,
-        # however, the environment does know about this, it expects proper indices of the variables
-        
-        # 告诉我们原始的variable到现在solver的variable的映射关系
-        # 如果remapping里面有的variable就是决策空间，如果没有的直接不管
-        vars_remapping = {el: i for i, el in enumerate(valid_vars)}
-        self.decision_to_var_mapping = {
-            i: val_decision for i, val_decision in enumerate(valid_decisions)
-        }
-
-        # we should return the vertex/edge numpy objects from the c++ code to make this faster
-        clauses = self.S.getClauses()
-
-        if len(clauses) == 0:
-            # this is to avoid feeding empty data structures to our model
-            # when the MiniSAT environment returns an empty graph
-            # it might return an empty graph since we do not construct it when
-            # step > max_cap and max_cap can be zero (all decisions are made by MiniSAT's VSIDS).
-            empty_state = self.get_dummy_state()
-            self.decision_to_var_mapping = {
-                el: el
-                for sl in range(empty_state[0].shape[0])
-                for el in (2 * sl, 2 * sl + 1)
-            }
-            return empty_state, False
-
-        clause_counter = 0
-        clauses_lens = [len(cl) for cl in clauses]
-        self.max_clause_len = max(clauses_lens)
-        edge_data = np.zeros((sum(clauses_lens) * 2, 2), dtype=np.float32)
-        connectivity = np.zeros((2, edge_data.shape[0]), dtype=np.int)
-        ec = 0
-        for cl in clauses:
-            for l in cl:
-                # if positive, create a [0,1] edge from the var to the current clause, else [1,0]
-                # data = [1, 0] if l==True else [0, 1]
-
-                # this is not a typo, we want two edge here
-                edge_data[ec : ec + 2, int(l > 0)] = 1
-
-                remapped_l = vars_remapping[abs(l) - 1]
-                # from var to clause
-                connectivity[0, ec] = remapped_l
-                connectivity[1, ec] = num_var + clause_counter
-                # from clause to var
-                connectivity[0, ec + 1] = num_var + clause_counter
-                connectivity[1, ec + 1] = remapped_l
-
-                ec += 2
-            clause_counter += 1
-
-        vertex_data = np.zeros(
-            (num_var + clause_counter, self.vertex_in_size), dtype=np.float32
-        )  # both vars and clauses are vertex in the graph
-        vertex_data[:num_var, VAR_ID_IDX] = 1
-        vertex_data[num_var:, VAR_ID_IDX + 1] = 1
-
-        return (
-            (
-                vertex_data,
-                edge_data,
-                connectivity,
-                np.zeros((1, self.global_in_size), dtype=np.float32),
-            ),
-            False,
-        )
 
     def random_pick_satProb(self):
         if self.test_mode:  # in the test mode, just iterate all test files in order
@@ -321,13 +209,11 @@ class gym_sat_Env(gym.Env):
 
         # self.curr_state, self.isSolved = self.parse_state_as_graph()
 
-        self.curr_state, self.isSolved = self.parse_state_as_graph_modify()
+        self.curr_state, self.isSolved = self.new_parse_state_as_graph()
 
         return self.curr_state
-
-    def step(self, decision, dummy=False):
-        # now when we drop variables, we store the mapping
-        # convert dropped var decision to the original decision id
+    
+    def new_step(self, decision, dummy=False):
         if decision >= 0:
             decision = self.decision_to_var_mapping[decision]
         self.step_ctr += 1
@@ -352,46 +238,26 @@ class gym_sat_Env(gym.Env):
                     "max_clause_len": self.max_clause_len,
                 },
             )
-
+        
         if self.step_ctr > self.max_decisions_cap:
             while not self.S.getDone():
                 self.S.step(MINISAT_DECISION_CONSTANT)
                 if self.max_cap_fill_buffer:
-                    # return every next state when param is true
                     break
                 self.step_ctr += 1
             else:
-                # if we are here, we are not filling the buffer and we need to reduce the counter by one to
-                # correct for the increment for the last state
                 self.step_ctr -= 1
         else:
-            # TODO for debugging purposes, we need to add all the checks
-            # I removed this action_set checks for performance optimisation
-
-            # var_values = self.curr_state[0][:, 2]
-            # var_values = self.S.getAssignments()
-            # action_set = [
-            #     a
-            #     for v_idx, v in enumerate(var_values)
-            #     for a in (v_idx * 2, v_idx * 2 + 1)
-            #     if v == 2
-            # ]
-
-            if decision < 0:  # this is to say that let minisat pick the decision
+            if decision < 0:
                 decision = MINISAT_DECISION_CONSTANT
-            elif (
-                decision % 2 == 0
-            ):  # this is to say that pick decision and assign positive value
+            elif (decision % 2 == 0):  
                 decision = int(decision / 2 + 1)
-            else:  # this is to say that pick decision and assign negative value
+            else:
                 decision = 0 - int(decision / 2 + 1)
-
-            # if (decision == MINISAT_DECISION_CONSTANT) or orig_decision in action_set:
             self.S.step(decision)
-            # else:
-            #    raise ValueError("Illegal action")
+        
+        self.curr_state, self.isSolved = self.new_parse_state_as_graph()
 
-        self.curr_state, self.isSolved = self.parse_state_as_graph()
         (
             num_var,
             _,
@@ -401,10 +267,7 @@ class gym_sat_Env(gym.Env):
             _,
         ) = self.S.getMetadata()
 
-        # if we fill the buffer, the rewards are the same as GQSAT was making decisions
         if self.step_ctr > self.max_decisions_cap and not self.max_cap_fill_buffer:
-            # if we do not fill the buffer, but play till the end, we still need to penalize
-            # since GQSAT hasn't solved the problem
             step_reward = -self.penalty_size
         else:
             step_reward = 0 if self.isSolved else -self.penalty_size

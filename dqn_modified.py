@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
         while not done:
             action = agent.act(hist_buffer)
-            next_obs, r, done, _ = env.step(action)
+            next_obs, r, done, _ = env.new_step(action)
 
             obs = next_obs
             hist_buffer.append(obs)
