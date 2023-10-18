@@ -5,6 +5,8 @@ import argparse
 def build_argparser():
     parser = argparse.ArgumentParser()
 
+    parser.add_argument("--penalty_size", default=0.1, type=float)
+
     parser.add_argument("--aig_dir", default='/home/zc/projects/graphqsat_deepgate/aigdata/train', type=str)
     parser.add_argument("--cnf_dir", default='./cnf/', type=str)
     parser.add_argument("--tmp_dir", default='./tmp', type=str)
@@ -22,8 +24,6 @@ def build_argparser():
     parser.add_argument("--buffer-size", type=int, default=20000)
 
     parser.add_argument("--env_name", type=str, default="sat-v0")
-
-    parser.add_argument("--penalty_size", type=float, default=0.0001)
 
     parser.add_argument("--max_cap_fill_buffer", dest="max_cap_fill_buffer", action="store_true")
 

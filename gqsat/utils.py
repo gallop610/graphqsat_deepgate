@@ -129,6 +129,12 @@ def build_eval_argparser():
 
 def build_argparser():
     parser = argparse.ArgumentParser()
+
+    parser.add_argument("--input_type", type=str, default="cnf")
+    parser.add_argument("--aig_dir", default='/home/zc/projects/graphqsat_deepgate/aigdata/train', type=str)
+    parser.add_argument("--cnf_dir", default='./cnf/', type=str)
+    parser.add_argument("--tmp_dir", default='./tmp', type=str)
+
     parser.add_argument("--lr", type=float, default=0.0001, help="learning rate")
     parser.add_argument(
         "--bsize", type=int, default=128, help="Batch size for the learning step"

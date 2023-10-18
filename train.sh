@@ -59,4 +59,5 @@ python3 dqn.py \
   --no_max_cap_fill_buffer \
   --lr_scheduler_gamma 1 \
   --lr_scheduler_frequency 3000 \
-  --independent_block_layers 0
+  --independent_block_layers 0 \
+  --input_type cnf

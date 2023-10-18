@@ -138,16 +138,34 @@ class gym_sat_Env(gym.Env):
         ) = self.S.getMetadata()
 
         var_assignments = self.S.getAssignments()
-        num_var = sum([1 for el in var_assignments if el == 2])
+        clauses = self.S.getClauses()
+        clause_vars = sum(clauses, [])
+        
+        # 保存clauses中存在的所有变量
+        clause_valid_decisions = []
+        for el in clause_vars:
+            if(el > 0):
+                clause_valid_decisions.append(int((el - 1) * 2))
+            elif(el < 0):
+                clause_valid_decisions.append(int((abs(el) - 1) * 2 + 1))
+        
+        clause_valid_decisions = sorted(list(set(clause_valid_decisions)))
+
+        clause_valid_vars = sorted(list(set([int(el / 2) for el in clause_valid_decisions])))
+
+        # 问题：var_assignments中有些变量值为2，但是不在clauses的列表元素中，说明可能已经被消去了，我们要去掉这些元素
+        # 根据clauses里真正存在的变量确定变量个数num_var、valid_decisions、valid_vars、valid_remapping等变量
+
+        num_var = sum([1 for idx, el in enumerate(var_assignments) if el == 2 and idx in clause_valid_vars])
 
         valid_decisions = [
             el
             for i in range(len(var_assignments))
             for el in (2 * i, 2 * i + 1)
-            if var_assignments[i] == 2
+            if var_assignments[i] == 2 and i in clause_valid_vars
         ]
         valid_vars = [
-            idx for idx in range(len(var_assignments)) if var_assignments[idx] == 2
+            idx for idx in range(len(var_assignments)) if var_assignments[idx] == 2 and idx in clause_valid_vars
         ]
         
         # 告诉我们原始的variable到现在solver的variable的映射关系
@@ -157,9 +175,7 @@ class gym_sat_Env(gym.Env):
             i: val_decision for i, val_decision in enumerate(valid_decisions)
         }
 
-        clauses = self.S.getClauses()
-        
-        # 利用已有变量构造observation—待完成
+        # 利用已有变量构造observation—用掩码的形式存储哪些PI或者gate需要进行赋值
         self.aig.valid_mask = valid_vars
         self.aig.valid_decisions = valid_decisions
 
