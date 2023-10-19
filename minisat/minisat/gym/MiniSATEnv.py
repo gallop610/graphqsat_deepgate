@@ -179,6 +179,9 @@ class gym_sat_Env(gym.Env):
         self.aig.valid_mask = valid_vars
         self.aig.valid_decisions = valid_decisions
 
+        if self.S.getDone():
+            return self.aig, True
+
         return self.aig, False
 
     def random_pick_satProb(self):
@@ -223,8 +226,6 @@ class gym_sat_Env(gym.Env):
         self.S = GymSolver(self.curr_problem, self.with_restarts, max_decisions_cap)
         self.max_clause_len = 0
 
-        # self.curr_state, self.isSolved = self.parse_state_as_graph()
-
         self.curr_state, self.isSolved = self.new_parse_state_as_graph()
 
         return self.curr_state
@@ -255,6 +256,8 @@ class gym_sat_Env(gym.Env):
                 },
             )
         
+        old_clauses = self.S.getClauses()
+        
         if self.step_ctr > self.max_decisions_cap:
             while not self.S.getDone():
                 self.S.step(MINISAT_DECISION_CONSTANT)
@@ -273,6 +276,8 @@ class gym_sat_Env(gym.Env):
             self.S.step(decision)
         
         self.curr_state, self.isSolved = self.new_parse_state_as_graph()
+
+        new_clauses = self.S.getClauses()
 
         (
             num_var,
