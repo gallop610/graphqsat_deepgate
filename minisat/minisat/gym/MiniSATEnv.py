@@ -311,19 +311,3 @@ class gym_sat_Env(gym.Env):
             return restart_steps / steps
         else:
             return no_restart_steps / steps
-
-    def get_dummy_state(self):
-        DUMMY_V = np.zeros((2, self.vertex_in_size), dtype=np.float32)
-        DUMMY_V[:, VAR_ID_IDX] = 1
-        DUMMY_STATE = (
-            DUMMY_V,
-            np.zeros((2, self.edge_in_size), dtype=np.float32),
-            np.eye(2, dtype=np.long),
-            np.zeros((1, self.global_in_size), dtype=np.float32),
-        )
-        return (
-            DUMMY_STATE[0],
-            DUMMY_STATE[1],
-            DUMMY_STATE[2],
-            np.zeros((1, self.global_in_size), dtype=np.float32),
-        )
