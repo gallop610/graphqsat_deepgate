@@ -9,7 +9,7 @@ import torch
 import os
 import copy
 
-from deepgatesat.utils import build_argparser, make_env
+from deepgatesat.utils import build_argparser, make_env, evaluate
 from deepgatesat.agents import CircuitAgent
 from deepgatesat.learners import CircuitLearner
 from deepgatesat.buffer import CircuitBuffer
@@ -45,8 +45,6 @@ if __name__ == '__main__':
 
     n_trans = 0
     ep = 0
-    
-    ep_step = 0
 
     step_ctr = 0
     batch_updates = 5000
@@ -54,20 +52,33 @@ if __name__ == '__main__':
     while step_ctr < batch_updates:
         ret = 0
         obs = env.reset(args.train_max_time_decisions_allowed)
+
         done = env.isSolved
 
         hist_buffer = deque(maxlen=args.history_len)
         for _ in range(args.history_len):
             hist_buffer.append(obs)
 
+        ep_step = 0
+
+        eval_resume_signal = False
+
         while not done:
             action = agent.act(hist_buffer)
             next_obs, r, done, _ = env.new_step(action)
-
+            buffer.add_transition(obs, action, r, done)
             obs = next_obs
-            hist_buffer.append(obs)
 
+            hist_buffer.append(obs)
             ret += r
+
+            if (not n_trans % args.step_freq) and (
+                buffer.ctr > 7
+            ):
+                step_info = learner.step()
+
+                if (not learner.step_ctr % args.eval_freq) or eval_resume_signal:
+                    scores, eval_resume_signal = evaluate(agent, args, include_train_set=False)
 
             n_trans += 1
             ep_step += 1

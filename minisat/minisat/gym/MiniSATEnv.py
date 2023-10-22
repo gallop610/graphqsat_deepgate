@@ -88,8 +88,9 @@ class gym_sat_Env(gym.Env):
             all_files = glob.glob(os.path.join(self.args.cnf_dir, '*.cnf'))
         for problem_path in all_files:
             problem_name = os.path.basename(problem_path).split('.')[0]
-            if problem_name in TEST_CASE_LIST:
-                self.test_files.append(problem_path)
+            self.test_files.append(problem_path)
+            # if problem_name in TEST_CASE_LIST:
+            #     self.test_files.append(problem_path)
 
         self.metadata = {}
         self.max_decisions_cap = float("inf")
@@ -180,9 +181,9 @@ class gym_sat_Env(gym.Env):
         self.aig.valid_decisions = valid_decisions
 
         if self.S.getDone():
-            return self.aig, True
+            return copy.deepcopy(self.aig), True
 
-        return self.aig, False
+        return copy.deepcopy(self.aig), False
 
     def random_pick_satProb(self):
         if self.test_mode:  # in the test mode, just iterate all test files in order

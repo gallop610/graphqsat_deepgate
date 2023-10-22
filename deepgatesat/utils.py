@@ -1,9 +1,28 @@
 import gym, minisat
 
 import argparse
+import time
+import torch
+import os
+import numpy as np
 
 def build_argparser():
     parser = argparse.ArgumentParser()
+
+    parser.add_argument("--eval_separately_on_each", dest="eval_separately_on_each", action="store_true")
+    parser.add_argument("--no_eval_separately_on_each", dest="eval_separately_on_each", action="store_false")
+    parser.set_defaults(eval_separately_on_each=True)
+
+    parser.add_argument("--eval_problems_paths", default='/home/zc/projects/graphqsat_deepgate/aigdata/eval', type=str)
+    parser.add_argument("--eval_freq", default=5, type=int)
+    parser.add_argument("--test_time_max_decisions_allowed", default=500, type=int)
+
+    parser.add_argument("--lr_scheduler_frequency", default=1000, type=int)
+    parser.add_argument("--lr_scheduler_gamma", default=1.0, type=float)
+
+    parser.add_argument("--step_freq", default=4, type=int)
+    parser.add_argument("--init_exploration-steps", default=100, type=int)
+    parser.add_argument("--batch_size", default=4, type=int)
 
     parser.add_argument("--penalty_size", default=0.1, type=float)
 
@@ -70,3 +89,75 @@ def make_env(problems_paths, args, test_mode = False):
         else None,
         max_data_limit_per_set=max_data_limit_per_set,
     )
+
+def evaluate(agent, args, include_train_set=False):
+    agent.net.eval()
+    problem_sets = (
+        [args.eval_problems_paths]
+        if not args.eval_separately_on_each
+        else [k for k in args.eval_problems_paths.split(":")]
+    )
+    if include_train_set:
+        problem_sets.extend(
+            [args.train_problems_paths]
+            if not args.eval_separately_on_each
+            else [k for k in args.train_problems_paths.split(":")]
+        )
+    
+    res = {}
+
+    st_time = time.time()
+    print("Starting evaluation.")
+
+    total_iter_ours = 0
+    total_iter_minisat = 0
+
+    for pset in problem_sets:
+        eval_env = make_env(pset, args, test_mode=True)
+        DEBUG_ROLLOUTS = None
+        pr = 0
+        walltime = {}
+        propagations = {}
+        scores = {}
+        with torch.no_grad():
+            while eval_env.test_to != 0 or pr == 0:
+                p_st_time = time.time()
+                obs = eval_env.reset(max_decisions_cap=args.test_time_max_decisions_allowed)
+                done = eval_env.isSolved
+
+                while not done:
+                    action = agent.act([obs])
+                    obs, _, done, _ = eval_env.new_step(action)
+                
+                walltime[eval_env.curr_problem] = time.time() - p_st_time
+                propagations[eval_env.curr_problem] = int(eval_env.S.getPropagations() / eval_env.step_ctr)
+
+                sctr = 1 if eval_env.step_ctr == 0 else eval_env.step_ctr
+                ns = eval_env.normalized_score(sctr, eval_env.curr_problem)
+                print(f"Evaluation episode {pr+1} is over. Your score is {ns}.")
+                total_iters_ours += sctr
+                pdir, pname = os.path.split(eval_env.curr_problem)
+                total_iters_minisat += eval_env.metadata[pdir][pname][1]
+                scores[eval_env.curr_problem] = ns
+                pr += 1
+                if DEBUG_ROLLOUTS is not None and pr >= DEBUG_ROLLOUTS:
+                    break
+        print(
+            f"Evaluation is done. Median relative score: {np.nanmedian([el for el in scores.values()]):.2f}, "
+            f"mean relative score: {np.mean([el for el in scores.values()]):.2f}, "
+            f"iters frac: {total_iters_minisat/total_iters_ours:.2f}"
+        )
+        res[pset] = scores
+
+        agent.net.train()
+
+        return (
+            res,
+            {
+                "metadata": eval_env.metadata,
+                "iters_frac": total_iters_minisat / total_iters_ours,
+                "mean_score": np.mean([el for el in scores.values()]),
+                "median_score": np.median([el for el in scores.values()])
+            },
+            False,
+        )
