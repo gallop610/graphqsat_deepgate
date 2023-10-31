@@ -25,7 +25,7 @@ def build_argparser():
     parser.set_defaults(eval_separately_on_each=True)
 
     parser.add_argument("--eval_problems_paths", default='/home/zc/projects/graphqsat_deepgate/aigdata/eval-problems-paths', type=str)
-    parser.add_argument("--eval_freq", default=1000, type=int)
+    parser.add_argument("--eval_freq", default=100, type=int)
     parser.add_argument("--test_time_max_decisions_allowed", default=500, type=int)
 
     parser.add_argument("--lr_scheduler_frequency", default=1000, type=int)
