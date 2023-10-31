@@ -27,6 +27,7 @@ class OrderedData(Data):
         self.is_rc = is_rc
         # 增加部分变量
         self.valid_mask = None
+        self.problem_path = None
         
     
     def __inc__(self, key, value, *args, **kwargs):

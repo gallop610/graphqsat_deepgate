@@ -1,24 +1,10 @@
-# Copyright 2019-2020 Nvidia Corporation
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#    http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
 import os
-import gym, minisat  # you need the latter to run __init__.py and register the environment.
+import gym, minisat 
 from collections import defaultdict
-from gqsat.utils import build_argparser
-from gqsat.agents import MiniSATAgent
+from deepgatesat.utils import build_argparser
+from deepgatesat.agents import MiniSATAgent
 
-DEBUG_ROLLOUTS = 10  # if --debug flag is present, run this many of rollouts, not the whole problem folder
+DEBUG_ROLLOUTS = 10  
 
 
 def main():
@@ -39,15 +25,18 @@ def main():
         print(f"Testing agent {agent}... with_restarts is set to {with_restarts}")
         pr = 0
         while env.test_to != 0 or pr == 0:
-            observation = env.reset()
+            observation = env.reset(max_decisions_cap=500)
             done = False
             while not done:
                 action = agent.act(observation)
-                observation, reward, done, info = env.step(action, dummy=True)
+                observation, reward, done, info = env.new_step(action, dummy=True)
             print(
                 f'Rollout {pr+1}, steps {env.step_ctr}, num_restarts {info["num_restarts"]}.'
             )
-            results[env.curr_problem].append(env.step_ctr)
+            if env.aig_problem != None:
+                results[env.aig_problem].append(env.step_ctr)
+            else:
+                results[env.curr_problem].append(env.step_ctr)
             pr += 1
             if args.debug and pr >= DEBUG_ROLLOUTS:
                 break

@@ -86,6 +86,10 @@ class gym_sat_Env(gym.Env):
             all_files = glob.glob(os.path.join(self.args.aig_dir, '*.aiger'))
         else:
             all_files = glob.glob(os.path.join(self.args.cnf_dir, '*.cnf'))
+
+        if test_mode == True:
+            all_files = glob.glob(os.path.join(self.problems_paths[0], '*.aiger'))
+
         for problem_path in all_files:
             problem_name = os.path.basename(problem_path).split('.')[0]
             self.test_files.append(problem_path)
@@ -118,6 +122,7 @@ class gym_sat_Env(gym.Env):
         self.step_ctr = 0
         self.curr_problem = None
         
+        self.aig_problem = None
 
         self.global_in_size = 1
         self.vertex_in_size = 2
@@ -126,6 +131,7 @@ class gym_sat_Env(gym.Env):
 
         if self.args.input_type == 'ckt':
             self.aig_parser = dg.AigParser()
+
         self.aig = None
 
     def new_parse_state_as_graph(self):
@@ -207,6 +213,9 @@ class gym_sat_Env(gym.Env):
         if self.args.input_type == 'ckt':
             problem_name = os.path.basename(self.curr_problem).split('.')[0]
             self.aig = self.aig_parser.read_aiger(self.curr_problem)
+            self.aig.problem_path = self.curr_problem
+            self.aig_problem = self.curr_problem
+
             edge_index = np.transpose(self.aig.edge_index)
             fanin_list, fanout_list = get_fanin_fanout(self.aig.x, edge_index)
             assert len(self.aig.POs) == 1

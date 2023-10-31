@@ -59,7 +59,7 @@ class CircuitLearner:
             target_qs = scatter_max(target_qs.flatten(), idx_for_scatter, dim=0)[0]
             targets = r + nonterminals * self.gamma * target_qs
  
-        # self.net.train()
+        self.net.train()
         qs, vertex_sizes  = self.get_qs(s)
 
         gather_idx = (vertex_sizes * qs.shape[1]).cumsum(0).roll(1).to(self.device)

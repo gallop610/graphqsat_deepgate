@@ -9,25 +9,35 @@ import numpy as np
 def build_argparser():
     parser = argparse.ArgumentParser()
 
+    parser.add_argument("--model_to_best_eval_path", type=str, default="./model/best_eval.pkl")
+
+    parser.add_argument("--save_freq", type=int, default=500)
+
+    parser.add_argument("--eps_init", type=float, default=1.0)
+    parser.add_argument("--eps_final", type=float, default=0.1)
+    parser.add_argument("--init_exploration_steps", type=int, default=5000)
+    parser.add_argument("--eps_decay_steps", type=int, default=30000)
+
+    parser.add_argument("--debug", action="store_true")
+
     parser.add_argument("--eval_separately_on_each", dest="eval_separately_on_each", action="store_true")
     parser.add_argument("--no_eval_separately_on_each", dest="eval_separately_on_each", action="store_false")
     parser.set_defaults(eval_separately_on_each=True)
 
-    parser.add_argument("--eval_problems_paths", default='/home/zc/projects/graphqsat_deepgate/aigdata/eval', type=str)
-    parser.add_argument("--eval_freq", default=5, type=int)
+    parser.add_argument("--eval_problems_paths", default='/home/zc/projects/graphqsat_deepgate/aigdata/eval-problems-paths', type=str)
+    parser.add_argument("--eval_freq", default=1000, type=int)
     parser.add_argument("--test_time_max_decisions_allowed", default=500, type=int)
 
     parser.add_argument("--lr_scheduler_frequency", default=1000, type=int)
     parser.add_argument("--lr_scheduler_gamma", default=1.0, type=float)
 
     parser.add_argument("--step_freq", default=4, type=int)
-    parser.add_argument("--init_exploration-steps", default=100, type=int)
     parser.add_argument("--batch_size", default=4, type=int)
 
     parser.add_argument("--penalty_size", default=0.1, type=float)
 
     parser.add_argument("--aig_dir", default='/home/zc/projects/graphqsat_deepgate/aigdata/train', type=str)
-    parser.add_argument("--cnf_dir", default='./cnf/', type=str)
+    parser.add_argument("--cnf_dir", default='./cnf', type=str)
     parser.add_argument("--tmp_dir", default='./tmp', type=str)
 
     parser.add_argument("--with_restarts", action="store_true", dest="with_restarts")
@@ -50,9 +60,9 @@ def build_argparser():
 
     parser.set_defaults(max_cap_fill_buffer=False)
 
-    parser.add_argument("--train-problems-paths", type=str, default="./aigdata/uf50-218-tvt/train")
+    parser.add_argument("--train-problems-paths", type=str, default="./aigdata/train")
 
-    parser.add_argument("--eval-problems-paths", type=str, default="./aigdata/uf50-218-tvt/eval-problems-paths")
+    parser.add_argument("--eval-problems-paths", type=str, default="./aigdata/eval-problems-paths")
 
     parser.add_argument("--grad_clip", type=float, default=1.0)
 
@@ -109,8 +119,8 @@ def evaluate(agent, args, include_train_set=False):
     st_time = time.time()
     print("Starting evaluation.")
 
-    total_iter_ours = 0
-    total_iter_minisat = 0
+    total_iters_ours = 0
+    total_iters_minisat = 0
 
     for pset in problem_sets:
         eval_env = make_env(pset, args, test_mode=True)
@@ -126,22 +136,36 @@ def evaluate(agent, args, include_train_set=False):
                 done = eval_env.isSolved
 
                 while not done:
-                    action = agent.act([obs])
+                    action = agent.act([obs], eps=0)
                     obs, _, done, _ = eval_env.new_step(action)
                 
-                walltime[eval_env.curr_problem] = time.time() - p_st_time
-                propagations[eval_env.curr_problem] = int(eval_env.S.getPropagations() / eval_env.step_ctr)
+                if eval_env.aig_problem != None:
+                    walltime[eval_env.aig_problem] = time.time() - p_st_time
+                    propagations[eval_env.aig_problem] = int(eval_env.S.getPropagations() / eval_env.step_ctr)
 
-                sctr = 1 if eval_env.step_ctr == 0 else eval_env.step_ctr
-                ns = eval_env.normalized_score(sctr, eval_env.curr_problem)
-                print(f"Evaluation episode {pr+1} is over. Your score is {ns}.")
-                total_iters_ours += sctr
-                pdir, pname = os.path.split(eval_env.curr_problem)
-                total_iters_minisat += eval_env.metadata[pdir][pname][1]
-                scores[eval_env.curr_problem] = ns
+                    sctr = 1 if eval_env.step_ctr == 0 else eval_env.step_ctr
+                    ns = eval_env.normalized_score(sctr, eval_env.aig_problem)
+                    print(f"Evaluation episode {pr+1} is over. Your score is {ns}.")
+                    total_iters_ours += sctr
+                    pdir, pname = os.path.split(eval_env.aig_problem)
+                    total_iters_minisat += eval_env.metadata[pdir][pname][1]
+                    scores[eval_env.aig_problem] = ns
+                else:
+                    walltime[eval_env.curr_problem] = time.time() - p_st_time
+                    propagations[eval_env.curr_problem] = int(eval_env.S.getPropagations() / eval_env.step_ctr)
+
+                    sctr = 1 if eval_env.step_ctr == 0 else eval_env.step_ctr
+                    ns = eval_env.normalized_score(sctr, eval_env.curr_problem)
+                    print(f"Evaluation episode {pr+1} is over. Your score is {ns}.")
+                    total_iters_ours += sctr
+                    pdir, pname = os.path.split(eval_env.curr_problem)
+                    total_iters_minisat += eval_env.metadata[pdir][pname][1]
+                    scores[eval_env.curr_problem] = ns
+                    
                 pr += 1
                 if DEBUG_ROLLOUTS is not None and pr >= DEBUG_ROLLOUTS:
                     break
+        
         print(
             f"Evaluation is done. Median relative score: {np.nanmedian([el for el in scores.values()]):.2f}, "
             f"mean relative score: {np.mean([el for el in scores.values()]):.2f}, "
