@@ -200,7 +200,7 @@ def build_argparser():
 
     parser.add_argument(
         "--eval-freq",
-        default=1000,
+        default=500,
         type=int,
         help="How often to evaluate. Measured in minibatch updates.",
     )

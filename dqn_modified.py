@@ -117,10 +117,9 @@ if __name__ == '__main__':
     n_trans = 0
     ep = 0
 
-    step_ctr = 0
     batch_updates = 1000000000
     
-    while step_ctr < batch_updates:
+    while learner.step_ctr < batch_updates:
         ret = 0
         obs = env.reset(args.train_max_time_decisions_allowed)
 
