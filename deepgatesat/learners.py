@@ -15,7 +15,7 @@ class CircuitLearner:
 
         self.loss = nn.MSELoss()
 
-        self.bsize = 4
+        self.batch_size = args.batch_size
         self.gamma = 0.99
         self.buffer = buffer
         self.target_update_freq = 10
@@ -43,7 +43,7 @@ class CircuitLearner:
         return target_qs_value.to(self.device).detach(), target_vertex_sizes
 
     def step(self):
-        s, a, r, s_next, nonterminals = self.buffer.sample(self.bsize)
+        s, a, r, s_next, nonterminals = self.buffer.sample(self.batch_size)
 
         with torch.no_grad():
             target_qs, target_vertex_sizes = self.get_target_qs(s_next)

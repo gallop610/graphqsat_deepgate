@@ -31,8 +31,8 @@ def build_argparser():
     parser.add_argument("--lr_scheduler_frequency", default=1000, type=int)
     parser.add_argument("--lr_scheduler_gamma", default=1.0, type=float)
 
-    parser.add_argument("--step_freq", default=4, type=int)
-    parser.add_argument("--batch_size", default=4, type=int)
+    parser.add_argument("--step_freq", default=32, type=int)
+    parser.add_argument("--batch_size", default=1, type=int)
 
     parser.add_argument("--penalty_size", default=0.1, type=float)
 
