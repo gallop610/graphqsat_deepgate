@@ -25,20 +25,14 @@ class CircuitLearner:
         self.device = args.device
 
     def get_qs(self, states):
-        qs_value = torch.tensor([])
-        vertex_sizes = torch.tensor([], dtype=torch.int64)
-        for aig in states:
-            qs_value = torch.cat((qs_value, self.net(aig)[aig.valid_mask, :]), dim=0)
-            vertex_sizes = torch.cat((vertex_sizes, torch.tensor([len(aig.valid_mask)], dtype=torch.int64)), dim=0)
+        qs_value = self.net(states)
+        vertex_sizes = torch.tensor([len(aig.valid_mask) for aig in states])
 
         return qs_value.to(self.device), vertex_sizes
 
     def get_target_qs(self, states):
-        target_qs_value = torch.tensor([])
-        target_vertex_sizes = torch.tensor([], dtype=torch.int64)
-        for aig in states:
-            target_qs_value = torch.cat((target_qs_value, self.target(aig)[aig.valid_mask, :]), dim=0)
-            target_vertex_sizes = torch.cat((target_vertex_sizes, torch.tensor([len(aig.valid_mask)], dtype=torch.int64)), dim=0)
+        target_qs_value = self.target(states)
+        target_vertex_sizes = torch.tensor([len(aig.valid_mask) for aig in states])
 
         return target_qs_value.to(self.device).detach(), target_vertex_sizes
 
@@ -71,7 +65,6 @@ class CircuitLearner:
 
         self.optimizer.zero_grad()
         loss.backward()
-
         grad_norm = torch.nn.utils.clip_grad_norm_(
             self.net.parameters(), self.grad_clip, norm_type=self.grad_clip_norm_type
         )
