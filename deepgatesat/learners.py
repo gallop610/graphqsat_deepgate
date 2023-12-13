@@ -42,8 +42,9 @@ class CircuitLearner:
         with torch.no_grad():
             target_qs, target_vertex_sizes = self.get_target_qs(s_next)
             idx_for_scatter = [
-                [idx] * el.item() * 2 for idx, el in enumerate(target_vertex_sizes)
+                [idx] * el.item() for idx, el in enumerate(target_vertex_sizes)
             ]
+
             idx_for_scatter = torch.tensor(
                 [el for subl in idx_for_scatter for el in subl],
                 dtype=torch.long,
@@ -59,7 +60,10 @@ class CircuitLearner:
         gather_idx = (vertex_sizes * qs.shape[1]).cumsum(0).roll(1).to(self.device)
         gather_idx[0] = 0
 
-        qs = qs.flatten()[gather_idx + a]
+        for idx, value in enumerate(a):
+            a[idx] = value // 2
+
+        qs = qs.flatten()[torch.tensor(gather_idx + a, dtype=torch.long)]
 
         loss = self.loss(qs, targets)
 

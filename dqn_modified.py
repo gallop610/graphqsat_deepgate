@@ -63,7 +63,7 @@ def save_training_state(
         model_to_best_eval[learner.step_ctr] = best_eval_so_far
         with open(args.model_to_best_eval_path, "wb") as f:
             pickle.dump(model_to_best_eval, f)
-        
+    
     status_path = os.path.join(args.logdir, "status.yaml")
 
     with open(status_path, "w") as f:
@@ -105,11 +105,12 @@ if __name__ == '__main__':
 
     env = make_env(args.train_problems_paths, args, test_mode=False)
 
-    net = ckt_net()
+    net = ckt_net(args)
 
     target_net = copy.deepcopy(net)
 
     buffer = CircuitBuffer(args, args.buffer_size)
+
 
     agent = CircuitAgent(net, args)
     learner = CircuitLearner(net, target_net, buffer, args)
@@ -138,12 +139,12 @@ if __name__ == '__main__':
         while not done:
             annealed_eps = get_annealed_eps(n_trans, args)
             action = agent.act(hist_buffer, annealed_eps)
-            next_obs, r, done, _ = env.new_step(action)
-            buffer.add_transition(obs, action, r, done)
+            next_obs, reward, done, _ = env.new_step(action)
+            buffer.add_transition(obs, action, reward, done)
             obs = next_obs
 
             hist_buffer.append(obs)
-            ret += r
+            ret += reward
 
             if (not n_trans % args.step_freq) and (
                 buffer.ctr > max(args.init_exploration_steps, args.batch_size + 1)
@@ -183,6 +184,8 @@ if __name__ == '__main__':
         print(f"Episode {ep + 1}: Return {ret}.")
 
         ep += 1
+
+        torch.cuda.empty_cache()
     
         if save_flag:
             status_path = save_training_state(

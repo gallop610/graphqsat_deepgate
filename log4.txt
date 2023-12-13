@@ -1,0 +1,217 @@
+nohup: 忽略输入
+[Errno 2] No such file or directory: '/home/zc/projects/graphqsat_deepgate/aigdata/train/METADATA'
+No metadata available, that is fine for metadata generator.
+/home/zc/projects/graphqsat_deepgate/deepgate/utils/utils.py:206: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  ../torch/csrc/utils/tensor_new.cpp:201.)
+  hs[pi_node] = torch.tensor(pi_vec, dtype=torch.float)
+Episode 1: Return -5.699999999999996.
+Episode 2: Return -7.799999999999988.
+Episode 3: Return -19.1.
+Episode 4: Return -2.600000000000001.
+Episode 5: Return -20.40000000000002.
+Episode 6: Return -8.199999999999987.
+Episode 7: Return -9.499999999999982.
+Episode 8: Return -2.700000000000001.
+Episode 9: Return -4.000000000000002.
+Episode 10: Return -10.19999999999998.
+Episode 11: Return -2.2000000000000006.
+Episode 12: Return -9.399999999999983.
+Episode 13: Return -0.7.
+Episode 14: Return -11.899999999999974.
+Episode 15: Return -4.5.
+Episode 16: Return -17.399999999999977.
+Episode 17: Return -14.599999999999964.
+Episode 18: Return -6.499999999999993.
+Episode 19: Return -1.8000000000000005.
+Episode 20: Return -3.1000000000000014.
+Episode 21: Return -1.2.
+Episode 22: Return -5.099999999999998.
+Episode 23: Return -12.399999999999972.
+Episode 24: Return -4.000000000000002.
+Episode 25: Return -2.600000000000001.
+Episode 26: Return -19.1.
+Episode 27: Return -6.799999999999992.
+Episode 28: Return -2.400000000000001.
+Episode 29: Return -20.50000000000002.
+Episode 30: Return -4.6.
+Episode 31: Return -6.399999999999993.
+Episode 32: Return -2.9000000000000012.
+Episode 33: Return -3.800000000000002.
+Episode 34: Return -3.5000000000000018.
+Episode 35: Return -1.7000000000000004.
+Episode 36: Return -2.600000000000001.
+Episode 37: Return -0.8999999999999999.
+Episode 38: Return -12.69999999999997.
+Episode 39: Return -20.100000000000016.
+Episode 40: Return -14.799999999999963.
+Episode 41: Return -1.4000000000000001.
+Episode 42: Return -10.399999999999979.
+Episode 43: Return -2.500000000000001.
+Episode 44: Return -5.699999999999996.
+Episode 45: Return -3.900000000000002.
+Episode 46: Return -13.299999999999969.
+Episode 47: Return -20.30000000000002.
+Episode 48: Return -11.699999999999974.
+Episode 49: Return -2.500000000000001.
+Episode 50: Return -13.799999999999967.
+Episode 51: Return -13.599999999999968.
+Episode 52: Return -1.9000000000000006.
+Episode 53: Return -6.199999999999994.
+Episode 54: Return -12.79999999999997.
+Episode 55: Return -9.399999999999983.
+Episode 56: Return -8.399999999999986.
+Episode 57: Return -3.1000000000000014.
+Episode 58: Return -7.39999999999999.
+Episode 59: Return -5.1999999999999975.
+Episode 60: Return -0.5.
+Episode 61: Return -1.0999999999999999.
+Episode 62: Return -2.9000000000000012.
+Episode 63: Return -20.100000000000016.
+Episode 64: Return -2.2000000000000006.
+/home/zc/projects/graphqsat_deepgate/deepgatesat/learners.py:64: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  a[idx] = value // 2
+/home/zc/projects/graphqsat_deepgate/deepgatesat/learners.py:66: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  qs = qs.flatten()[torch.tensor(gather_idx + a, dtype=torch.long)]
+/home/zc/projects/graphqsat_deepgate/env/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:369: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  warnings.warn("To get the last learning rate computed by the scheduler, "
+Episode 65: Return -8.799999999999985.
+Episode 66: Return -7.699999999999989.
+Episode 67: Return -1.0999999999999999.
+Episode 68: Return -3.2000000000000015.
+Episode 69: Return -4.6.
+Episode 70: Return -1.4000000000000001.
+Episode 71: Return -20.50000000000002.
+Episode 72: Return -3.900000000000002.
+Episode 73: Return -14.199999999999966.
+Episode 74: Return -28.80000000000014.
+Episode 75: Return -5.999999999999995.
+Episode 76: Return -13.499999999999968.
+Episode 77: Return -5.299999999999997.
+Episode 78: Return -1.8000000000000005.
+Episode 79: Return -0.5.
+Episode 80: Return -12.89999999999997.
+Episode 81: Return -3.800000000000002.
+Episode 82: Return -8.499999999999986.
+Episode 83: Return -11.199999999999976.
+Episode 84: Return -8.299999999999986.
+Episode 85: Return -3.2000000000000015.
+Episode 86: Return -12.69999999999997.
+Episode 87: Return -7.799999999999988.
+Starting evaluation.
+Evaluation episode 1 is over. Your score is 0.13617021276595745.
+Evaluation episode 2 is over. Your score is 0.5882352941176471.
+Evaluation episode 3 is over. Your score is 0.53125.
+Evaluation episode 4 is over. Your score is 0.8518518518518519.
+Evaluation episode 5 is over. Your score is 0.34375.
+Evaluation episode 6 is over. Your score is 0.7272727272727273.
+Evaluation episode 7 is over. Your score is 0.2830188679245283.
+Evaluation episode 8 is over. Your score is 2.8.
+Evaluation episode 9 is over. Your score is 3.7857142857142856.
+Evaluation episode 10 is over. Your score is 1.1379310344827587.
+Evaluation episode 11 is over. Your score is 0.19444444444444445.
+Evaluation episode 12 is over. Your score is 0.5037593984962406.
+Evaluation episode 13 is over. Your score is 1.0588235294117647.
+Evaluation episode 14 is over. Your score is 0.19736842105263158.
+Evaluation episode 15 is over. Your score is 0.4675324675324675.
+Evaluation episode 16 is over. Your score is 0.28169014084507044.
+Evaluation episode 17 is over. Your score is 0.20588235294117646.
+Evaluation episode 18 is over. Your score is 0.797979797979798.
+Evaluation episode 19 is over. Your score is 0.41025641025641024.
+Evaluation episode 20 is over. Your score is 0.2556053811659193.
+Evaluation episode 21 is over. Your score is 1.0.
+Evaluation episode 22 is over. Your score is 0.6666666666666666.
+Evaluation episode 23 is over. Your score is 1.2121212121212122.
+Evaluation episode 24 is over. Your score is 5.666666666666667.
+Evaluation episode 25 is over. Your score is 2.1333333333333333.
+Evaluation episode 26 is over. Your score is 0.2909090909090909.
+Evaluation episode 27 is over. Your score is 0.18823529411764706.
+Evaluation episode 28 is over. Your score is 0.8153846153846154.
+Evaluation episode 29 is over. Your score is 0.75.
+Evaluation episode 30 is over. Your score is 0.3391304347826087.
+Evaluation episode 31 is over. Your score is 0.3018867924528302.
+Evaluation episode 32 is over. Your score is 0.22413793103448276.
+Evaluation episode 33 is over. Your score is 0.3611111111111111.
+Evaluation episode 34 is over. Your score is 0.6395348837209303.
+Evaluation episode 35 is over. Your score is 0.11724137931034483.
+Evaluation episode 36 is over. Your score is 0.19696969696969696.
+Evaluation episode 37 is over. Your score is 1.875.
+Evaluation episode 38 is over. Your score is 0.6666666666666666.
+Evaluation episode 39 is over. Your score is 0.7142857142857143.
+Evaluation episode 40 is over. Your score is 0.2733812949640288.
+Evaluation episode 41 is over. Your score is 0.6875.
+Evaluation episode 42 is over. Your score is 1.5.
+Evaluation episode 43 is over. Your score is 1.0192307692307692.
+Evaluation episode 44 is over. Your score is 0.6129032258064516.
+Evaluation episode 45 is over. Your score is 0.3415841584158416.
+Evaluation episode 46 is over. Your score is 21.0.
+Evaluation episode 47 is over. Your score is 0.4838709677419355.
+Evaluation episode 48 is over. Your score is 0.5614035087719298.
+Evaluation episode 49 is over. Your score is 0.6610169491525424.
+Evaluation episode 50 is over. Your score is 0.34523809523809523.
+Evaluation episode 51 is over. Your score is 1.0789473684210527.
+Evaluation episode 52 is over. Your score is 0.29292929292929293.
+Evaluation episode 53 is over. Your score is 0.18811881188118812.
+Evaluation episode 54 is over. Your score is 0.19642857142857142.
+Evaluation episode 55 is over. Your score is 1.5.
+Evaluation episode 56 is over. Your score is 1.0.
+Evaluation episode 57 is over. Your score is 0.8333333333333334.
+Evaluation episode 58 is over. Your score is 0.12598425196850394.
+Evaluation episode 59 is over. Your score is 1.1785714285714286.
+Evaluation episode 60 is over. Your score is 2.0.
+Evaluation episode 61 is over. Your score is 1.0.
+Evaluation episode 62 is over. Your score is 1.4615384615384615.
+Evaluation episode 63 is over. Your score is 0.4883720930232558.
+Evaluation episode 64 is over. Your score is 0.10396039603960396.
+Evaluation episode 65 is over. Your score is 0.8717948717948718.
+Evaluation episode 66 is over. Your score is 0.75.
+Evaluation episode 67 is over. Your score is 0.9629629629629629.
+Evaluation episode 68 is over. Your score is 0.5131578947368421.
+Evaluation episode 69 is over. Your score is 0.5.
+Evaluation episode 70 is over. Your score is 0.17105263157894737.
+Evaluation episode 71 is over. Your score is 0.7096774193548387.
+Evaluation episode 72 is over. Your score is 2.473684210526316.
+Evaluation episode 73 is over. Your score is 1.9827586206896552.
+Evaluation episode 74 is over. Your score is 0.4659090909090909.
+Evaluation episode 75 is over. Your score is 0.13432835820895522.
+Evaluation episode 76 is over. Your score is 0.5609756097560976.
+Evaluation episode 77 is over. Your score is 0.06870229007633588.
+Evaluation episode 78 is over. Your score is 1.0526315789473684.
+Evaluation episode 79 is over. Your score is 0.6933333333333334.
+Evaluation episode 80 is over. Your score is 1.3131313131313131.
+Evaluation episode 81 is over. Your score is 0.36619718309859156.
+Evaluation episode 82 is over. Your score is 0.03903903903903904.
+Evaluation episode 83 is over. Your score is 0.30434782608695654.
+Evaluation episode 84 is over. Your score is 0.6470588235294118.
+Evaluation episode 85 is over. Your score is 0.6065573770491803.
+Evaluation episode 86 is over. Your score is 0.18032786885245902.
+Evaluation episode 87 is over. Your score is 0.24358974358974358.
+Evaluation episode 88 is over. Your score is 0.2159090909090909.
+Evaluation episode 89 is over. Your score is 0.7093023255813954.
+Evaluation episode 90 is over. Your score is 0.3229166666666667.
+Evaluation episode 91 is over. Your score is 0.11049723756906077.
+Evaluation episode 92 is over. Your score is 0.7777777777777778.
+Evaluation episode 93 is over. Your score is 0.6666666666666666.
+Evaluation episode 94 is over. Your score is 0.5384615384615384.
+Evaluation episode 95 is over. Your score is 0.7692307692307693.
+Evaluation episode 96 is over. Your score is 1.2857142857142858.
+Evaluation episode 97 is over. Your score is 0.1016949152542373.
+Evaluation episode 98 is over. Your score is 0.7083333333333334.
+Evaluation episode 99 is over. Your score is 0.9459459459459459.
+Evaluation episode 100 is over. Your score is 0.36764705882352944.
+Evaluation is done. Median relative score: 0.60, mean relative score: 0.96, iters frac: 0.51
+Episode 88: Return -11.799999999999974.
+Episode 89: Return -2.500000000000001.
+Episode 90: Return -5.299999999999997.
+Traceback (most recent call last):
+  File "/home/zc/projects/graphqsat_deepgate/dqn_modified.py", line 153, in <module>
+    step_info = learner.step()
+  File "/home/zc/projects/graphqsat_deepgate/deepgatesat/learners.py", line 43, in step
+    target_qs, target_vertex_sizes = self.get_target_qs(s_next)
+  File "/home/zc/projects/graphqsat_deepgate/deepgatesat/learners.py", line 34, in get_target_qs
+    target_qs_value = self.target(states)
+  File "/home/zc/projects/graphqsat_deepgate/env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/zc/projects/graphqsat_deepgate/deepgatesat/ckt_model.py", line 149, in forward
+    return self.forward_batch(obs)
+  File "/home/zc/projects/graphqsat_deepgate/deepgatesat/ckt_model.py", line 130, in forward_batch
+    batch_graph_emb = torch.cat((batch_graph_emb, graph_emb), dim=0)
+RuntimeError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 7.79 GiB total capacity; 2.52 GiB already allocated; 12.69 MiB free; 2.53 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

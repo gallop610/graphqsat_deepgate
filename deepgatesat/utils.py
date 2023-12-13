@@ -72,7 +72,7 @@ def build_argparser():
 
     parser.add_argument("--history_len", type=int, default=1)
 
-    parser.add_argument("--no_cuda", action="store_true", help="Use the cpu")
+    parser.add_argument("--no_cuda", action="store_false", help="Use the cpu/gpu")
 
     parser.add_argument("--input_type", type=str, default="ckt")
 

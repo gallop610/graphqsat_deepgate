@@ -2280,3 +2280,2174 @@ Evaluation episode 100 is over. Your score is 0.1773049645390071.
 Evaluation is done. Median relative score: 0.95, mean relative score: 1.11, iters frac: 0.85
 Episode 540: Return -9.699999999999982.
 Episode 541: Return -3.0000000000000013.
+Episode 542: Return -14.499999999999964.
+Episode 543: Return -2.500000000000001.
+Episode 544: Return -6.799999999999992.
+Episode 545: Return -3.2000000000000015.
+Episode 546: Return -10.09999999999998.
+Episode 547: Return -1.7000000000000004.
+Episode 548: Return -5.299999999999997.
+Episode 549: Return -0.7999999999999999.
+Episode 550: Return -3.5000000000000018.
+Episode 551: Return -9.799999999999981.
+Episode 552: Return -1.2.
+Episode 553: Return -0.7999999999999999.
+Episode 554: Return -12.299999999999972.
+Episode 555: Return -1.4000000000000001.
+Episode 556: Return -9.099999999999984.
+Episode 557: Return -5.299999999999997.
+Episode 558: Return -2.600000000000001.
+Episode 559: Return -3.3000000000000016.
+Episode 560: Return -2.1000000000000005.
+Episode 561: Return -7.599999999999989.
+Episode 562: Return -15.69999999999996.
+Episode 563: Return -1.7000000000000004.
+Episode 564: Return -5.799999999999995.
+Episode 565: Return -3.700000000000002.
+Episode 566: Return -14.399999999999965.
+Episode 567: Return -5.799999999999995.
+Episode 568: Return -1.6000000000000003.
+Episode 569: Return -3.3000000000000016.
+Episode 570: Return -4.999999999999998.
+Episode 571: Return -1.5000000000000002.
+Episode 572: Return -2.1000000000000005.
+Episode 573: Return -0.9999999999999999.
+Episode 574: Return -11.499999999999975.
+Episode 575: Return -2.400000000000001.
+Episode 576: Return -5.4999999999999964.
+Starting evaluation.
+Evaluation episode 1 is over. Your score is 1.5238095238095237.
+Evaluation episode 2 is over. Your score is 0.9090909090909091.
+Evaluation episode 3 is over. Your score is 0.7391304347826086.
+Evaluation episode 4 is over. Your score is 0.6764705882352942.
+Evaluation episode 5 is over. Your score is 0.3384615384615385.
+Evaluation episode 6 is over. Your score is 0.3163841807909605.
+Evaluation episode 7 is over. Your score is 1.0.
+Evaluation episode 8 is over. Your score is 1.1666666666666667.
+Evaluation episode 9 is over. Your score is 0.53.
+Evaluation episode 10 is over. Your score is 1.32.
+Evaluation episode 11 is over. Your score is 0.7368421052631579.
+Evaluation episode 12 is over. Your score is 0.8701298701298701.
+Evaluation episode 13 is over. Your score is 0.6428571428571429.
+Evaluation episode 14 is over. Your score is 1.25.
+Evaluation episode 15 is over. Your score is 0.3076923076923077.
+Evaluation episode 16 is over. Your score is 1.0526315789473684.
+Evaluation episode 17 is over. Your score is 1.0.
+Evaluation episode 18 is over. Your score is 1.3620689655172413.
+Evaluation episode 19 is over. Your score is 1.4545454545454546.
+Evaluation episode 20 is over. Your score is 1.0754716981132075.
+Evaluation episode 21 is over. Your score is 0.6716417910447762.
+Evaluation episode 22 is over. Your score is 0.5625.
+Evaluation episode 23 is over. Your score is 1.2121212121212122.
+Evaluation episode 24 is over. Your score is 0.952.
+Evaluation episode 25 is over. Your score is 1.391304347826087.
+Evaluation episode 26 is over. Your score is 1.6.
+Evaluation episode 27 is over. Your score is 0.14678899082568808.
+Evaluation episode 28 is over. Your score is 0.7066666666666667.
+Evaluation episode 29 is over. Your score is 0.8571428571428571.
+Evaluation episode 30 is over. Your score is 0.8125.
+Evaluation episode 31 is over. Your score is 0.8.
+Evaluation episode 32 is over. Your score is 0.2653061224489796.
+Evaluation episode 33 is over. Your score is 1.1818181818181819.
+Evaluation episode 34 is over. Your score is 1.6176470588235294.
+Evaluation episode 35 is over. Your score is 0.17708333333333334.
+Evaluation episode 36 is over. Your score is 0.35135135135135137.
+Evaluation episode 37 is over. Your score is 0.9375.
+Evaluation episode 38 is over. Your score is 0.5128205128205128.
+Evaluation episode 39 is over. Your score is 4.285714285714286.
+Evaluation episode 40 is over. Your score is 0.76.
+Evaluation episode 41 is over. Your score is 0.8088235294117647.
+Evaluation episode 42 is over. Your score is 1.0.
+Evaluation episode 43 is over. Your score is 0.44537815126050423.
+Evaluation episode 44 is over. Your score is 1.0.
+Evaluation episode 45 is over. Your score is 0.6160714285714286.
+Evaluation episode 46 is over. Your score is 1.5272727272727273.
+Evaluation episode 47 is over. Your score is 1.875.
+Evaluation episode 48 is over. Your score is 2.2857142857142856.
+Evaluation episode 49 is over. Your score is 1.054054054054054.
+Evaluation episode 50 is over. Your score is 2.9.
+Evaluation episode 51 is over. Your score is 0.5324675324675324.
+Evaluation episode 52 is over. Your score is 1.2608695652173914.
+Evaluation episode 53 is over. Your score is 0.8636363636363636.
+Evaluation episode 54 is over. Your score is 0.9166666666666666.
+Evaluation episode 55 is over. Your score is 1.1111111111111112.
+Evaluation episode 56 is over. Your score is 0.25862068965517243.
+Evaluation episode 57 is over. Your score is 1.4864864864864864.
+Evaluation episode 58 is over. Your score is 0.4.
+Evaluation episode 59 is over. Your score is 0.8048780487804879.
+Evaluation episode 60 is over. Your score is 2.533333333333333.
+Evaluation episode 61 is over. Your score is 1.0714285714285714.
+Evaluation episode 62 is over. Your score is 2.375.
+Evaluation episode 63 is over. Your score is 0.2916666666666667.
+Evaluation episode 64 is over. Your score is 0.5675675675675675.
+Evaluation episode 65 is over. Your score is 3.4.
+Evaluation episode 66 is over. Your score is 2.4545454545454546.
+Evaluation episode 67 is over. Your score is 0.32098765432098764.
+Evaluation episode 68 is over. Your score is 1.8571428571428572.
+Evaluation episode 69 is over. Your score is 0.3870967741935484.
+Evaluation episode 70 is over. Your score is 0.6190476190476191.
+Evaluation episode 71 is over. Your score is 0.25882352941176473.
+Evaluation episode 72 is over. Your score is 4.2727272727272725.
+Evaluation episode 73 is over. Your score is 1.2234042553191489.
+Evaluation episode 74 is over. Your score is 3.1538461538461537.
+Evaluation episode 75 is over. Your score is 0.9.
+Evaluation episode 76 is over. Your score is 1.5333333333333334.
+Evaluation episode 77 is over. Your score is 0.5294117647058824.
+Evaluation episode 78 is over. Your score is 0.7692307692307693.
+Evaluation episode 79 is over. Your score is 1.3333333333333333.
+Evaluation episode 80 is over. Your score is 1.2037037037037037.
+Evaluation episode 81 is over. Your score is 1.6774193548387097.
+Evaluation episode 82 is over. Your score is 0.3170731707317073.
+Evaluation episode 83 is over. Your score is 0.5384615384615384.
+Evaluation episode 84 is over. Your score is 1.2222222222222223.
+Evaluation episode 85 is over. Your score is 2.176470588235294.
+Evaluation episode 86 is over. Your score is 0.4583333333333333.
+Evaluation episode 87 is over. Your score is 1.3571428571428572.
+Evaluation episode 88 is over. Your score is 0.95.
+Evaluation episode 89 is over. Your score is 0.9838709677419355.
+Evaluation episode 90 is over. Your score is 0.7209302325581395.
+Evaluation episode 91 is over. Your score is 1.25.
+Evaluation episode 92 is over. Your score is 0.7264150943396226.
+Evaluation episode 93 is over. Your score is 1.2173913043478262.
+Evaluation episode 94 is over. Your score is 1.0769230769230769.
+Evaluation episode 95 is over. Your score is 1.5789473684210527.
+Evaluation episode 96 is over. Your score is 0.9310344827586207.
+Evaluation episode 97 is over. Your score is 0.34285714285714286.
+Evaluation episode 98 is over. Your score is 1.1333333333333333.
+Evaluation episode 99 is over. Your score is 1.5217391304347827.
+Evaluation episode 100 is over. Your score is 0.1773049645390071.
+Evaluation is done. Median relative score: 0.95, mean relative score: 1.11, iters frac: 0.85
+Episode 577: Return -9.199999999999983.
+Episode 578: Return -5.4999999999999964.
+Episode 579: Return -12.199999999999973.
+Episode 580: Return -4.799999999999999.
+Episode 581: Return -1.2.
+Episode 582: Return -1.3.
+Episode 583: Return -11.099999999999977.
+Episode 584: Return -8.799999999999985.
+Episode 585: Return -4.5.
+Episode 586: Return -13.199999999999969.
+Episode 587: Return -22.900000000000055.
+Episode 588: Return -2.700000000000001.
+Episode 589: Return -2.0000000000000004.
+Episode 590: Return -12.199999999999973.
+Episode 591: Return -3.600000000000002.
+Episode 592: Return -3.700000000000002.
+Episode 593: Return -4.899999999999999.
+Episode 594: Return -1.4000000000000001.
+Episode 595: Return -10.999999999999977.
+Episode 596: Return -12.599999999999971.
+Episode 597: Return -13.299999999999969.
+Episode 598: Return -0.8999999999999999.
+Episode 599: Return -1.3.
+Episode 600: Return -6.499999999999993.
+Episode 601: Return -2.1000000000000005.
+Episode 602: Return -3.1000000000000014.
+Episode 603: Return -9.89999999999998.
+Episode 604: Return -2.800000000000001.
+Episode 605: Return -1.7000000000000004.
+Episode 606: Return -5.699999999999996.
+Starting evaluation.
+Evaluation episode 1 is over. Your score is 1.5238095238095237.
+Evaluation episode 2 is over. Your score is 0.9090909090909091.
+Evaluation episode 3 is over. Your score is 0.7391304347826086.
+Evaluation episode 4 is over. Your score is 0.6764705882352942.
+Evaluation episode 5 is over. Your score is 0.3384615384615385.
+Evaluation episode 6 is over. Your score is 0.3163841807909605.
+Evaluation episode 7 is over. Your score is 1.0.
+Evaluation episode 8 is over. Your score is 1.1666666666666667.
+Evaluation episode 9 is over. Your score is 0.53.
+Evaluation episode 10 is over. Your score is 1.32.
+Evaluation episode 11 is over. Your score is 0.7368421052631579.
+Evaluation episode 12 is over. Your score is 0.8701298701298701.
+Evaluation episode 13 is over. Your score is 0.6428571428571429.
+Evaluation episode 14 is over. Your score is 1.25.
+Evaluation episode 15 is over. Your score is 0.3076923076923077.
+Evaluation episode 16 is over. Your score is 1.0526315789473684.
+Evaluation episode 17 is over. Your score is 1.0.
+Evaluation episode 18 is over. Your score is 1.3620689655172413.
+Evaluation episode 19 is over. Your score is 1.4545454545454546.
+Evaluation episode 20 is over. Your score is 1.0754716981132075.
+Evaluation episode 21 is over. Your score is 0.6716417910447762.
+Evaluation episode 22 is over. Your score is 0.5625.
+Evaluation episode 23 is over. Your score is 1.2121212121212122.
+Evaluation episode 24 is over. Your score is 0.952.
+Evaluation episode 25 is over. Your score is 1.391304347826087.
+Evaluation episode 26 is over. Your score is 1.6.
+Evaluation episode 27 is over. Your score is 0.14678899082568808.
+Evaluation episode 28 is over. Your score is 0.7066666666666667.
+Evaluation episode 29 is over. Your score is 0.8571428571428571.
+Evaluation episode 30 is over. Your score is 0.8125.
+Evaluation episode 31 is over. Your score is 0.8.
+Evaluation episode 32 is over. Your score is 0.2653061224489796.
+Evaluation episode 33 is over. Your score is 1.1818181818181819.
+Evaluation episode 34 is over. Your score is 1.6176470588235294.
+Evaluation episode 35 is over. Your score is 0.17708333333333334.
+Evaluation episode 36 is over. Your score is 0.35135135135135137.
+Evaluation episode 37 is over. Your score is 0.9375.
+Evaluation episode 38 is over. Your score is 0.5128205128205128.
+Evaluation episode 39 is over. Your score is 4.285714285714286.
+Evaluation episode 40 is over. Your score is 0.76.
+Evaluation episode 41 is over. Your score is 0.8088235294117647.
+Evaluation episode 42 is over. Your score is 1.0.
+Evaluation episode 43 is over. Your score is 0.44537815126050423.
+Evaluation episode 44 is over. Your score is 1.0.
+Evaluation episode 45 is over. Your score is 0.6160714285714286.
+Evaluation episode 46 is over. Your score is 1.5272727272727273.
+Evaluation episode 47 is over. Your score is 1.875.
+Evaluation episode 48 is over. Your score is 2.2857142857142856.
+Evaluation episode 49 is over. Your score is 1.054054054054054.
+Evaluation episode 50 is over. Your score is 2.9.
+Evaluation episode 51 is over. Your score is 0.5324675324675324.
+Evaluation episode 52 is over. Your score is 1.2608695652173914.
+Evaluation episode 53 is over. Your score is 0.8636363636363636.
+Evaluation episode 54 is over. Your score is 0.9166666666666666.
+Evaluation episode 55 is over. Your score is 1.1111111111111112.
+Evaluation episode 56 is over. Your score is 0.25862068965517243.
+Evaluation episode 57 is over. Your score is 1.4864864864864864.
+Evaluation episode 58 is over. Your score is 0.4.
+Evaluation episode 59 is over. Your score is 0.8048780487804879.
+Evaluation episode 60 is over. Your score is 2.533333333333333.
+Evaluation episode 61 is over. Your score is 1.0714285714285714.
+Evaluation episode 62 is over. Your score is 2.375.
+Evaluation episode 63 is over. Your score is 0.2916666666666667.
+Evaluation episode 64 is over. Your score is 0.5675675675675675.
+Evaluation episode 65 is over. Your score is 3.4.
+Evaluation episode 66 is over. Your score is 2.4545454545454546.
+Evaluation episode 67 is over. Your score is 0.32098765432098764.
+Evaluation episode 68 is over. Your score is 1.8571428571428572.
+Evaluation episode 69 is over. Your score is 0.3870967741935484.
+Evaluation episode 70 is over. Your score is 0.6190476190476191.
+Evaluation episode 71 is over. Your score is 0.25882352941176473.
+Evaluation episode 72 is over. Your score is 4.2727272727272725.
+Evaluation episode 73 is over. Your score is 1.2234042553191489.
+Evaluation episode 74 is over. Your score is 3.1538461538461537.
+Evaluation episode 75 is over. Your score is 0.9.
+Evaluation episode 76 is over. Your score is 1.5333333333333334.
+Evaluation episode 77 is over. Your score is 0.5294117647058824.
+Evaluation episode 78 is over. Your score is 0.7692307692307693.
+Evaluation episode 79 is over. Your score is 1.3333333333333333.
+Evaluation episode 80 is over. Your score is 1.2037037037037037.
+Evaluation episode 81 is over. Your score is 1.6774193548387097.
+Evaluation episode 82 is over. Your score is 0.3170731707317073.
+Evaluation episode 83 is over. Your score is 0.5384615384615384.
+Evaluation episode 84 is over. Your score is 1.2222222222222223.
+Evaluation episode 85 is over. Your score is 2.176470588235294.
+Evaluation episode 86 is over. Your score is 0.4583333333333333.
+Evaluation episode 87 is over. Your score is 1.3571428571428572.
+Evaluation episode 88 is over. Your score is 0.95.
+Evaluation episode 89 is over. Your score is 0.9838709677419355.
+Evaluation episode 90 is over. Your score is 0.7209302325581395.
+Evaluation episode 91 is over. Your score is 1.25.
+Evaluation episode 92 is over. Your score is 0.7264150943396226.
+Evaluation episode 93 is over. Your score is 1.2173913043478262.
+Evaluation episode 94 is over. Your score is 1.0769230769230769.
+Evaluation episode 95 is over. Your score is 1.5789473684210527.
+Evaluation episode 96 is over. Your score is 0.9310344827586207.
+Evaluation episode 97 is over. Your score is 0.34285714285714286.
+Evaluation episode 98 is over. Your score is 1.1333333333333333.
+Evaluation episode 99 is over. Your score is 1.5217391304347827.
+Evaluation episode 100 is over. Your score is 0.1773049645390071.
+Evaluation is done. Median relative score: 0.95, mean relative score: 1.11, iters frac: 0.85
+Episode 607: Return -9.99999999999998.
+Episode 608: Return -2.1000000000000005.
+Episode 609: Return -10.09999999999998.
+Episode 610: Return -13.399999999999968.
+Episode 611: Return -3.5000000000000018.
+Episode 612: Return -3.0000000000000013.
+Episode 613: Return -4.6.
+Episode 614: Return -12.79999999999997.
+Episode 615: Return -1.6000000000000003.
+Episode 616: Return -3.0000000000000013.
+Episode 617: Return -0.9999999999999999.
+Episode 618: Return -0.9999999999999999.
+Episode 619: Return -3.4000000000000017.
+Episode 620: Return -4.799999999999999.
+Episode 621: Return -2.3000000000000007.
+Episode 622: Return -4.6.
+Episode 623: Return -5.599999999999996.
+Episode 624: Return -4.000000000000002.
+Episode 625: Return -6.799999999999992.
+Episode 626: Return -0.8999999999999999.
+Episode 627: Return -6.499999999999993.
+Episode 628: Return -2.3000000000000007.
+Episode 629: Return -4.799999999999999.
+Episode 630: Return -5.399999999999997.
+Episode 631: Return -0.8999999999999999.
+Episode 632: Return -2.600000000000001.
+Episode 633: Return -2.500000000000001.
+Episode 634: Return -1.9000000000000006.
+Episode 635: Return -4.200000000000001.
+Episode 636: Return -10.399999999999979.
+Episode 637: Return -3.600000000000002.
+Episode 638: Return -5.899999999999995.
+Episode 639: Return -10.19999999999998.
+Episode 640: Return -12.299999999999972.
+Episode 641: Return -2.800000000000001.
+Episode 642: Return -4.300000000000001.
+Episode 643: Return -3.800000000000002.
+Episode 644: Return -3.900000000000002.
+Episode 645: Return -8.899999999999984.
+Episode 646: Return -5.599999999999996.
+Starting evaluation.
+Evaluation episode 1 is over. Your score is 1.5238095238095237.
+Evaluation episode 2 is over. Your score is 0.9090909090909091.
+Evaluation episode 3 is over. Your score is 0.7391304347826086.
+Evaluation episode 4 is over. Your score is 0.6764705882352942.
+Evaluation episode 5 is over. Your score is 0.3384615384615385.
+Evaluation episode 6 is over. Your score is 0.3163841807909605.
+Evaluation episode 7 is over. Your score is 1.0.
+Evaluation episode 8 is over. Your score is 1.1666666666666667.
+Evaluation episode 9 is over. Your score is 0.53.
+Evaluation episode 10 is over. Your score is 1.32.
+Evaluation episode 11 is over. Your score is 0.7368421052631579.
+Evaluation episode 12 is over. Your score is 0.8701298701298701.
+Evaluation episode 13 is over. Your score is 0.6428571428571429.
+Evaluation episode 14 is over. Your score is 1.25.
+Evaluation episode 15 is over. Your score is 0.3076923076923077.
+Evaluation episode 16 is over. Your score is 1.0526315789473684.
+Evaluation episode 17 is over. Your score is 1.0.
+Evaluation episode 18 is over. Your score is 1.3620689655172413.
+Evaluation episode 19 is over. Your score is 1.4545454545454546.
+Evaluation episode 20 is over. Your score is 1.0754716981132075.
+Evaluation episode 21 is over. Your score is 0.6716417910447762.
+Evaluation episode 22 is over. Your score is 0.5625.
+Evaluation episode 23 is over. Your score is 1.2121212121212122.
+Evaluation episode 24 is over. Your score is 0.952.
+Evaluation episode 25 is over. Your score is 1.391304347826087.
+Evaluation episode 26 is over. Your score is 1.6.
+Evaluation episode 27 is over. Your score is 0.14678899082568808.
+Evaluation episode 28 is over. Your score is 0.7066666666666667.
+Evaluation episode 29 is over. Your score is 0.8571428571428571.
+Evaluation episode 30 is over. Your score is 0.8125.
+Evaluation episode 31 is over. Your score is 0.8.
+Evaluation episode 32 is over. Your score is 0.2653061224489796.
+Evaluation episode 33 is over. Your score is 1.1818181818181819.
+Evaluation episode 34 is over. Your score is 1.6176470588235294.
+Evaluation episode 35 is over. Your score is 0.17708333333333334.
+Evaluation episode 36 is over. Your score is 0.35135135135135137.
+Evaluation episode 37 is over. Your score is 0.9375.
+Evaluation episode 38 is over. Your score is 0.5128205128205128.
+Evaluation episode 39 is over. Your score is 4.285714285714286.
+Evaluation episode 40 is over. Your score is 0.76.
+Evaluation episode 41 is over. Your score is 0.8088235294117647.
+Evaluation episode 42 is over. Your score is 1.0.
+Evaluation episode 43 is over. Your score is 0.44537815126050423.
+Evaluation episode 44 is over. Your score is 1.0.
+Evaluation episode 45 is over. Your score is 0.6160714285714286.
+Evaluation episode 46 is over. Your score is 1.5272727272727273.
+Evaluation episode 47 is over. Your score is 1.875.
+Evaluation episode 48 is over. Your score is 2.2857142857142856.
+Evaluation episode 49 is over. Your score is 1.054054054054054.
+Evaluation episode 50 is over. Your score is 2.9.
+Evaluation episode 51 is over. Your score is 0.5324675324675324.
+Evaluation episode 52 is over. Your score is 1.2608695652173914.
+Evaluation episode 53 is over. Your score is 0.8636363636363636.
+Evaluation episode 54 is over. Your score is 0.9166666666666666.
+Evaluation episode 55 is over. Your score is 1.1111111111111112.
+Evaluation episode 56 is over. Your score is 0.25862068965517243.
+Evaluation episode 57 is over. Your score is 1.4864864864864864.
+Evaluation episode 58 is over. Your score is 0.4.
+Evaluation episode 59 is over. Your score is 0.8048780487804879.
+Evaluation episode 60 is over. Your score is 2.533333333333333.
+Evaluation episode 61 is over. Your score is 1.0714285714285714.
+Evaluation episode 62 is over. Your score is 2.375.
+Evaluation episode 63 is over. Your score is 0.2916666666666667.
+Evaluation episode 64 is over. Your score is 0.5675675675675675.
+Evaluation episode 65 is over. Your score is 3.4.
+Evaluation episode 66 is over. Your score is 2.4545454545454546.
+Evaluation episode 67 is over. Your score is 0.32098765432098764.
+Evaluation episode 68 is over. Your score is 1.8571428571428572.
+Evaluation episode 69 is over. Your score is 0.3870967741935484.
+Evaluation episode 70 is over. Your score is 0.6190476190476191.
+Evaluation episode 71 is over. Your score is 0.25882352941176473.
+Evaluation episode 72 is over. Your score is 4.2727272727272725.
+Evaluation episode 73 is over. Your score is 1.2234042553191489.
+Evaluation episode 74 is over. Your score is 3.1538461538461537.
+Evaluation episode 75 is over. Your score is 0.9.
+Evaluation episode 76 is over. Your score is 1.5333333333333334.
+Evaluation episode 77 is over. Your score is 0.5294117647058824.
+Evaluation episode 78 is over. Your score is 0.7692307692307693.
+Evaluation episode 79 is over. Your score is 1.3333333333333333.
+Evaluation episode 80 is over. Your score is 1.2037037037037037.
+Evaluation episode 81 is over. Your score is 1.6774193548387097.
+Evaluation episode 82 is over. Your score is 0.3170731707317073.
+Evaluation episode 83 is over. Your score is 0.5384615384615384.
+Evaluation episode 84 is over. Your score is 1.2222222222222223.
+Evaluation episode 85 is over. Your score is 2.176470588235294.
+Evaluation episode 86 is over. Your score is 0.4583333333333333.
+Evaluation episode 87 is over. Your score is 1.3571428571428572.
+Evaluation episode 88 is over. Your score is 0.95.
+Evaluation episode 89 is over. Your score is 0.9838709677419355.
+Evaluation episode 90 is over. Your score is 0.7209302325581395.
+Evaluation episode 91 is over. Your score is 1.25.
+Evaluation episode 92 is over. Your score is 0.7264150943396226.
+Evaluation episode 93 is over. Your score is 1.2173913043478262.
+Evaluation episode 94 is over. Your score is 1.0769230769230769.
+Evaluation episode 95 is over. Your score is 1.5789473684210527.
+Evaluation episode 96 is over. Your score is 0.9310344827586207.
+Evaluation episode 97 is over. Your score is 0.34285714285714286.
+Evaluation episode 98 is over. Your score is 1.1333333333333333.
+Evaluation episode 99 is over. Your score is 1.5217391304347827.
+Evaluation episode 100 is over. Your score is 0.1773049645390071.
+Evaluation is done. Median relative score: 0.95, mean relative score: 1.11, iters frac: 0.85
+Episode 647: Return -11.499999999999975.
+Episode 648: Return -2.1000000000000005.
+Episode 649: Return -5.599999999999996.
+Episode 650: Return -2.1000000000000005.
+Episode 651: Return -5.299999999999997.
+Episode 652: Return -6.399999999999993.
+Episode 653: Return -10.799999999999978.
+Episode 654: Return -1.7000000000000004.
+Episode 655: Return -1.3.
+Episode 656: Return -2.0000000000000004.
+Episode 657: Return -4.799999999999999.
+Episode 658: Return -5.699999999999996.
+Episode 659: Return -6.8999999999999915.
+Episode 660: Return -2.9000000000000012.
+Episode 661: Return -2.500000000000001.
+Episode 662: Return -3.600000000000002.
+Episode 663: Return -11.499999999999975.
+Episode 664: Return -1.6000000000000003.
+Episode 665: Return -5.4999999999999964.
+Episode 666: Return -2.500000000000001.
+Episode 667: Return -10.399999999999979.
+Episode 668: Return -3.0000000000000013.
+Episode 669: Return -13.299999999999969.
+Episode 670: Return -9.199999999999983.
+Episode 671: Return -2.600000000000001.
+Episode 672: Return -3.900000000000002.
+Episode 673: Return -1.7000000000000004.
+Episode 674: Return -16.19999999999996.
+Episode 675: Return -2.800000000000001.
+Episode 676: Return -1.8000000000000005.
+Episode 677: Return -0.9999999999999999.
+Episode 678: Return -2.400000000000001.
+Episode 679: Return -11.299999999999976.
+Episode 680: Return -5.899999999999995.
+Episode 681: Return -0.7999999999999999.
+Episode 682: Return -6.399999999999993.
+Starting evaluation.
+Evaluation episode 1 is over. Your score is 1.5238095238095237.
+Evaluation episode 2 is over. Your score is 0.9090909090909091.
+Evaluation episode 3 is over. Your score is 0.7391304347826086.
+Evaluation episode 4 is over. Your score is 0.6764705882352942.
+Evaluation episode 5 is over. Your score is 0.3384615384615385.
+Evaluation episode 6 is over. Your score is 0.3163841807909605.
+Evaluation episode 7 is over. Your score is 1.0.
+Evaluation episode 8 is over. Your score is 1.1666666666666667.
+Evaluation episode 9 is over. Your score is 0.53.
+Evaluation episode 10 is over. Your score is 1.32.
+Evaluation episode 11 is over. Your score is 0.7368421052631579.
+Evaluation episode 12 is over. Your score is 0.8701298701298701.
+Evaluation episode 13 is over. Your score is 0.6428571428571429.
+Evaluation episode 14 is over. Your score is 1.25.
+Evaluation episode 15 is over. Your score is 0.3076923076923077.
+Evaluation episode 16 is over. Your score is 1.0526315789473684.
+Evaluation episode 17 is over. Your score is 1.0.
+Evaluation episode 18 is over. Your score is 1.3620689655172413.
+Evaluation episode 19 is over. Your score is 1.4545454545454546.
+Evaluation episode 20 is over. Your score is 1.0754716981132075.
+Evaluation episode 21 is over. Your score is 0.6716417910447762.
+Evaluation episode 22 is over. Your score is 0.5625.
+Evaluation episode 23 is over. Your score is 1.2121212121212122.
+Evaluation episode 24 is over. Your score is 0.952.
+Evaluation episode 25 is over. Your score is 1.391304347826087.
+Evaluation episode 26 is over. Your score is 1.6.
+Evaluation episode 27 is over. Your score is 0.14678899082568808.
+Evaluation episode 28 is over. Your score is 0.7066666666666667.
+Evaluation episode 29 is over. Your score is 0.8571428571428571.
+Evaluation episode 30 is over. Your score is 0.8125.
+Evaluation episode 31 is over. Your score is 0.8.
+Evaluation episode 32 is over. Your score is 0.2653061224489796.
+Evaluation episode 33 is over. Your score is 1.1818181818181819.
+Evaluation episode 34 is over. Your score is 1.6176470588235294.
+Evaluation episode 35 is over. Your score is 0.17708333333333334.
+Evaluation episode 36 is over. Your score is 0.35135135135135137.
+Evaluation episode 37 is over. Your score is 0.9375.
+Evaluation episode 38 is over. Your score is 0.5128205128205128.
+Evaluation episode 39 is over. Your score is 4.285714285714286.
+Evaluation episode 40 is over. Your score is 0.76.
+Evaluation episode 41 is over. Your score is 0.8088235294117647.
+Evaluation episode 42 is over. Your score is 1.0.
+Evaluation episode 43 is over. Your score is 0.44537815126050423.
+Evaluation episode 44 is over. Your score is 1.0.
+Evaluation episode 45 is over. Your score is 0.6160714285714286.
+Evaluation episode 46 is over. Your score is 1.5272727272727273.
+Evaluation episode 47 is over. Your score is 1.875.
+Evaluation episode 48 is over. Your score is 2.2857142857142856.
+Evaluation episode 49 is over. Your score is 1.054054054054054.
+Evaluation episode 50 is over. Your score is 2.9.
+Evaluation episode 51 is over. Your score is 0.5324675324675324.
+Evaluation episode 52 is over. Your score is 1.2608695652173914.
+Evaluation episode 53 is over. Your score is 0.8636363636363636.
+Evaluation episode 54 is over. Your score is 0.9166666666666666.
+Evaluation episode 55 is over. Your score is 1.1111111111111112.
+Evaluation episode 56 is over. Your score is 0.25862068965517243.
+Evaluation episode 57 is over. Your score is 1.4864864864864864.
+Evaluation episode 58 is over. Your score is 0.4.
+Evaluation episode 59 is over. Your score is 0.8048780487804879.
+Evaluation episode 60 is over. Your score is 2.533333333333333.
+Evaluation episode 61 is over. Your score is 1.0714285714285714.
+Evaluation episode 62 is over. Your score is 2.375.
+Evaluation episode 63 is over. Your score is 0.2916666666666667.
+Evaluation episode 64 is over. Your score is 0.5675675675675675.
+Evaluation episode 65 is over. Your score is 3.4.
+Evaluation episode 66 is over. Your score is 2.4545454545454546.
+Evaluation episode 67 is over. Your score is 0.32098765432098764.
+Evaluation episode 68 is over. Your score is 1.8571428571428572.
+Evaluation episode 69 is over. Your score is 0.3870967741935484.
+Evaluation episode 70 is over. Your score is 0.6190476190476191.
+Evaluation episode 71 is over. Your score is 0.25882352941176473.
+Evaluation episode 72 is over. Your score is 4.2727272727272725.
+Evaluation episode 73 is over. Your score is 1.2234042553191489.
+Evaluation episode 74 is over. Your score is 3.1538461538461537.
+Evaluation episode 75 is over. Your score is 0.9.
+Evaluation episode 76 is over. Your score is 1.5333333333333334.
+Evaluation episode 77 is over. Your score is 0.5294117647058824.
+Evaluation episode 78 is over. Your score is 0.7692307692307693.
+Evaluation episode 79 is over. Your score is 1.3333333333333333.
+Evaluation episode 80 is over. Your score is 1.2037037037037037.
+Evaluation episode 81 is over. Your score is 1.6774193548387097.
+Evaluation episode 82 is over. Your score is 0.3170731707317073.
+Evaluation episode 83 is over. Your score is 0.5384615384615384.
+Evaluation episode 84 is over. Your score is 1.2222222222222223.
+Evaluation episode 85 is over. Your score is 2.176470588235294.
+Evaluation episode 86 is over. Your score is 0.4583333333333333.
+Evaluation episode 87 is over. Your score is 1.3571428571428572.
+Evaluation episode 88 is over. Your score is 0.95.
+Evaluation episode 89 is over. Your score is 0.9838709677419355.
+Evaluation episode 90 is over. Your score is 0.7209302325581395.
+Evaluation episode 91 is over. Your score is 1.25.
+Evaluation episode 92 is over. Your score is 0.7264150943396226.
+Evaluation episode 93 is over. Your score is 1.2173913043478262.
+Evaluation episode 94 is over. Your score is 1.0769230769230769.
+Evaluation episode 95 is over. Your score is 1.5789473684210527.
+Evaluation episode 96 is over. Your score is 0.9310344827586207.
+Evaluation episode 97 is over. Your score is 0.34285714285714286.
+Evaluation episode 98 is over. Your score is 1.1333333333333333.
+Evaluation episode 99 is over. Your score is 1.5217391304347827.
+Evaluation episode 100 is over. Your score is 0.1773049645390071.
+Evaluation is done. Median relative score: 0.95, mean relative score: 1.11, iters frac: 0.85
+Episode 683: Return -13.799999999999967.
+Episode 684: Return -9.699999999999982.
+Episode 685: Return -3.3000000000000016.
+Episode 686: Return -6.999999999999991.
+Episode 687: Return -6.099999999999994.
+Episode 688: Return -2.800000000000001.
+Episode 689: Return -11.599999999999975.
+Episode 690: Return -1.6000000000000003.
+Episode 691: Return -7.499999999999989.
+Episode 692: Return -3.1000000000000014.
+Episode 693: Return -8.099999999999987.
+Episode 694: Return -8.199999999999987.
+Episode 695: Return -1.8000000000000005.
+Episode 696: Return -6.999999999999991.
+Episode 697: Return -14.899999999999963.
+Episode 698: Return -7.699999999999989.
+Episode 699: Return -15.69999999999996.
+Episode 700: Return -1.6000000000000003.
+Episode 701: Return -10.499999999999979.
+Episode 702: Return -1.4000000000000001.
+Episode 703: Return -6.799999999999992.
+Episode 704: Return -13.899999999999967.
+Episode 705: Return -4.300000000000001.
+Episode 706: Return -12.89999999999997.
+Episode 707: Return -10.999999999999977.
+Episode 708: Return -2.9000000000000012.
+Episode 709: Return -1.2.
+Episode 710: Return -2.2000000000000006.
+Starting evaluation.
+Evaluation episode 1 is over. Your score is 1.5238095238095237.
+Evaluation episode 2 is over. Your score is 0.9090909090909091.
+Evaluation episode 3 is over. Your score is 0.7391304347826086.
+Evaluation episode 4 is over. Your score is 0.6764705882352942.
+Evaluation episode 5 is over. Your score is 0.3384615384615385.
+Evaluation episode 6 is over. Your score is 0.3163841807909605.
+Evaluation episode 7 is over. Your score is 1.0.
+Evaluation episode 8 is over. Your score is 1.1666666666666667.
+Evaluation episode 9 is over. Your score is 0.53.
+Evaluation episode 10 is over. Your score is 1.32.
+Evaluation episode 11 is over. Your score is 0.7368421052631579.
+Evaluation episode 12 is over. Your score is 0.8701298701298701.
+Evaluation episode 13 is over. Your score is 0.6428571428571429.
+Evaluation episode 14 is over. Your score is 1.25.
+Evaluation episode 15 is over. Your score is 0.3076923076923077.
+Evaluation episode 16 is over. Your score is 1.0526315789473684.
+Evaluation episode 17 is over. Your score is 1.0.
+Evaluation episode 18 is over. Your score is 1.3620689655172413.
+Evaluation episode 19 is over. Your score is 1.4545454545454546.
+Evaluation episode 20 is over. Your score is 1.0754716981132075.
+Evaluation episode 21 is over. Your score is 0.6716417910447762.
+Evaluation episode 22 is over. Your score is 0.5625.
+Evaluation episode 23 is over. Your score is 1.2121212121212122.
+Evaluation episode 24 is over. Your score is 0.952.
+Evaluation episode 25 is over. Your score is 1.391304347826087.
+Evaluation episode 26 is over. Your score is 1.6.
+Evaluation episode 27 is over. Your score is 0.14678899082568808.
+Evaluation episode 28 is over. Your score is 0.7066666666666667.
+Evaluation episode 29 is over. Your score is 0.8571428571428571.
+Evaluation episode 30 is over. Your score is 0.8125.
+Evaluation episode 31 is over. Your score is 0.8.
+Evaluation episode 32 is over. Your score is 0.2653061224489796.
+Evaluation episode 33 is over. Your score is 1.1818181818181819.
+Evaluation episode 34 is over. Your score is 1.6176470588235294.
+Evaluation episode 35 is over. Your score is 0.17708333333333334.
+Evaluation episode 36 is over. Your score is 0.35135135135135137.
+Evaluation episode 37 is over. Your score is 0.9375.
+Evaluation episode 38 is over. Your score is 0.5128205128205128.
+Evaluation episode 39 is over. Your score is 4.285714285714286.
+Evaluation episode 40 is over. Your score is 0.76.
+Evaluation episode 41 is over. Your score is 0.8088235294117647.
+Evaluation episode 42 is over. Your score is 1.0.
+Evaluation episode 43 is over. Your score is 0.44537815126050423.
+Evaluation episode 44 is over. Your score is 1.0.
+Evaluation episode 45 is over. Your score is 0.6160714285714286.
+Evaluation episode 46 is over. Your score is 1.5272727272727273.
+Evaluation episode 47 is over. Your score is 1.875.
+Evaluation episode 48 is over. Your score is 2.2857142857142856.
+Evaluation episode 49 is over. Your score is 1.054054054054054.
+Evaluation episode 50 is over. Your score is 2.9.
+Evaluation episode 51 is over. Your score is 0.5324675324675324.
+Evaluation episode 52 is over. Your score is 1.2608695652173914.
+Evaluation episode 53 is over. Your score is 0.8636363636363636.
+Evaluation episode 54 is over. Your score is 0.9166666666666666.
+Evaluation episode 55 is over. Your score is 1.1111111111111112.
+Evaluation episode 56 is over. Your score is 0.25862068965517243.
+Evaluation episode 57 is over. Your score is 1.4864864864864864.
+Evaluation episode 58 is over. Your score is 0.4.
+Evaluation episode 59 is over. Your score is 0.8048780487804879.
+Evaluation episode 60 is over. Your score is 2.533333333333333.
+Evaluation episode 61 is over. Your score is 1.0714285714285714.
+Evaluation episode 62 is over. Your score is 2.375.
+Evaluation episode 63 is over. Your score is 0.2916666666666667.
+Evaluation episode 64 is over. Your score is 0.5675675675675675.
+Evaluation episode 65 is over. Your score is 3.4.
+Evaluation episode 66 is over. Your score is 2.4545454545454546.
+Evaluation episode 67 is over. Your score is 0.32098765432098764.
+Evaluation episode 68 is over. Your score is 1.8571428571428572.
+Evaluation episode 69 is over. Your score is 0.3870967741935484.
+Evaluation episode 70 is over. Your score is 0.6190476190476191.
+Evaluation episode 71 is over. Your score is 0.25882352941176473.
+Evaluation episode 72 is over. Your score is 4.2727272727272725.
+Evaluation episode 73 is over. Your score is 1.2234042553191489.
+Evaluation episode 74 is over. Your score is 3.1538461538461537.
+Evaluation episode 75 is over. Your score is 0.9.
+Evaluation episode 76 is over. Your score is 1.5333333333333334.
+Evaluation episode 77 is over. Your score is 0.5294117647058824.
+Evaluation episode 78 is over. Your score is 0.7692307692307693.
+Evaluation episode 79 is over. Your score is 1.3333333333333333.
+Evaluation episode 80 is over. Your score is 1.2037037037037037.
+Evaluation episode 81 is over. Your score is 1.6774193548387097.
+Evaluation episode 82 is over. Your score is 0.3170731707317073.
+Evaluation episode 83 is over. Your score is 0.5384615384615384.
+Evaluation episode 84 is over. Your score is 1.2222222222222223.
+Evaluation episode 85 is over. Your score is 2.176470588235294.
+Evaluation episode 86 is over. Your score is 0.4583333333333333.
+Evaluation episode 87 is over. Your score is 1.3571428571428572.
+Evaluation episode 88 is over. Your score is 0.95.
+Evaluation episode 89 is over. Your score is 0.9838709677419355.
+Evaluation episode 90 is over. Your score is 0.7209302325581395.
+Evaluation episode 91 is over. Your score is 1.25.
+Evaluation episode 92 is over. Your score is 0.7264150943396226.
+Evaluation episode 93 is over. Your score is 1.2173913043478262.
+Evaluation episode 94 is over. Your score is 1.0769230769230769.
+Evaluation episode 95 is over. Your score is 1.5789473684210527.
+Evaluation episode 96 is over. Your score is 0.9310344827586207.
+Evaluation episode 97 is over. Your score is 0.34285714285714286.
+Evaluation episode 98 is over. Your score is 1.1333333333333333.
+Evaluation episode 99 is over. Your score is 1.5217391304347827.
+Evaluation episode 100 is over. Your score is 0.1773049645390071.
+Evaluation is done. Median relative score: 0.95, mean relative score: 1.11, iters frac: 0.85
+Episode 711: Return -9.499999999999982.
+Episode 712: Return -1.5000000000000002.
+Episode 713: Return -7.799999999999988.
+Episode 714: Return -3.2000000000000015.
+Episode 715: Return -4.999999999999998.
+Episode 716: Return -4.799999999999999.
+Episode 717: Return -7.999999999999988.
+Episode 718: Return -4.5.
+Episode 719: Return -6.699999999999992.
+Episode 720: Return -6.799999999999992.
+Episode 721: Return -13.499999999999968.
+Episode 722: Return -11.099999999999977.
+Episode 723: Return -4.300000000000001.
+Episode 724: Return -7.799999999999988.
+Episode 725: Return -2.400000000000001.
+Episode 726: Return -9.799999999999981.
+Episode 727: Return -11.699999999999974.
+Episode 728: Return -3.900000000000002.
+Episode 729: Return -0.7999999999999999.
+Episode 730: Return -1.9000000000000006.
+Episode 731: Return -0.9999999999999999.
+Episode 732: Return -9.499999999999982.
+Episode 733: Return -7.19999999999999.
+Episode 734: Return -2.2000000000000006.
+Episode 735: Return -8.499999999999986.
+Episode 736: Return -9.99999999999998.
+Episode 737: Return -5.599999999999996.
+Episode 738: Return -13.09999999999997.
+Episode 739: Return -2.800000000000001.
+Episode 740: Return -9.699999999999982.
+Episode 741: Return -7.999999999999988.
+Starting evaluation.
+Evaluation episode 1 is over. Your score is 1.5238095238095237.
+Evaluation episode 2 is over. Your score is 0.9090909090909091.
+Evaluation episode 3 is over. Your score is 0.7391304347826086.
+Evaluation episode 4 is over. Your score is 0.6764705882352942.
+Evaluation episode 5 is over. Your score is 0.3384615384615385.
+Evaluation episode 6 is over. Your score is 0.3163841807909605.
+Evaluation episode 7 is over. Your score is 1.0.
+Evaluation episode 8 is over. Your score is 1.1666666666666667.
+Evaluation episode 9 is over. Your score is 0.53.
+Evaluation episode 10 is over. Your score is 1.32.
+Evaluation episode 11 is over. Your score is 0.7368421052631579.
+Evaluation episode 12 is over. Your score is 0.8701298701298701.
+Evaluation episode 13 is over. Your score is 0.6428571428571429.
+Evaluation episode 14 is over. Your score is 1.25.
+Evaluation episode 15 is over. Your score is 0.3076923076923077.
+Evaluation episode 16 is over. Your score is 1.0526315789473684.
+Evaluation episode 17 is over. Your score is 1.0.
+Evaluation episode 18 is over. Your score is 1.3620689655172413.
+Evaluation episode 19 is over. Your score is 1.4545454545454546.
+Evaluation episode 20 is over. Your score is 1.0754716981132075.
+Evaluation episode 21 is over. Your score is 0.6716417910447762.
+Evaluation episode 22 is over. Your score is 0.5625.
+Evaluation episode 23 is over. Your score is 1.2121212121212122.
+Evaluation episode 24 is over. Your score is 0.952.
+Evaluation episode 25 is over. Your score is 1.391304347826087.
+Evaluation episode 26 is over. Your score is 1.6.
+Evaluation episode 27 is over. Your score is 0.14678899082568808.
+Evaluation episode 28 is over. Your score is 0.7066666666666667.
+Evaluation episode 29 is over. Your score is 0.8571428571428571.
+Evaluation episode 30 is over. Your score is 0.8125.
+Evaluation episode 31 is over. Your score is 0.8.
+Evaluation episode 32 is over. Your score is 0.2653061224489796.
+Evaluation episode 33 is over. Your score is 1.1818181818181819.
+Evaluation episode 34 is over. Your score is 1.6176470588235294.
+Evaluation episode 35 is over. Your score is 0.17708333333333334.
+Evaluation episode 36 is over. Your score is 0.35135135135135137.
+Evaluation episode 37 is over. Your score is 0.9375.
+Evaluation episode 38 is over. Your score is 0.5128205128205128.
+Evaluation episode 39 is over. Your score is 4.285714285714286.
+Evaluation episode 40 is over. Your score is 0.76.
+Evaluation episode 41 is over. Your score is 0.8088235294117647.
+Evaluation episode 42 is over. Your score is 1.0.
+Evaluation episode 43 is over. Your score is 0.44537815126050423.
+Evaluation episode 44 is over. Your score is 1.0.
+Evaluation episode 45 is over. Your score is 0.6160714285714286.
+Evaluation episode 46 is over. Your score is 1.5272727272727273.
+Evaluation episode 47 is over. Your score is 1.875.
+Evaluation episode 48 is over. Your score is 2.2857142857142856.
+Evaluation episode 49 is over. Your score is 1.054054054054054.
+Evaluation episode 50 is over. Your score is 2.9.
+Evaluation episode 51 is over. Your score is 0.5324675324675324.
+Evaluation episode 52 is over. Your score is 1.2608695652173914.
+Evaluation episode 53 is over. Your score is 0.8636363636363636.
+Evaluation episode 54 is over. Your score is 0.9166666666666666.
+Evaluation episode 55 is over. Your score is 1.1111111111111112.
+Evaluation episode 56 is over. Your score is 0.25862068965517243.
+Evaluation episode 57 is over. Your score is 1.4864864864864864.
+Evaluation episode 58 is over. Your score is 0.4.
+Evaluation episode 59 is over. Your score is 0.8048780487804879.
+Evaluation episode 60 is over. Your score is 2.533333333333333.
+Evaluation episode 61 is over. Your score is 1.0714285714285714.
+Evaluation episode 62 is over. Your score is 2.375.
+Evaluation episode 63 is over. Your score is 0.2916666666666667.
+Evaluation episode 64 is over. Your score is 0.5675675675675675.
+Evaluation episode 65 is over. Your score is 3.4.
+Evaluation episode 66 is over. Your score is 2.4545454545454546.
+Evaluation episode 67 is over. Your score is 0.32098765432098764.
+Evaluation episode 68 is over. Your score is 1.8571428571428572.
+Evaluation episode 69 is over. Your score is 0.3870967741935484.
+Evaluation episode 70 is over. Your score is 0.6190476190476191.
+Evaluation episode 71 is over. Your score is 0.25882352941176473.
+Evaluation episode 72 is over. Your score is 4.2727272727272725.
+Evaluation episode 73 is over. Your score is 1.2234042553191489.
+Evaluation episode 74 is over. Your score is 3.1538461538461537.
+Evaluation episode 75 is over. Your score is 0.9.
+Evaluation episode 76 is over. Your score is 1.5333333333333334.
+Evaluation episode 77 is over. Your score is 0.5294117647058824.
+Evaluation episode 78 is over. Your score is 0.7692307692307693.
+Evaluation episode 79 is over. Your score is 1.3333333333333333.
+Evaluation episode 80 is over. Your score is 1.2037037037037037.
+Evaluation episode 81 is over. Your score is 1.6774193548387097.
+Evaluation episode 82 is over. Your score is 0.3170731707317073.
+Evaluation episode 83 is over. Your score is 0.5384615384615384.
+Evaluation episode 84 is over. Your score is 1.2222222222222223.
+Evaluation episode 85 is over. Your score is 2.176470588235294.
+Evaluation episode 86 is over. Your score is 0.4583333333333333.
+Evaluation episode 87 is over. Your score is 1.3571428571428572.
+Evaluation episode 88 is over. Your score is 0.95.
+Evaluation episode 89 is over. Your score is 0.9838709677419355.
+Evaluation episode 90 is over. Your score is 0.7209302325581395.
+Evaluation episode 91 is over. Your score is 1.25.
+Evaluation episode 92 is over. Your score is 0.7264150943396226.
+Evaluation episode 93 is over. Your score is 1.2173913043478262.
+Evaluation episode 94 is over. Your score is 1.0769230769230769.
+Evaluation episode 95 is over. Your score is 1.5789473684210527.
+Evaluation episode 96 is over. Your score is 0.9310344827586207.
+Evaluation episode 97 is over. Your score is 0.34285714285714286.
+Evaluation episode 98 is over. Your score is 1.1333333333333333.
+Evaluation episode 99 is over. Your score is 1.5217391304347827.
+Evaluation episode 100 is over. Your score is 0.1773049645390071.
+Evaluation is done. Median relative score: 0.95, mean relative score: 1.11, iters frac: 0.85
+Episode 742: Return -7.599999999999989.
+Episode 743: Return -3.2000000000000015.
+Episode 744: Return -8.299999999999986.
+Episode 745: Return -3.2000000000000015.
+Episode 746: Return -1.4000000000000001.
+Episode 747: Return -4.000000000000002.
+Episode 748: Return -2.3000000000000007.
+Episode 749: Return -8.599999999999985.
+Episode 750: Return -2.1000000000000005.
+Episode 751: Return -1.3.
+Episode 752: Return -4.899999999999999.
+Episode 753: Return -8.099999999999987.
+Episode 754: Return -12.99999999999997.
+Episode 755: Return -1.5000000000000002.
+Episode 756: Return -2.0000000000000004.
+Episode 757: Return -2.1000000000000005.
+Episode 758: Return -1.4000000000000001.
+Episode 759: Return -1.4000000000000001.
+Episode 760: Return -2.500000000000001.
+Episode 761: Return -8.499999999999986.
+Episode 762: Return -4.200000000000001.
+Episode 763: Return -1.3.
+Episode 764: Return -6.399999999999993.
+Episode 765: Return -3.3000000000000016.
+Episode 766: Return -2.600000000000001.
+Episode 767: Return -1.7000000000000004.
+Episode 768: Return -2.9000000000000012.
+Episode 769: Return -2.0000000000000004.
+Episode 770: Return -11.099999999999977.
+Episode 771: Return -7.599999999999989.
+Episode 772: Return -16.699999999999967.
+Episode 773: Return -2.500000000000001.
+Episode 774: Return -9.199999999999983.
+Episode 775: Return -2.3000000000000007.
+Episode 776: Return -1.0999999999999999.
+Episode 777: Return -4.799999999999999.
+Episode 778: Return -6.8999999999999915.
+Episode 779: Return -2.400000000000001.
+Episode 780: Return -2.600000000000001.
+Episode 781: Return -5.599999999999996.
+Starting evaluation.
+Evaluation episode 1 is over. Your score is 1.5238095238095237.
+Evaluation episode 2 is over. Your score is 0.9090909090909091.
+Evaluation episode 3 is over. Your score is 0.7391304347826086.
+Evaluation episode 4 is over. Your score is 0.6764705882352942.
+Evaluation episode 5 is over. Your score is 0.3384615384615385.
+Evaluation episode 6 is over. Your score is 0.3163841807909605.
+Evaluation episode 7 is over. Your score is 1.0.
+Evaluation episode 8 is over. Your score is 1.1666666666666667.
+Evaluation episode 9 is over. Your score is 0.53.
+Evaluation episode 10 is over. Your score is 1.32.
+Evaluation episode 11 is over. Your score is 0.7368421052631579.
+Evaluation episode 12 is over. Your score is 0.8701298701298701.
+Evaluation episode 13 is over. Your score is 0.6428571428571429.
+Evaluation episode 14 is over. Your score is 1.25.
+Evaluation episode 15 is over. Your score is 0.3076923076923077.
+Evaluation episode 16 is over. Your score is 1.0526315789473684.
+Evaluation episode 17 is over. Your score is 1.0.
+Evaluation episode 18 is over. Your score is 1.3620689655172413.
+Evaluation episode 19 is over. Your score is 1.4545454545454546.
+Evaluation episode 20 is over. Your score is 1.0754716981132075.
+Evaluation episode 21 is over. Your score is 0.6716417910447762.
+Evaluation episode 22 is over. Your score is 0.5625.
+Evaluation episode 23 is over. Your score is 1.2121212121212122.
+Evaluation episode 24 is over. Your score is 0.952.
+Evaluation episode 25 is over. Your score is 1.391304347826087.
+Evaluation episode 26 is over. Your score is 1.6.
+Evaluation episode 27 is over. Your score is 0.14678899082568808.
+Evaluation episode 28 is over. Your score is 0.7066666666666667.
+Evaluation episode 29 is over. Your score is 0.8571428571428571.
+Evaluation episode 30 is over. Your score is 0.8125.
+Evaluation episode 31 is over. Your score is 0.8.
+Evaluation episode 32 is over. Your score is 0.2653061224489796.
+Evaluation episode 33 is over. Your score is 1.1818181818181819.
+Evaluation episode 34 is over. Your score is 1.6176470588235294.
+Evaluation episode 35 is over. Your score is 0.17708333333333334.
+Evaluation episode 36 is over. Your score is 0.35135135135135137.
+Evaluation episode 37 is over. Your score is 0.9375.
+Evaluation episode 38 is over. Your score is 0.5128205128205128.
+Evaluation episode 39 is over. Your score is 4.285714285714286.
+Evaluation episode 40 is over. Your score is 0.76.
+Evaluation episode 41 is over. Your score is 0.8088235294117647.
+Evaluation episode 42 is over. Your score is 1.0.
+Evaluation episode 43 is over. Your score is 0.44537815126050423.
+Evaluation episode 44 is over. Your score is 1.0.
+Evaluation episode 45 is over. Your score is 0.6160714285714286.
+Evaluation episode 46 is over. Your score is 1.5272727272727273.
+Evaluation episode 47 is over. Your score is 1.875.
+Evaluation episode 48 is over. Your score is 2.2857142857142856.
+Evaluation episode 49 is over. Your score is 1.054054054054054.
+Evaluation episode 50 is over. Your score is 2.9.
+Evaluation episode 51 is over. Your score is 0.5324675324675324.
+Evaluation episode 52 is over. Your score is 1.2608695652173914.
+Evaluation episode 53 is over. Your score is 0.8636363636363636.
+Evaluation episode 54 is over. Your score is 0.9166666666666666.
+Evaluation episode 55 is over. Your score is 1.1111111111111112.
+Evaluation episode 56 is over. Your score is 0.25862068965517243.
+Evaluation episode 57 is over. Your score is 1.4864864864864864.
+Evaluation episode 58 is over. Your score is 0.4.
+Evaluation episode 59 is over. Your score is 0.8048780487804879.
+Evaluation episode 60 is over. Your score is 2.533333333333333.
+Evaluation episode 61 is over. Your score is 1.0714285714285714.
+Evaluation episode 62 is over. Your score is 2.375.
+Evaluation episode 63 is over. Your score is 0.2916666666666667.
+Evaluation episode 64 is over. Your score is 0.5675675675675675.
+Evaluation episode 65 is over. Your score is 3.4.
+Evaluation episode 66 is over. Your score is 2.4545454545454546.
+Evaluation episode 67 is over. Your score is 0.32098765432098764.
+Evaluation episode 68 is over. Your score is 1.8571428571428572.
+Evaluation episode 69 is over. Your score is 0.3870967741935484.
+Evaluation episode 70 is over. Your score is 0.6190476190476191.
+Evaluation episode 71 is over. Your score is 0.25882352941176473.
+Evaluation episode 72 is over. Your score is 4.2727272727272725.
+Evaluation episode 73 is over. Your score is 1.2234042553191489.
+Evaluation episode 74 is over. Your score is 3.1538461538461537.
+Evaluation episode 75 is over. Your score is 0.9.
+Evaluation episode 76 is over. Your score is 1.5333333333333334.
+Evaluation episode 77 is over. Your score is 0.5294117647058824.
+Evaluation episode 78 is over. Your score is 0.7692307692307693.
+Evaluation episode 79 is over. Your score is 1.3333333333333333.
+Evaluation episode 80 is over. Your score is 1.2037037037037037.
+Evaluation episode 81 is over. Your score is 1.6774193548387097.
+Evaluation episode 82 is over. Your score is 0.3170731707317073.
+Evaluation episode 83 is over. Your score is 0.5384615384615384.
+Evaluation episode 84 is over. Your score is 1.2222222222222223.
+Evaluation episode 85 is over. Your score is 2.176470588235294.
+Evaluation episode 86 is over. Your score is 0.4583333333333333.
+Evaluation episode 87 is over. Your score is 1.3571428571428572.
+Evaluation episode 88 is over. Your score is 0.95.
+Evaluation episode 89 is over. Your score is 0.9838709677419355.
+Evaluation episode 90 is over. Your score is 0.7209302325581395.
+Evaluation episode 91 is over. Your score is 1.25.
+Evaluation episode 92 is over. Your score is 0.7264150943396226.
+Evaluation episode 93 is over. Your score is 1.2173913043478262.
+Evaluation episode 94 is over. Your score is 1.0769230769230769.
+Evaluation episode 95 is over. Your score is 1.5789473684210527.
+Evaluation episode 96 is over. Your score is 0.9310344827586207.
+Evaluation episode 97 is over. Your score is 0.34285714285714286.
+Evaluation episode 98 is over. Your score is 1.1333333333333333.
+Evaluation episode 99 is over. Your score is 1.5217391304347827.
+Evaluation episode 100 is over. Your score is 0.1773049645390071.
+Evaluation is done. Median relative score: 0.95, mean relative score: 1.11, iters frac: 0.85
+Episode 782: Return -12.99999999999997.
+Episode 783: Return -5.999999999999995.
+Episode 784: Return -1.8000000000000005.
+Episode 785: Return -1.5000000000000002.
+Episode 786: Return -8.999999999999984.
+Episode 787: Return -2.0000000000000004.
+Episode 788: Return -2.1000000000000005.
+Episode 789: Return -5.599999999999996.
+Episode 790: Return -12.89999999999997.
+Episode 791: Return -11.199999999999976.
+Episode 792: Return -2.3000000000000007.
+Episode 793: Return -3.0000000000000013.
+Episode 794: Return -3.4000000000000017.
+Episode 795: Return -2.600000000000001.
+Episode 796: Return -0.8999999999999999.
+Episode 797: Return -3.4000000000000017.
+Episode 798: Return -6.499999999999993.
+Episode 799: Return -19.1.
+Episode 800: Return -6.399999999999993.
+Episode 801: Return -10.799999999999978.
+Episode 802: Return -4.699999999999999.
+Episode 803: Return -3.800000000000002.
+Episode 804: Return -4.000000000000002.
+Episode 805: Return -2.800000000000001.
+Episode 806: Return -18.39999999999999.
+Episode 807: Return -3.900000000000002.
+Episode 808: Return -18.19999999999999.
+Episode 809: Return -12.499999999999972.
+Episode 810: Return -9.499999999999982.
+Episode 811: Return -4.000000000000002.
+Starting evaluation.
+Evaluation episode 1 is over. Your score is 0.5079365079365079.
+Evaluation episode 2 is over. Your score is 0.5882352941176471.
+Evaluation episode 3 is over. Your score is 0.3333333333333333.
+Evaluation episode 4 is over. Your score is 0.696969696969697.
+Evaluation episode 5 is over. Your score is 0.55.
+Evaluation episode 6 is over. Your score is 2.24.
+Evaluation episode 7 is over. Your score is 0.2830188679245283.
+Evaluation episode 8 is over. Your score is 0.2857142857142857.
+Evaluation episode 9 is over. Your score is 2.65.
+Evaluation episode 10 is over. Your score is 2.357142857142857.
+Evaluation episode 11 is over. Your score is 0.15555555555555556.
+Evaluation episode 12 is over. Your score is 9.571428571428571.
+Evaluation episode 13 is over. Your score is 0.45.
+Evaluation episode 14 is over. Your score is 1.1538461538461537.
+Evaluation episode 15 is over. Your score is 2.5714285714285716.
+Evaluation episode 16 is over. Your score is 1.0.
+Evaluation episode 17 is over. Your score is 0.3333333333333333.
+Evaluation episode 18 is over. Your score is 0.5302013422818792.
+Evaluation episode 19 is over. Your score is 0.3902439024390244.
+Evaluation episode 20 is over. Your score is 0.4634146341463415.
+Evaluation episode 21 is over. Your score is 1.6071428571428572.
+Evaluation episode 22 is over. Your score is 0.2647058823529412.
+Evaluation episode 23 is over. Your score is 0.5263157894736842.
+Evaluation episode 24 is over. Your score is 3.1315789473684212.
+Evaluation episode 25 is over. Your score is 0.7441860465116279.
+Evaluation episode 26 is over. Your score is 0.6153846153846154.
+Evaluation episode 27 is over. Your score is 0.42105263157894735.
+Evaluation episode 28 is over. Your score is 2.12.
+Evaluation episode 29 is over. Your score is 0.3076923076923077.
+Evaluation episode 30 is over. Your score is 0.7959183673469388.
+Evaluation episode 31 is over. Your score is 0.43243243243243246.
+Evaluation episode 32 is over. Your score is 0.2826086956521739.
+Evaluation episode 33 is over. Your score is 0.18840579710144928.
+Evaluation episode 34 is over. Your score is 0.7857142857142857.
+Evaluation episode 35 is over. Your score is 0.13178294573643412.
+Evaluation episode 36 is over. Your score is 0.17567567567567569.
+Evaluation episode 37 is over. Your score is 1.1538461538461537.
+Evaluation episode 38 is over. Your score is 0.31746031746031744.
+Evaluation episode 39 is over. Your score is 0.6521739130434783.
+Evaluation episode 40 is over. Your score is 0.3877551020408163.
+Evaluation episode 41 is over. Your score is 2.1153846153846154.
+Evaluation episode 42 is over. Your score is 0.39622641509433965.
+Evaluation episode 43 is over. Your score is 1.0.
+Evaluation episode 44 is over. Your score is 2.28.
+Evaluation episode 45 is over. Your score is 0.6388888888888888.
+Evaluation episode 46 is over. Your score is 0.5915492957746479.
+Evaluation episode 47 is over. Your score is 0.5.
+Evaluation episode 48 is over. Your score is 0.3615819209039548.
+Evaluation episode 49 is over. Your score is 1.0.
+Evaluation episode 50 is over. Your score is 0.2543859649122807.
+Evaluation episode 51 is over. Your score is 0.3106060606060606.
+Evaluation episode 52 is over. Your score is 0.2396694214876033.
+Evaluation episode 53 is over. Your score is 0.18095238095238095.
+Evaluation episode 54 is over. Your score is 0.0859375.
+Evaluation episode 55 is over. Your score is 2.0.
+Evaluation episode 56 is over. Your score is 1.25.
+Evaluation episode 57 is over. Your score is 6.875.
+Evaluation episode 58 is over. Your score is 0.34782608695652173.
+Evaluation episode 59 is over. Your score is 0.8048780487804879.
+Evaluation episode 60 is over. Your score is 0.8636363636363636.
+Evaluation episode 61 is over. Your score is 0.4166666666666667.
+Evaluation episode 62 is over. Your score is 2.375.
+Evaluation episode 63 is over. Your score is 0.525.
+Evaluation episode 64 is over. Your score is 0.3387096774193548.
+Evaluation episode 65 is over. Your score is 1.7435897435897436.
+Evaluation episode 66 is over. Your score is 1.62.
+Evaluation episode 67 is over. Your score is 1.7333333333333334.
+Evaluation episode 68 is over. Your score is 1.1818181818181819.
+Evaluation episode 69 is over. Your score is 0.1518987341772152.
+Evaluation episode 70 is over. Your score is 0.2549019607843137.
+Evaluation episode 71 is over. Your score is 0.3548387096774194.
+Evaluation episode 72 is over. Your score is 1.5161290322580645.
+Evaluation episode 73 is over. Your score is 6.764705882352941.
+Evaluation episode 74 is over. Your score is 0.5857142857142857.
+Evaluation episode 75 is over. Your score is 0.24324324324324326.
+Evaluation episode 76 is over. Your score is 1.0222222222222221.
+Evaluation episode 77 is over. Your score is 0.15517241379310345.
+Evaluation episode 78 is over. Your score is 0.6451612903225806.
+Evaluation episode 79 is over. Your score is 0.7222222222222222.
+Evaluation episode 80 is over. Your score is 3.25.
+Evaluation episode 81 is over. Your score is 1.9259259259259258.
+Evaluation episode 82 is over. Your score is 0.0948905109489051.
+Evaluation episode 83 is over. Your score is 0.42424242424242425.
+Evaluation episode 84 is over. Your score is 0.6875.
+Evaluation episode 85 is over. Your score is 0.3162393162393162.
+Evaluation episode 86 is over. Your score is 0.3793103448275862.
+Evaluation episode 87 is over. Your score is 0.2159090909090909.
+Evaluation episode 88 is over. Your score is 0.23170731707317074.
+Evaluation episode 89 is over. Your score is 1.326086956521739.
+Evaluation episode 90 is over. Your score is 0.22962962962962963.
+Evaluation episode 91 is over. Your score is 0.0784313725490196.
+Evaluation episode 92 is over. Your score is 2.6551724137931036.
+Evaluation episode 93 is over. Your score is 1.8666666666666667.
+Evaluation episode 94 is over. Your score is 2.4705882352941178.
+Evaluation episode 95 is over. Your score is 2.142857142857143.
+Evaluation episode 96 is over. Your score is 1.0.
+Evaluation episode 97 is over. Your score is 0.19672131147540983.
+Evaluation episode 98 is over. Your score is 1.0625.
+Evaluation episode 99 is over. Your score is 0.660377358490566.
+Evaluation episode 100 is over. Your score is 0.18796992481203006.
+Evaluation is done. Median relative score: 0.59, mean relative score: 1.08, iters frac: 0.62
+Episode 812: Return -8.499999999999986.
+Episode 813: Return -2.1000000000000005.
+Episode 814: Return -1.9000000000000006.
+Episode 815: Return -2.3000000000000007.
+Episode 816: Return -9.799999999999981.
+Episode 817: Return -1.5000000000000002.
+Episode 818: Return -0.6.
+Episode 819: Return -4.200000000000001.
+Episode 820: Return -4.899999999999999.
+Episode 821: Return -2.800000000000001.
+Episode 822: Return -7.799999999999988.
+Episode 823: Return -2.400000000000001.
+Episode 824: Return -8.599999999999985.
+Episode 825: Return -2.0000000000000004.
+Episode 826: Return -3.600000000000002.
+Episode 827: Return -6.799999999999992.
+Episode 828: Return -27.900000000000126.
+Episode 829: Return -9.699999999999982.
+Episode 830: Return -5.699999999999996.
+Episode 831: Return -12.499999999999972.
+Episode 832: Return -4.4.
+Episode 833: Return -4.4.
+Episode 834: Return -12.89999999999997.
+Episode 835: Return -3.700000000000002.
+Episode 836: Return -14.399999999999965.
+Episode 837: Return -2.9000000000000012.
+Episode 838: Return -6.399999999999993.
+Episode 839: Return -8.999999999999984.
+Episode 840: Return -3.2000000000000015.
+Episode 841: Return -2.400000000000001.
+Episode 842: Return -5.899999999999995.
+Episode 843: Return -4.899999999999999.
+Starting evaluation.
+Evaluation episode 1 is over. Your score is 0.5079365079365079.
+Evaluation episode 2 is over. Your score is 0.5882352941176471.
+Evaluation episode 3 is over. Your score is 0.3333333333333333.
+Evaluation episode 4 is over. Your score is 0.696969696969697.
+Evaluation episode 5 is over. Your score is 0.55.
+Evaluation episode 6 is over. Your score is 2.24.
+Evaluation episode 7 is over. Your score is 0.2830188679245283.
+Evaluation episode 8 is over. Your score is 0.2857142857142857.
+Evaluation episode 9 is over. Your score is 2.65.
+Evaluation episode 10 is over. Your score is 2.357142857142857.
+Evaluation episode 11 is over. Your score is 0.15555555555555556.
+Evaluation episode 12 is over. Your score is 9.571428571428571.
+Evaluation episode 13 is over. Your score is 0.45.
+Evaluation episode 14 is over. Your score is 1.1538461538461537.
+Evaluation episode 15 is over. Your score is 2.5714285714285716.
+Evaluation episode 16 is over. Your score is 1.0.
+Evaluation episode 17 is over. Your score is 0.3333333333333333.
+Evaluation episode 18 is over. Your score is 0.5302013422818792.
+Evaluation episode 19 is over. Your score is 0.3902439024390244.
+Evaluation episode 20 is over. Your score is 0.4634146341463415.
+Evaluation episode 21 is over. Your score is 1.6071428571428572.
+Evaluation episode 22 is over. Your score is 0.2647058823529412.
+Evaluation episode 23 is over. Your score is 0.5263157894736842.
+Evaluation episode 24 is over. Your score is 3.1315789473684212.
+Evaluation episode 25 is over. Your score is 0.7441860465116279.
+Evaluation episode 26 is over. Your score is 0.6153846153846154.
+Evaluation episode 27 is over. Your score is 0.42105263157894735.
+Evaluation episode 28 is over. Your score is 2.12.
+Evaluation episode 29 is over. Your score is 0.3076923076923077.
+Evaluation episode 30 is over. Your score is 0.7959183673469388.
+Evaluation episode 31 is over. Your score is 0.43243243243243246.
+Evaluation episode 32 is over. Your score is 0.2826086956521739.
+Evaluation episode 33 is over. Your score is 0.18840579710144928.
+Evaluation episode 34 is over. Your score is 0.7857142857142857.
+Evaluation episode 35 is over. Your score is 0.13178294573643412.
+Evaluation episode 36 is over. Your score is 0.17567567567567569.
+Evaluation episode 37 is over. Your score is 1.1538461538461537.
+Evaluation episode 38 is over. Your score is 0.31746031746031744.
+Evaluation episode 39 is over. Your score is 0.6521739130434783.
+Evaluation episode 40 is over. Your score is 0.3877551020408163.
+Evaluation episode 41 is over. Your score is 2.1153846153846154.
+Evaluation episode 42 is over. Your score is 0.39622641509433965.
+Evaluation episode 43 is over. Your score is 1.0.
+Evaluation episode 44 is over. Your score is 2.28.
+Evaluation episode 45 is over. Your score is 0.6388888888888888.
+Evaluation episode 46 is over. Your score is 0.5915492957746479.
+Evaluation episode 47 is over. Your score is 0.5.
+Evaluation episode 48 is over. Your score is 0.3615819209039548.
+Evaluation episode 49 is over. Your score is 1.0.
+Evaluation episode 50 is over. Your score is 0.2543859649122807.
+Evaluation episode 51 is over. Your score is 0.3106060606060606.
+Evaluation episode 52 is over. Your score is 0.2396694214876033.
+Evaluation episode 53 is over. Your score is 0.18095238095238095.
+Evaluation episode 54 is over. Your score is 0.0859375.
+Evaluation episode 55 is over. Your score is 2.0.
+Evaluation episode 56 is over. Your score is 1.25.
+Evaluation episode 57 is over. Your score is 6.875.
+Evaluation episode 58 is over. Your score is 0.34782608695652173.
+Evaluation episode 59 is over. Your score is 0.8048780487804879.
+Evaluation episode 60 is over. Your score is 0.8636363636363636.
+Evaluation episode 61 is over. Your score is 0.4166666666666667.
+Evaluation episode 62 is over. Your score is 2.375.
+Evaluation episode 63 is over. Your score is 0.525.
+Evaluation episode 64 is over. Your score is 0.3387096774193548.
+Evaluation episode 65 is over. Your score is 1.7435897435897436.
+Evaluation episode 66 is over. Your score is 1.62.
+Evaluation episode 67 is over. Your score is 1.7333333333333334.
+Evaluation episode 68 is over. Your score is 1.1818181818181819.
+Evaluation episode 69 is over. Your score is 0.1518987341772152.
+Evaluation episode 70 is over. Your score is 0.2549019607843137.
+Evaluation episode 71 is over. Your score is 0.3548387096774194.
+Evaluation episode 72 is over. Your score is 1.5161290322580645.
+Evaluation episode 73 is over. Your score is 6.764705882352941.
+Evaluation episode 74 is over. Your score is 0.5857142857142857.
+Evaluation episode 75 is over. Your score is 0.24324324324324326.
+Evaluation episode 76 is over. Your score is 1.0222222222222221.
+Evaluation episode 77 is over. Your score is 0.15517241379310345.
+Evaluation episode 78 is over. Your score is 0.6451612903225806.
+Evaluation episode 79 is over. Your score is 0.7222222222222222.
+Evaluation episode 80 is over. Your score is 3.25.
+Evaluation episode 81 is over. Your score is 1.9259259259259258.
+Evaluation episode 82 is over. Your score is 0.0948905109489051.
+Evaluation episode 83 is over. Your score is 0.42424242424242425.
+Evaluation episode 84 is over. Your score is 0.6875.
+Evaluation episode 85 is over. Your score is 0.3162393162393162.
+Evaluation episode 86 is over. Your score is 0.3793103448275862.
+Evaluation episode 87 is over. Your score is 0.2159090909090909.
+Evaluation episode 88 is over. Your score is 0.23170731707317074.
+Evaluation episode 89 is over. Your score is 1.326086956521739.
+Evaluation episode 90 is over. Your score is 0.22962962962962963.
+Evaluation episode 91 is over. Your score is 0.0784313725490196.
+Evaluation episode 92 is over. Your score is 2.6551724137931036.
+Evaluation episode 93 is over. Your score is 1.8666666666666667.
+Evaluation episode 94 is over. Your score is 2.4705882352941178.
+Evaluation episode 95 is over. Your score is 2.142857142857143.
+Evaluation episode 96 is over. Your score is 1.0.
+Evaluation episode 97 is over. Your score is 0.19672131147540983.
+Evaluation episode 98 is over. Your score is 1.0625.
+Evaluation episode 99 is over. Your score is 0.660377358490566.
+Evaluation episode 100 is over. Your score is 0.18796992481203006.
+Evaluation is done. Median relative score: 0.59, mean relative score: 1.08, iters frac: 0.62
+Episode 844: Return -9.499999999999982.
+Episode 845: Return -1.6000000000000003.
+Episode 846: Return -5.299999999999997.
+Episode 847: Return -23.500000000000064.
+Episode 848: Return -5.099999999999998.
+Episode 849: Return -6.8999999999999915.
+Episode 850: Return -3.4000000000000017.
+Episode 851: Return -7.19999999999999.
+Episode 852: Return -6.5999999999999925.
+Episode 853: Return -4.799999999999999.
+Episode 854: Return -2.500000000000001.
+Episode 855: Return -5.099999999999998.
+Episode 856: Return -2.9000000000000012.
+Episode 857: Return -0.9999999999999999.
+Episode 858: Return -2.700000000000001.
+Episode 859: Return -9.799999999999981.
+Episode 860: Return -7.699999999999989.
+Episode 861: Return -2.2000000000000006.
+Episode 862: Return -3.0000000000000013.
+Episode 863: Return -4.6.
+Episode 864: Return -10.399999999999979.
+Episode 865: Return -3.5000000000000018.
+Episode 866: Return -6.799999999999992.
+Episode 867: Return -18.499999999999993.
+Episode 868: Return -15.199999999999962.
+Episode 869: Return -20.40000000000002.
+Starting evaluation.
+Evaluation episode 1 is over. Your score is 0.5079365079365079.
+Evaluation episode 2 is over. Your score is 0.5882352941176471.
+Evaluation episode 3 is over. Your score is 0.3333333333333333.
+Evaluation episode 4 is over. Your score is 0.696969696969697.
+Evaluation episode 5 is over. Your score is 0.55.
+Evaluation episode 6 is over. Your score is 2.24.
+Evaluation episode 7 is over. Your score is 0.2830188679245283.
+Evaluation episode 8 is over. Your score is 0.2857142857142857.
+Evaluation episode 9 is over. Your score is 2.65.
+Evaluation episode 10 is over. Your score is 2.357142857142857.
+Evaluation episode 11 is over. Your score is 0.15555555555555556.
+Evaluation episode 12 is over. Your score is 9.571428571428571.
+Evaluation episode 13 is over. Your score is 0.45.
+Evaluation episode 14 is over. Your score is 1.1538461538461537.
+Evaluation episode 15 is over. Your score is 2.5714285714285716.
+Evaluation episode 16 is over. Your score is 1.0.
+Evaluation episode 17 is over. Your score is 0.3333333333333333.
+Evaluation episode 18 is over. Your score is 0.5302013422818792.
+Evaluation episode 19 is over. Your score is 0.3902439024390244.
+Evaluation episode 20 is over. Your score is 0.4634146341463415.
+Evaluation episode 21 is over. Your score is 1.6071428571428572.
+Evaluation episode 22 is over. Your score is 0.2647058823529412.
+Evaluation episode 23 is over. Your score is 0.5263157894736842.
+Evaluation episode 24 is over. Your score is 3.1315789473684212.
+Evaluation episode 25 is over. Your score is 0.7441860465116279.
+Evaluation episode 26 is over. Your score is 0.6153846153846154.
+Evaluation episode 27 is over. Your score is 0.42105263157894735.
+Evaluation episode 28 is over. Your score is 2.12.
+Evaluation episode 29 is over. Your score is 0.3076923076923077.
+Evaluation episode 30 is over. Your score is 0.7959183673469388.
+Evaluation episode 31 is over. Your score is 0.43243243243243246.
+Evaluation episode 32 is over. Your score is 0.2826086956521739.
+Evaluation episode 33 is over. Your score is 0.18840579710144928.
+Evaluation episode 34 is over. Your score is 0.7857142857142857.
+Evaluation episode 35 is over. Your score is 0.13178294573643412.
+Evaluation episode 36 is over. Your score is 0.17567567567567569.
+Evaluation episode 37 is over. Your score is 1.1538461538461537.
+Evaluation episode 38 is over. Your score is 0.31746031746031744.
+Evaluation episode 39 is over. Your score is 0.6521739130434783.
+Evaluation episode 40 is over. Your score is 0.3877551020408163.
+Evaluation episode 41 is over. Your score is 2.1153846153846154.
+Evaluation episode 42 is over. Your score is 0.39622641509433965.
+Evaluation episode 43 is over. Your score is 1.0.
+Evaluation episode 44 is over. Your score is 2.28.
+Evaluation episode 45 is over. Your score is 0.6388888888888888.
+Evaluation episode 46 is over. Your score is 0.5915492957746479.
+Evaluation episode 47 is over. Your score is 0.5.
+Evaluation episode 48 is over. Your score is 0.3615819209039548.
+Evaluation episode 49 is over. Your score is 1.0.
+Evaluation episode 50 is over. Your score is 0.2543859649122807.
+Evaluation episode 51 is over. Your score is 0.3106060606060606.
+Evaluation episode 52 is over. Your score is 0.2396694214876033.
+Evaluation episode 53 is over. Your score is 0.18095238095238095.
+Evaluation episode 54 is over. Your score is 0.0859375.
+Evaluation episode 55 is over. Your score is 2.0.
+Evaluation episode 56 is over. Your score is 1.25.
+Evaluation episode 57 is over. Your score is 6.875.
+Evaluation episode 58 is over. Your score is 0.34782608695652173.
+Evaluation episode 59 is over. Your score is 0.8048780487804879.
+Evaluation episode 60 is over. Your score is 0.8636363636363636.
+Evaluation episode 61 is over. Your score is 0.4166666666666667.
+Evaluation episode 62 is over. Your score is 2.375.
+Evaluation episode 63 is over. Your score is 0.525.
+Evaluation episode 64 is over. Your score is 0.3387096774193548.
+Evaluation episode 65 is over. Your score is 1.7435897435897436.
+Evaluation episode 66 is over. Your score is 1.62.
+Evaluation episode 67 is over. Your score is 1.7333333333333334.
+Evaluation episode 68 is over. Your score is 1.1818181818181819.
+Evaluation episode 69 is over. Your score is 0.1518987341772152.
+Evaluation episode 70 is over. Your score is 0.2549019607843137.
+Evaluation episode 71 is over. Your score is 0.3548387096774194.
+Evaluation episode 72 is over. Your score is 1.5161290322580645.
+Evaluation episode 73 is over. Your score is 6.764705882352941.
+Evaluation episode 74 is over. Your score is 0.5857142857142857.
+Evaluation episode 75 is over. Your score is 0.24324324324324326.
+Evaluation episode 76 is over. Your score is 1.0222222222222221.
+Evaluation episode 77 is over. Your score is 0.15517241379310345.
+Evaluation episode 78 is over. Your score is 0.6451612903225806.
+Evaluation episode 79 is over. Your score is 0.7222222222222222.
+Evaluation episode 80 is over. Your score is 3.25.
+Evaluation episode 81 is over. Your score is 1.9259259259259258.
+Evaluation episode 82 is over. Your score is 0.0948905109489051.
+Evaluation episode 83 is over. Your score is 0.42424242424242425.
+Evaluation episode 84 is over. Your score is 0.6875.
+Evaluation episode 85 is over. Your score is 0.3162393162393162.
+Evaluation episode 86 is over. Your score is 0.3793103448275862.
+Evaluation episode 87 is over. Your score is 0.2159090909090909.
+Evaluation episode 88 is over. Your score is 0.23170731707317074.
+Evaluation episode 89 is over. Your score is 1.326086956521739.
+Evaluation episode 90 is over. Your score is 0.22962962962962963.
+Evaluation episode 91 is over. Your score is 0.0784313725490196.
+Evaluation episode 92 is over. Your score is 2.6551724137931036.
+Evaluation episode 93 is over. Your score is 1.8666666666666667.
+Evaluation episode 94 is over. Your score is 2.4705882352941178.
+Evaluation episode 95 is over. Your score is 2.142857142857143.
+Evaluation episode 96 is over. Your score is 1.0.
+Evaluation episode 97 is over. Your score is 0.19672131147540983.
+Evaluation episode 98 is over. Your score is 1.0625.
+Evaluation episode 99 is over. Your score is 0.660377358490566.
+Evaluation episode 100 is over. Your score is 0.18796992481203006.
+Evaluation is done. Median relative score: 0.59, mean relative score: 1.08, iters frac: 0.62
+Episode 870: Return -14.999999999999963.
+Episode 871: Return -2.9000000000000012.
+Episode 872: Return -1.4000000000000001.
+Episode 873: Return -2.3000000000000007.
+Episode 874: Return -9.399999999999983.
+Episode 875: Return -13.899999999999967.
+Episode 876: Return -11.699999999999974.
+Episode 877: Return -0.8999999999999999.
+Episode 878: Return -6.5999999999999925.
+Episode 879: Return -3.3000000000000016.
+Episode 880: Return -4.100000000000001.
+Episode 881: Return -2.1000000000000005.
+Episode 882: Return -9.199999999999983.
+Episode 883: Return -9.799999999999981.
+Episode 884: Return -2.2000000000000006.
+Episode 885: Return -4.6.
+Episode 886: Return -12.89999999999997.
+Episode 887: Return -2.400000000000001.
+Episode 888: Return -4.300000000000001.
+Episode 889: Return -6.5999999999999925.
+Episode 890: Return -1.2.
+Episode 891: Return -0.6.
+Episode 892: Return -3.5000000000000018.
+Episode 893: Return -8.399999999999986.
+Episode 894: Return -25.700000000000095.
+Episode 895: Return -2.800000000000001.
+Episode 896: Return -7.099999999999991.
+Episode 897: Return -1.0999999999999999.
+Episode 898: Return -11.099999999999977.
+Episode 899: Return -5.4999999999999964.
+Episode 900: Return -9.599999999999982.
+Starting evaluation.
+Evaluation episode 1 is over. Your score is 0.5079365079365079.
+Evaluation episode 2 is over. Your score is 0.5882352941176471.
+Evaluation episode 3 is over. Your score is 0.3333333333333333.
+Evaluation episode 4 is over. Your score is 0.696969696969697.
+Evaluation episode 5 is over. Your score is 0.55.
+Evaluation episode 6 is over. Your score is 2.24.
+Evaluation episode 7 is over. Your score is 0.2830188679245283.
+Evaluation episode 8 is over. Your score is 0.2857142857142857.
+Evaluation episode 9 is over. Your score is 2.65.
+Evaluation episode 10 is over. Your score is 2.357142857142857.
+Evaluation episode 11 is over. Your score is 0.15555555555555556.
+Evaluation episode 12 is over. Your score is 9.571428571428571.
+Evaluation episode 13 is over. Your score is 0.45.
+Evaluation episode 14 is over. Your score is 1.1538461538461537.
+Evaluation episode 15 is over. Your score is 2.5714285714285716.
+Evaluation episode 16 is over. Your score is 1.0.
+Evaluation episode 17 is over. Your score is 0.3333333333333333.
+Evaluation episode 18 is over. Your score is 0.5302013422818792.
+Evaluation episode 19 is over. Your score is 0.3902439024390244.
+Evaluation episode 20 is over. Your score is 0.4634146341463415.
+Evaluation episode 21 is over. Your score is 1.6071428571428572.
+Evaluation episode 22 is over. Your score is 0.2647058823529412.
+Evaluation episode 23 is over. Your score is 0.5263157894736842.
+Evaluation episode 24 is over. Your score is 3.1315789473684212.
+Evaluation episode 25 is over. Your score is 0.7441860465116279.
+Evaluation episode 26 is over. Your score is 0.6153846153846154.
+Evaluation episode 27 is over. Your score is 0.42105263157894735.
+Evaluation episode 28 is over. Your score is 2.12.
+Evaluation episode 29 is over. Your score is 0.3076923076923077.
+Evaluation episode 30 is over. Your score is 0.7959183673469388.
+Evaluation episode 31 is over. Your score is 0.43243243243243246.
+Evaluation episode 32 is over. Your score is 0.2826086956521739.
+Evaluation episode 33 is over. Your score is 0.18840579710144928.
+Evaluation episode 34 is over. Your score is 0.7857142857142857.
+Evaluation episode 35 is over. Your score is 0.13178294573643412.
+Evaluation episode 36 is over. Your score is 0.17567567567567569.
+Evaluation episode 37 is over. Your score is 1.1538461538461537.
+Evaluation episode 38 is over. Your score is 0.31746031746031744.
+Evaluation episode 39 is over. Your score is 0.6521739130434783.
+Evaluation episode 40 is over. Your score is 0.3877551020408163.
+Evaluation episode 41 is over. Your score is 2.1153846153846154.
+Evaluation episode 42 is over. Your score is 0.39622641509433965.
+Evaluation episode 43 is over. Your score is 1.0.
+Evaluation episode 44 is over. Your score is 2.28.
+Evaluation episode 45 is over. Your score is 0.6388888888888888.
+Evaluation episode 46 is over. Your score is 0.5915492957746479.
+Evaluation episode 47 is over. Your score is 0.5.
+Evaluation episode 48 is over. Your score is 0.3615819209039548.
+Evaluation episode 49 is over. Your score is 1.0.
+Evaluation episode 50 is over. Your score is 0.2543859649122807.
+Evaluation episode 51 is over. Your score is 0.3106060606060606.
+Evaluation episode 52 is over. Your score is 0.2396694214876033.
+Evaluation episode 53 is over. Your score is 0.18095238095238095.
+Evaluation episode 54 is over. Your score is 0.0859375.
+Evaluation episode 55 is over. Your score is 2.0.
+Evaluation episode 56 is over. Your score is 1.25.
+Evaluation episode 57 is over. Your score is 6.875.
+Evaluation episode 58 is over. Your score is 0.34782608695652173.
+Evaluation episode 59 is over. Your score is 0.8048780487804879.
+Evaluation episode 60 is over. Your score is 0.8636363636363636.
+Evaluation episode 61 is over. Your score is 0.4166666666666667.
+Evaluation episode 62 is over. Your score is 2.375.
+Evaluation episode 63 is over. Your score is 0.525.
+Evaluation episode 64 is over. Your score is 0.3387096774193548.
+Evaluation episode 65 is over. Your score is 1.7435897435897436.
+Evaluation episode 66 is over. Your score is 1.62.
+Evaluation episode 67 is over. Your score is 1.7333333333333334.
+Evaluation episode 68 is over. Your score is 1.1818181818181819.
+Evaluation episode 69 is over. Your score is 0.1518987341772152.
+Evaluation episode 70 is over. Your score is 0.2549019607843137.
+Evaluation episode 71 is over. Your score is 0.3548387096774194.
+Evaluation episode 72 is over. Your score is 1.5161290322580645.
+Evaluation episode 73 is over. Your score is 6.764705882352941.
+Evaluation episode 74 is over. Your score is 0.5857142857142857.
+Evaluation episode 75 is over. Your score is 0.24324324324324326.
+Evaluation episode 76 is over. Your score is 1.0222222222222221.
+Evaluation episode 77 is over. Your score is 0.15517241379310345.
+Evaluation episode 78 is over. Your score is 0.6451612903225806.
+Evaluation episode 79 is over. Your score is 0.7222222222222222.
+Evaluation episode 80 is over. Your score is 3.25.
+Evaluation episode 81 is over. Your score is 1.9259259259259258.
+Evaluation episode 82 is over. Your score is 0.0948905109489051.
+Evaluation episode 83 is over. Your score is 0.42424242424242425.
+Evaluation episode 84 is over. Your score is 0.6875.
+Evaluation episode 85 is over. Your score is 0.3162393162393162.
+Evaluation episode 86 is over. Your score is 0.3793103448275862.
+Evaluation episode 87 is over. Your score is 0.2159090909090909.
+Evaluation episode 88 is over. Your score is 0.23170731707317074.
+Evaluation episode 89 is over. Your score is 1.326086956521739.
+Evaluation episode 90 is over. Your score is 0.22962962962962963.
+Evaluation episode 91 is over. Your score is 0.0784313725490196.
+Evaluation episode 92 is over. Your score is 2.6551724137931036.
+Evaluation episode 93 is over. Your score is 1.8666666666666667.
+Evaluation episode 94 is over. Your score is 2.4705882352941178.
+Evaluation episode 95 is over. Your score is 2.142857142857143.
+Evaluation episode 96 is over. Your score is 1.0.
+Evaluation episode 97 is over. Your score is 0.19672131147540983.
+Evaluation episode 98 is over. Your score is 1.0625.
+Evaluation episode 99 is over. Your score is 0.660377358490566.
+Evaluation episode 100 is over. Your score is 0.18796992481203006.
+Evaluation is done. Median relative score: 0.59, mean relative score: 1.08, iters frac: 0.62
+Episode 901: Return -6.399999999999993.
+Episode 902: Return -5.699999999999996.
+Episode 903: Return -1.3.
+Episode 904: Return -13.899999999999967.
+Episode 905: Return -2.600000000000001.
+Episode 906: Return -2.1000000000000005.
+Episode 907: Return -4.999999999999998.
+Episode 908: Return -3.600000000000002.
+Episode 909: Return -3.800000000000002.
+Episode 910: Return -11.999999999999973.
+Episode 911: Return -18.29999999999999.
+Episode 912: Return -1.9000000000000006.
+Episode 913: Return -3.3000000000000016.
+Episode 914: Return -4.699999999999999.
+Episode 915: Return -6.099999999999994.
+Episode 916: Return -2.400000000000001.
+Episode 917: Return -7.999999999999988.
+Episode 918: Return -7.699999999999989.
+Episode 919: Return -9.599999999999982.
+Episode 920: Return -0.7999999999999999.
+Episode 921: Return -3.800000000000002.
+Episode 922: Return -2.3000000000000007.
+Episode 923: Return -5.899999999999995.
+Episode 924: Return -14.899999999999963.
+Episode 925: Return -8.899999999999984.
+Episode 926: Return -3.800000000000002.
+Episode 927: Return -1.6000000000000003.
+Episode 928: Return -6.999999999999991.
+Episode 929: Return -5.399999999999997.
+Episode 930: Return -12.79999999999997.
+Episode 931: Return -7.39999999999999.
+Episode 932: Return -1.2.
+Episode 933: Return -0.7.
+Episode 934: Return -3.900000000000002.
+Starting evaluation.
+Evaluation episode 1 is over. Your score is 0.5079365079365079.
+Evaluation episode 2 is over. Your score is 0.5882352941176471.
+Evaluation episode 3 is over. Your score is 0.3333333333333333.
+Evaluation episode 4 is over. Your score is 0.696969696969697.
+Evaluation episode 5 is over. Your score is 0.55.
+Evaluation episode 6 is over. Your score is 2.24.
+Evaluation episode 7 is over. Your score is 0.2830188679245283.
+Evaluation episode 8 is over. Your score is 0.2857142857142857.
+Evaluation episode 9 is over. Your score is 2.65.
+Evaluation episode 10 is over. Your score is 2.357142857142857.
+Evaluation episode 11 is over. Your score is 0.15555555555555556.
+Evaluation episode 12 is over. Your score is 9.571428571428571.
+Evaluation episode 13 is over. Your score is 0.45.
+Evaluation episode 14 is over. Your score is 1.1538461538461537.
+Evaluation episode 15 is over. Your score is 2.5714285714285716.
+Evaluation episode 16 is over. Your score is 1.0.
+Evaluation episode 17 is over. Your score is 0.3333333333333333.
+Evaluation episode 18 is over. Your score is 0.5302013422818792.
+Evaluation episode 19 is over. Your score is 0.3902439024390244.
+Evaluation episode 20 is over. Your score is 0.4634146341463415.
+Evaluation episode 21 is over. Your score is 1.6071428571428572.
+Evaluation episode 22 is over. Your score is 0.2647058823529412.
+Evaluation episode 23 is over. Your score is 0.5263157894736842.
+Evaluation episode 24 is over. Your score is 3.1315789473684212.
+Evaluation episode 25 is over. Your score is 0.7441860465116279.
+Evaluation episode 26 is over. Your score is 0.6153846153846154.
+Evaluation episode 27 is over. Your score is 0.42105263157894735.
+Evaluation episode 28 is over. Your score is 2.12.
+Evaluation episode 29 is over. Your score is 0.3076923076923077.
+Evaluation episode 30 is over. Your score is 0.7959183673469388.
+Evaluation episode 31 is over. Your score is 0.43243243243243246.
+Evaluation episode 32 is over. Your score is 0.2826086956521739.
+Evaluation episode 33 is over. Your score is 0.18840579710144928.
+Evaluation episode 34 is over. Your score is 0.7857142857142857.
+Evaluation episode 35 is over. Your score is 0.13178294573643412.
+Evaluation episode 36 is over. Your score is 0.17567567567567569.
+Evaluation episode 37 is over. Your score is 1.1538461538461537.
+Evaluation episode 38 is over. Your score is 0.31746031746031744.
+Evaluation episode 39 is over. Your score is 0.6521739130434783.
+Evaluation episode 40 is over. Your score is 0.3877551020408163.
+Evaluation episode 41 is over. Your score is 2.1153846153846154.
+Evaluation episode 42 is over. Your score is 0.39622641509433965.
+Evaluation episode 43 is over. Your score is 1.0.
+Evaluation episode 44 is over. Your score is 2.28.
+Evaluation episode 45 is over. Your score is 0.6388888888888888.
+Evaluation episode 46 is over. Your score is 0.5915492957746479.
+Evaluation episode 47 is over. Your score is 0.5.
+Evaluation episode 48 is over. Your score is 0.3615819209039548.
+Evaluation episode 49 is over. Your score is 1.0.
+Evaluation episode 50 is over. Your score is 0.2543859649122807.
+Evaluation episode 51 is over. Your score is 0.3106060606060606.
+Evaluation episode 52 is over. Your score is 0.2396694214876033.
+Evaluation episode 53 is over. Your score is 0.18095238095238095.
+Evaluation episode 54 is over. Your score is 0.0859375.
+Evaluation episode 55 is over. Your score is 2.0.
+Evaluation episode 56 is over. Your score is 1.25.
+Evaluation episode 57 is over. Your score is 6.875.
+Evaluation episode 58 is over. Your score is 0.34782608695652173.
+Evaluation episode 59 is over. Your score is 0.8048780487804879.
+Evaluation episode 60 is over. Your score is 0.8636363636363636.
+Evaluation episode 61 is over. Your score is 0.4166666666666667.
+Evaluation episode 62 is over. Your score is 2.375.
+Evaluation episode 63 is over. Your score is 0.525.
+Evaluation episode 64 is over. Your score is 0.3387096774193548.
+Evaluation episode 65 is over. Your score is 1.7435897435897436.
+Evaluation episode 66 is over. Your score is 1.62.
+Evaluation episode 67 is over. Your score is 1.7333333333333334.
+Evaluation episode 68 is over. Your score is 1.1818181818181819.
+Evaluation episode 69 is over. Your score is 0.1518987341772152.
+Evaluation episode 70 is over. Your score is 0.2549019607843137.
+Evaluation episode 71 is over. Your score is 0.3548387096774194.
+Evaluation episode 72 is over. Your score is 1.5161290322580645.
+Evaluation episode 73 is over. Your score is 6.764705882352941.
+Evaluation episode 74 is over. Your score is 0.5857142857142857.
+Evaluation episode 75 is over. Your score is 0.24324324324324326.
+Evaluation episode 76 is over. Your score is 1.0222222222222221.
+Evaluation episode 77 is over. Your score is 0.15517241379310345.
+Evaluation episode 78 is over. Your score is 0.6451612903225806.
+Evaluation episode 79 is over. Your score is 0.7222222222222222.
+Evaluation episode 80 is over. Your score is 3.25.
+Evaluation episode 81 is over. Your score is 1.9259259259259258.
+Evaluation episode 82 is over. Your score is 0.0948905109489051.
+Evaluation episode 83 is over. Your score is 0.42424242424242425.
+Evaluation episode 84 is over. Your score is 0.6875.
+Evaluation episode 85 is over. Your score is 0.3162393162393162.
+Evaluation episode 86 is over. Your score is 0.3793103448275862.
+Evaluation episode 87 is over. Your score is 0.2159090909090909.
+Evaluation episode 88 is over. Your score is 0.23170731707317074.
+Evaluation episode 89 is over. Your score is 1.326086956521739.
+Evaluation episode 90 is over. Your score is 0.22962962962962963.
+Evaluation episode 91 is over. Your score is 0.0784313725490196.
+Evaluation episode 92 is over. Your score is 2.6551724137931036.
+Evaluation episode 93 is over. Your score is 1.8666666666666667.
+Evaluation episode 94 is over. Your score is 2.4705882352941178.
+Evaluation episode 95 is over. Your score is 2.142857142857143.
+Evaluation episode 96 is over. Your score is 1.0.
+Evaluation episode 97 is over. Your score is 0.19672131147540983.
+Evaluation episode 98 is over. Your score is 1.0625.
+Evaluation episode 99 is over. Your score is 0.660377358490566.
+Evaluation episode 100 is over. Your score is 0.18796992481203006.
+Evaluation is done. Median relative score: 0.59, mean relative score: 1.08, iters frac: 0.62
+Episode 935: Return -4.100000000000001.
+Episode 936: Return -8.099999999999987.
+Episode 937: Return -0.5.
+Episode 938: Return -10.399999999999979.
+Episode 939: Return -4.5.
+Episode 940: Return -6.799999999999992.
+Episode 941: Return -1.4000000000000001.
+Episode 942: Return -3.4000000000000017.
+Episode 943: Return -4.100000000000001.
+Episode 944: Return -5.799999999999995.
+Episode 945: Return -3.5000000000000018.
+Episode 946: Return -7.599999999999989.
+Episode 947: Return -7.799999999999988.
+Episode 948: Return -1.7000000000000004.
+Episode 949: Return -7.599999999999989.
+Episode 950: Return -2.500000000000001.
+Episode 951: Return -23.800000000000068.
+Episode 952: Return -5.999999999999995.
+Episode 953: Return -1.0999999999999999.
+Episode 954: Return -9.499999999999982.
+Episode 955: Return -1.8000000000000005.
+Episode 956: Return -4.699999999999999.
+Episode 957: Return -1.8000000000000005.
+Episode 958: Return -6.799999999999992.
+Episode 959: Return -5.399999999999997.
+Episode 960: Return -3.900000000000002.
+Episode 961: Return -4.699999999999999.
+Episode 962: Return -3.3000000000000016.
+Episode 963: Return -4.4.
+Episode 964: Return -4.999999999999998.
+Episode 965: Return -2.1000000000000005.
+Episode 966: Return -0.8999999999999999.
+Episode 967: Return -3.4000000000000017.
+Episode 968: Return -1.9000000000000006.
+Episode 969: Return -13.799999999999967.
+Starting evaluation.
+Evaluation episode 1 is over. Your score is 0.5079365079365079.
+Evaluation episode 2 is over. Your score is 0.5882352941176471.
+Evaluation episode 3 is over. Your score is 0.3333333333333333.
+Evaluation episode 4 is over. Your score is 0.696969696969697.
+Evaluation episode 5 is over. Your score is 0.55.
+Evaluation episode 6 is over. Your score is 2.24.
+Evaluation episode 7 is over. Your score is 0.2830188679245283.
+Evaluation episode 8 is over. Your score is 0.2857142857142857.
+Evaluation episode 9 is over. Your score is 2.65.
+Evaluation episode 10 is over. Your score is 2.357142857142857.
+Evaluation episode 11 is over. Your score is 0.15555555555555556.
+Evaluation episode 12 is over. Your score is 9.571428571428571.
+Evaluation episode 13 is over. Your score is 0.45.
+Evaluation episode 14 is over. Your score is 1.1538461538461537.
+Evaluation episode 15 is over. Your score is 2.5714285714285716.
+Evaluation episode 16 is over. Your score is 1.0.
+Evaluation episode 17 is over. Your score is 0.3333333333333333.
+Evaluation episode 18 is over. Your score is 0.5302013422818792.
+Evaluation episode 19 is over. Your score is 0.3902439024390244.
+Evaluation episode 20 is over. Your score is 0.4634146341463415.
+Evaluation episode 21 is over. Your score is 1.6071428571428572.
+Evaluation episode 22 is over. Your score is 0.2647058823529412.
+Evaluation episode 23 is over. Your score is 0.5263157894736842.
+Evaluation episode 24 is over. Your score is 3.1315789473684212.
+Evaluation episode 25 is over. Your score is 0.7441860465116279.
+Evaluation episode 26 is over. Your score is 0.6153846153846154.
+Evaluation episode 27 is over. Your score is 0.42105263157894735.
+Evaluation episode 28 is over. Your score is 2.12.
+Evaluation episode 29 is over. Your score is 0.3076923076923077.
+Evaluation episode 30 is over. Your score is 0.7959183673469388.
+Evaluation episode 31 is over. Your score is 0.43243243243243246.
+Evaluation episode 32 is over. Your score is 0.2826086956521739.
+Evaluation episode 33 is over. Your score is 0.18840579710144928.
+Evaluation episode 34 is over. Your score is 0.7857142857142857.
+Evaluation episode 35 is over. Your score is 0.13178294573643412.
+Evaluation episode 36 is over. Your score is 0.17567567567567569.
+Evaluation episode 37 is over. Your score is 1.1538461538461537.
+Evaluation episode 38 is over. Your score is 0.31746031746031744.
+Evaluation episode 39 is over. Your score is 0.6521739130434783.
+Evaluation episode 40 is over. Your score is 0.3877551020408163.
+Evaluation episode 41 is over. Your score is 2.1153846153846154.
+Evaluation episode 42 is over. Your score is 0.39622641509433965.
+Evaluation episode 43 is over. Your score is 1.0.
+Evaluation episode 44 is over. Your score is 2.28.
+Evaluation episode 45 is over. Your score is 0.6388888888888888.
+Evaluation episode 46 is over. Your score is 0.5915492957746479.
+Evaluation episode 47 is over. Your score is 0.5.
+Evaluation episode 48 is over. Your score is 0.3615819209039548.
+Evaluation episode 49 is over. Your score is 1.0.
+Evaluation episode 50 is over. Your score is 0.2543859649122807.
+Evaluation episode 51 is over. Your score is 0.3106060606060606.
+Evaluation episode 52 is over. Your score is 0.2396694214876033.
+Evaluation episode 53 is over. Your score is 0.18095238095238095.
+Evaluation episode 54 is over. Your score is 0.0859375.
+Evaluation episode 55 is over. Your score is 2.0.
+Evaluation episode 56 is over. Your score is 1.25.
+Evaluation episode 57 is over. Your score is 6.875.
+Evaluation episode 58 is over. Your score is 0.34782608695652173.
+Evaluation episode 59 is over. Your score is 0.8048780487804879.
+Evaluation episode 60 is over. Your score is 0.8636363636363636.
+Evaluation episode 61 is over. Your score is 0.4166666666666667.
+Evaluation episode 62 is over. Your score is 2.375.
+Evaluation episode 63 is over. Your score is 0.525.
+Evaluation episode 64 is over. Your score is 0.3387096774193548.
+Evaluation episode 65 is over. Your score is 1.7435897435897436.
+Evaluation episode 66 is over. Your score is 1.62.
+Evaluation episode 67 is over. Your score is 1.7333333333333334.
+Evaluation episode 68 is over. Your score is 1.1818181818181819.
+Evaluation episode 69 is over. Your score is 0.1518987341772152.
+Evaluation episode 70 is over. Your score is 0.2549019607843137.
+Evaluation episode 71 is over. Your score is 0.3548387096774194.
+Evaluation episode 72 is over. Your score is 1.5161290322580645.
+Evaluation episode 73 is over. Your score is 6.764705882352941.
+Evaluation episode 74 is over. Your score is 0.5857142857142857.
+Evaluation episode 75 is over. Your score is 0.24324324324324326.
+Evaluation episode 76 is over. Your score is 1.0222222222222221.
+Evaluation episode 77 is over. Your score is 0.15517241379310345.
+Evaluation episode 78 is over. Your score is 0.6451612903225806.
+Evaluation episode 79 is over. Your score is 0.7222222222222222.
+Evaluation episode 80 is over. Your score is 3.25.
+Evaluation episode 81 is over. Your score is 1.9259259259259258.
+Evaluation episode 82 is over. Your score is 0.0948905109489051.
+Evaluation episode 83 is over. Your score is 0.42424242424242425.
+Evaluation episode 84 is over. Your score is 0.6875.
+Evaluation episode 85 is over. Your score is 0.3162393162393162.
+Evaluation episode 86 is over. Your score is 0.3793103448275862.
+Evaluation episode 87 is over. Your score is 0.2159090909090909.
+Evaluation episode 88 is over. Your score is 0.23170731707317074.
+Evaluation episode 89 is over. Your score is 1.326086956521739.
+Evaluation episode 90 is over. Your score is 0.22962962962962963.
+Evaluation episode 91 is over. Your score is 0.0784313725490196.
+Evaluation episode 92 is over. Your score is 2.6551724137931036.
+Evaluation episode 93 is over. Your score is 1.8666666666666667.
+Evaluation episode 94 is over. Your score is 2.4705882352941178.
+Evaluation episode 95 is over. Your score is 2.142857142857143.
+Evaluation episode 96 is over. Your score is 1.0.
+Evaluation episode 97 is over. Your score is 0.19672131147540983.
+Evaluation episode 98 is over. Your score is 1.0625.
+Evaluation episode 99 is over. Your score is 0.660377358490566.
+Evaluation episode 100 is over. Your score is 0.18796992481203006.
+Evaluation is done. Median relative score: 0.59, mean relative score: 1.08, iters frac: 0.62
+Episode 970: Return -16.599999999999966.
+Episode 971: Return -3.0000000000000013.
+Episode 972: Return -2.700000000000001.
+Episode 973: Return -4.799999999999999.
+Episode 974: Return -0.7999999999999999.
+Episode 975: Return -2.1000000000000005.
+Episode 976: Return -11.399999999999975.
+Episode 977: Return -9.099999999999984.
+Episode 978: Return -6.999999999999991.
+Episode 979: Return -14.499999999999964.
+Episode 980: Return -5.699999999999996.
+Episode 981: Return -4.6.
+Episode 982: Return -5.099999999999998.
+Episode 983: Return -4.6.
+Episode 984: Return -3.2000000000000015.
+Episode 985: Return -3.4000000000000017.
+Episode 986: Return -5.4999999999999964.
+Episode 987: Return -4.100000000000001.
+Episode 988: Return -1.0999999999999999.
+Episode 989: Return -10.999999999999977.
+Episode 990: Return -5.599999999999996.
+Episode 991: Return -7.19999999999999.
+Episode 992: Return -0.7999999999999999.
+Episode 993: Return -4.200000000000001.
+Episode 994: Return -1.3.
+Episode 995: Return -6.999999999999991.
+Episode 996: Return -8.599999999999985.
+Episode 997: Return -15.299999999999962.
+Episode 998: Return -2.800000000000001.
+Episode 999: Return -8.999999999999984.
+Episode 1000: Return -3.1000000000000014.
+Episode 1001: Return -13.999999999999966.
+Episode 1002: Return -6.199999999999994.
+Episode 1003: Return -4.000000000000002.
+Starting evaluation.
+Evaluation episode 1 is over. Your score is 1.5238095238095237.
+Evaluation episode 2 is over. Your score is 0.9090909090909091.
+Evaluation episode 3 is over. Your score is 0.7391304347826086.
+Evaluation episode 4 is over. Your score is 0.6764705882352942.
+Evaluation episode 5 is over. Your score is 0.3384615384615385.
+Evaluation episode 6 is over. Your score is 0.3163841807909605.
+Evaluation episode 7 is over. Your score is 1.0.
+Evaluation episode 8 is over. Your score is 1.1666666666666667.
+Evaluation episode 9 is over. Your score is 0.53.
+Evaluation episode 10 is over. Your score is 1.32.
+Evaluation episode 11 is over. Your score is 0.7368421052631579.
+Evaluation episode 12 is over. Your score is 0.8701298701298701.
+Evaluation episode 13 is over. Your score is 0.6428571428571429.
+Evaluation episode 14 is over. Your score is 1.25.
+Evaluation episode 15 is over. Your score is 0.3076923076923077.
+Evaluation episode 16 is over. Your score is 1.0526315789473684.
+Evaluation episode 17 is over. Your score is 1.0.
+Evaluation episode 18 is over. Your score is 1.3620689655172413.
+Evaluation episode 19 is over. Your score is 1.4545454545454546.
+Evaluation episode 20 is over. Your score is 1.0754716981132075.
+Evaluation episode 21 is over. Your score is 0.6716417910447762.
+Evaluation episode 22 is over. Your score is 0.5625.
+Evaluation episode 23 is over. Your score is 1.2121212121212122.
+Evaluation episode 24 is over. Your score is 0.952.
+Evaluation episode 25 is over. Your score is 1.391304347826087.
+Evaluation episode 26 is over. Your score is 1.6.
+Evaluation episode 27 is over. Your score is 0.14678899082568808.
+Evaluation episode 28 is over. Your score is 0.7066666666666667.
+Evaluation episode 29 is over. Your score is 0.8571428571428571.
+Evaluation episode 30 is over. Your score is 0.8125.
+Evaluation episode 31 is over. Your score is 0.8.
+Evaluation episode 32 is over. Your score is 0.2653061224489796.
+Evaluation episode 33 is over. Your score is 1.1818181818181819.
+Evaluation episode 34 is over. Your score is 1.6176470588235294.
+Evaluation episode 35 is over. Your score is 0.17708333333333334.
+Evaluation episode 36 is over. Your score is 0.35135135135135137.
+Evaluation episode 37 is over. Your score is 0.9375.
+Evaluation episode 38 is over. Your score is 0.5128205128205128.
+Evaluation episode 39 is over. Your score is 4.285714285714286.
+Evaluation episode 40 is over. Your score is 0.76.
+Evaluation episode 41 is over. Your score is 0.8088235294117647.
+Evaluation episode 42 is over. Your score is 1.0.
+Evaluation episode 43 is over. Your score is 0.44537815126050423.
+Evaluation episode 44 is over. Your score is 1.0.
+Evaluation episode 45 is over. Your score is 0.6160714285714286.
+Evaluation episode 46 is over. Your score is 1.5272727272727273.
+Evaluation episode 47 is over. Your score is 1.875.
+Evaluation episode 48 is over. Your score is 2.2857142857142856.
+Evaluation episode 49 is over. Your score is 1.054054054054054.
+Evaluation episode 50 is over. Your score is 2.9.
+Evaluation episode 51 is over. Your score is 0.5324675324675324.
+Evaluation episode 52 is over. Your score is 1.2608695652173914.
+Evaluation episode 53 is over. Your score is 0.8636363636363636.
+Evaluation episode 54 is over. Your score is 0.9166666666666666.
+Evaluation episode 55 is over. Your score is 1.1111111111111112.
+Evaluation episode 56 is over. Your score is 0.25862068965517243.
+Evaluation episode 57 is over. Your score is 1.4864864864864864.
+Evaluation episode 58 is over. Your score is 0.4.
+Evaluation episode 59 is over. Your score is 0.8048780487804879.
+Evaluation episode 60 is over. Your score is 2.533333333333333.
+Evaluation episode 61 is over. Your score is 1.0714285714285714.
+Evaluation episode 62 is over. Your score is 2.375.
+Evaluation episode 63 is over. Your score is 0.2916666666666667.
+Evaluation episode 64 is over. Your score is 0.5675675675675675.
+Evaluation episode 65 is over. Your score is 3.4.
+Evaluation episode 66 is over. Your score is 2.4545454545454546.
+Evaluation episode 67 is over. Your score is 0.32098765432098764.
+Evaluation episode 68 is over. Your score is 1.8571428571428572.
+Evaluation episode 69 is over. Your score is 0.3870967741935484.
+Evaluation episode 70 is over. Your score is 0.6190476190476191.
+Evaluation episode 71 is over. Your score is 0.25882352941176473.
+Evaluation episode 72 is over. Your score is 4.2727272727272725.
+Evaluation episode 73 is over. Your score is 1.2234042553191489.
+Evaluation episode 74 is over. Your score is 3.1538461538461537.
+Evaluation episode 75 is over. Your score is 0.9.
+Evaluation episode 76 is over. Your score is 1.5333333333333334.
+Evaluation episode 77 is over. Your score is 0.5294117647058824.
+Evaluation episode 78 is over. Your score is 0.7692307692307693.
+Evaluation episode 79 is over. Your score is 1.3333333333333333.
+Evaluation episode 80 is over. Your score is 1.2037037037037037.
+Evaluation episode 81 is over. Your score is 1.6774193548387097.
+Evaluation episode 82 is over. Your score is 0.3170731707317073.
+Evaluation episode 83 is over. Your score is 0.5384615384615384.
+Evaluation episode 84 is over. Your score is 1.2222222222222223.
+Evaluation episode 85 is over. Your score is 2.176470588235294.
+Evaluation episode 86 is over. Your score is 0.4583333333333333.
+Evaluation episode 87 is over. Your score is 1.3571428571428572.
+Evaluation episode 88 is over. Your score is 0.95.
+Evaluation episode 89 is over. Your score is 0.9838709677419355.
+Evaluation episode 90 is over. Your score is 0.7209302325581395.
+Evaluation episode 91 is over. Your score is 1.25.
+Evaluation episode 92 is over. Your score is 0.7264150943396226.
+Evaluation episode 93 is over. Your score is 1.2173913043478262.
+Evaluation episode 94 is over. Your score is 1.0769230769230769.
+Evaluation episode 95 is over. Your score is 1.5789473684210527.
+Evaluation episode 96 is over. Your score is 0.9310344827586207.
+Evaluation episode 97 is over. Your score is 0.34285714285714286.
+Evaluation episode 98 is over. Your score is 1.1333333333333333.
+Evaluation episode 99 is over. Your score is 1.5217391304347827.
+Evaluation episode 100 is over. Your score is 0.1773049645390071.
+Evaluation is done. Median relative score: 0.95, mean relative score: 1.11, iters frac: 0.85
+Episode 1004: Return -8.099999999999987.
+Episode 1005: Return -2.0000000000000004.
+Episode 1006: Return -11.799999999999974.
+Episode 1007: Return -3.3000000000000016.
+Episode 1008: Return -16.599999999999966.
+Episode 1009: Return -5.799999999999995.
+Episode 1010: Return -5.399999999999997.
+Episode 1011: Return -3.0000000000000013.
+Episode 1012: Return -5.999999999999995.
+Episode 1013: Return -3.800000000000002.
+Episode 1014: Return -1.9000000000000006.
+Episode 1015: Return -2.1000000000000005.
+Episode 1016: Return -4.699999999999999.
+Episode 1017: Return -1.7000000000000004.
+Episode 1018: Return -9.299999999999983.
+Episode 1019: Return -1.7000000000000004.
+Episode 1020: Return -1.7000000000000004.
+Episode 1021: Return -1.5000000000000002.
+Episode 1022: Return -1.5000000000000002.
+Episode 1023: Return -12.69999999999997.
+Episode 1024: Return -1.5000000000000002.
+Episode 1025: Return -7.39999999999999.
+Episode 1026: Return -1.7000000000000004.
+Episode 1027: Return -2.1000000000000005.
+Episode 1028: Return -6.999999999999991.
+Episode 1029: Return -3.700000000000002.
+Episode 1030: Return -3.4000000000000017.
+Episode 1031: Return -4.6.
+Episode 1032: Return -2.1000000000000005.
+Episode 1033: Return -1.0999999999999999.
+Episode 1034: Return -8.499999999999986.
+Episode 1035: Return -4.300000000000001.
+Episode 1036: Return -4.999999999999998.
+Episode 1037: Return -5.699999999999996.
+Episode 1038: Return -10.999999999999977.
+Episode 1039: Return -1.5000000000000002.
+Episode 1040: Return -8.899999999999984.
+Episode 1041: Return -3.700000000000002.
+Episode 1042: Return -7.19999999999999.
+Starting evaluation.
+Evaluation episode 1 is over. Your score is 1.5238095238095237.
+Evaluation episode 2 is over. Your score is 0.9090909090909091.
+Evaluation episode 3 is over. Your score is 0.7391304347826086.
+Evaluation episode 4 is over. Your score is 0.6764705882352942.
+Evaluation episode 5 is over. Your score is 0.3384615384615385.
+Evaluation episode 6 is over. Your score is 0.3163841807909605.
+Evaluation episode 7 is over. Your score is 1.0.
+Evaluation episode 8 is over. Your score is 1.1666666666666667.
+Evaluation episode 9 is over. Your score is 0.53.
+Evaluation episode 10 is over. Your score is 1.32.
+Evaluation episode 11 is over. Your score is 0.7368421052631579.
+Evaluation episode 12 is over. Your score is 0.8701298701298701.
+Evaluation episode 13 is over. Your score is 0.6428571428571429.
+Evaluation episode 14 is over. Your score is 1.25.
+Evaluation episode 15 is over. Your score is 0.3076923076923077.
+Evaluation episode 16 is over. Your score is 1.0526315789473684.
+Evaluation episode 17 is over. Your score is 1.0.
+Evaluation episode 18 is over. Your score is 1.3620689655172413.
+Evaluation episode 19 is over. Your score is 1.4545454545454546.
+Evaluation episode 20 is over. Your score is 1.0754716981132075.
+Evaluation episode 21 is over. Your score is 0.6716417910447762.
+Evaluation episode 22 is over. Your score is 0.5625.
+Evaluation episode 23 is over. Your score is 1.2121212121212122.
+Evaluation episode 24 is over. Your score is 0.952.
+Evaluation episode 25 is over. Your score is 1.391304347826087.
+Evaluation episode 26 is over. Your score is 1.6.
+Evaluation episode 27 is over. Your score is 0.14678899082568808.
+Evaluation episode 28 is over. Your score is 0.7066666666666667.
+Evaluation episode 29 is over. Your score is 0.8571428571428571.
+Evaluation episode 30 is over. Your score is 0.8125.
+Evaluation episode 31 is over. Your score is 0.8.
+Evaluation episode 32 is over. Your score is 0.2653061224489796.
+Evaluation episode 33 is over. Your score is 1.1818181818181819.
+Evaluation episode 34 is over. Your score is 1.6176470588235294.
+Evaluation episode 35 is over. Your score is 0.17708333333333334.
+Evaluation episode 36 is over. Your score is 0.35135135135135137.
+Evaluation episode 37 is over. Your score is 0.9375.
+Evaluation episode 38 is over. Your score is 0.5128205128205128.
+Evaluation episode 39 is over. Your score is 4.285714285714286.
+Evaluation episode 40 is over. Your score is 0.76.
+Evaluation episode 41 is over. Your score is 0.8088235294117647.
+Evaluation episode 42 is over. Your score is 1.0.
+Evaluation episode 43 is over. Your score is 0.44537815126050423.
+Evaluation episode 44 is over. Your score is 1.0.
+Evaluation episode 45 is over. Your score is 0.6160714285714286.
+Evaluation episode 46 is over. Your score is 1.5272727272727273.
+Evaluation episode 47 is over. Your score is 1.875.
+Evaluation episode 48 is over. Your score is 2.2857142857142856.
+Evaluation episode 49 is over. Your score is 1.054054054054054.
+Evaluation episode 50 is over. Your score is 2.9.
+Evaluation episode 51 is over. Your score is 0.5324675324675324.
+Evaluation episode 52 is over. Your score is 1.2608695652173914.
+Evaluation episode 53 is over. Your score is 0.8636363636363636.
+Evaluation episode 54 is over. Your score is 0.9166666666666666.
+Evaluation episode 55 is over. Your score is 1.1111111111111112.
+Evaluation episode 56 is over. Your score is 0.25862068965517243.
+Evaluation episode 57 is over. Your score is 1.4864864864864864.
+Evaluation episode 58 is over. Your score is 0.4.
+Evaluation episode 59 is over. Your score is 0.8048780487804879.
+Evaluation episode 60 is over. Your score is 2.533333333333333.
+Evaluation episode 61 is over. Your score is 1.0714285714285714.
+Evaluation episode 62 is over. Your score is 2.375.
+Evaluation episode 63 is over. Your score is 0.2916666666666667.
+Evaluation episode 64 is over. Your score is 0.5675675675675675.
+Evaluation episode 65 is over. Your score is 3.4.
+Evaluation episode 66 is over. Your score is 2.4545454545454546.
+Evaluation episode 67 is over. Your score is 0.32098765432098764.
+Evaluation episode 68 is over. Your score is 1.8571428571428572.
+Evaluation episode 69 is over. Your score is 0.3870967741935484.
+Evaluation episode 70 is over. Your score is 0.6190476190476191.
+Evaluation episode 71 is over. Your score is 0.25882352941176473.
+Evaluation episode 72 is over. Your score is 4.2727272727272725.
+Evaluation episode 73 is over. Your score is 1.2234042553191489.
+Evaluation episode 74 is over. Your score is 3.1538461538461537.
+Evaluation episode 75 is over. Your score is 0.9.
+Evaluation episode 76 is over. Your score is 1.5333333333333334.
+Evaluation episode 77 is over. Your score is 0.5294117647058824.
+Evaluation episode 78 is over. Your score is 0.7692307692307693.
+Evaluation episode 79 is over. Your score is 1.3333333333333333.
+Evaluation episode 80 is over. Your score is 1.2037037037037037.
+Evaluation episode 81 is over. Your score is 1.6774193548387097.
+Evaluation episode 82 is over. Your score is 0.3170731707317073.
+Evaluation episode 83 is over. Your score is 0.5384615384615384.
+Evaluation episode 84 is over. Your score is 1.2222222222222223.
+Evaluation episode 85 is over. Your score is 2.176470588235294.
+Evaluation episode 86 is over. Your score is 0.4583333333333333.
+Evaluation episode 87 is over. Your score is 1.3571428571428572.
+Evaluation episode 88 is over. Your score is 0.95.
+Evaluation episode 89 is over. Your score is 0.9838709677419355.
+Evaluation episode 90 is over. Your score is 0.7209302325581395.
+Evaluation episode 91 is over. Your score is 1.25.
+Evaluation episode 92 is over. Your score is 0.7264150943396226.
+Evaluation episode 93 is over. Your score is 1.2173913043478262.
+Evaluation episode 94 is over. Your score is 1.0769230769230769.
+Evaluation episode 95 is over. Your score is 1.5789473684210527.
+Evaluation episode 96 is over. Your score is 0.9310344827586207.
+Evaluation episode 97 is over. Your score is 0.34285714285714286.
+Evaluation episode 98 is over. Your score is 1.1333333333333333.
+Evaluation episode 99 is over. Your score is 1.5217391304347827.
+Evaluation episode 100 is over. Your score is 0.1773049645390071.
+Evaluation is done. Median relative score: 0.95, mean relative score: 1.11, iters frac: 0.85
+Episode 1043: Return -2.2000000000000006.
+Episode 1044: Return -4.5.
+Episode 1045: Return -1.6000000000000003.
+Episode 1046: Return -2.600000000000001.
+Episode 1047: Return -16.99999999999997.
+Episode 1048: Return -7.599999999999989.
+Episode 1049: Return -2.2000000000000006.
+Episode 1050: Return -2.2000000000000006.
+Episode 1051: Return -1.0999999999999999.
+Episode 1052: Return -1.8000000000000005.
+Episode 1053: Return -4.5.
+Episode 1054: Return -15.199999999999962.
+Episode 1055: Return -2.700000000000001.
+Episode 1056: Return -2.3000000000000007.
+Episode 1057: Return -1.4000000000000001.
+Episode 1058: Return -11.299999999999976.
+Episode 1059: Return -2.700000000000001.
+Episode 1060: Return -8.999999999999984.
+Episode 1061: Return -4.699999999999999.
+Episode 1062: Return -2.800000000000001.
+Episode 1063: Return -1.4000000000000001.
+Episode 1064: Return -2.400000000000001.
+Episode 1065: Return -3.800000000000002.
+Episode 1066: Return -11.899999999999974.
+Episode 1067: Return -8.299999999999986.
+Episode 1068: Return -8.799999999999985.
+Episode 1069: Return -9.799999999999981.
+Episode 1070: Return -5.799999999999995.
+Episode 1071: Return -4.000000000000002.
+Episode 1072: Return -2.700000000000001.
+Episode 1073: Return -6.399999999999993.
+Episode 1074: Return -0.8999999999999999.
+Episode 1075: Return -3.4000000000000017.
+Episode 1076: Return -2.500000000000001.
+Episode 1077: Return -2.0000000000000004.
+Episode 1078: Return -5.699999999999996.
+Episode 1079: Return -1.9000000000000006.
+Episode 1080: Return -15.099999999999962.
+Starting evaluation.
+Evaluation episode 1 is over. Your score is 1.5238095238095237.
+Evaluation episode 2 is over. Your score is 0.9090909090909091.
+Evaluation episode 3 is over. Your score is 0.7391304347826086.
+Evaluation episode 4 is over. Your score is 0.6764705882352942.
+Evaluation episode 5 is over. Your score is 0.3384615384615385.
+Evaluation episode 6 is over. Your score is 0.3163841807909605.
+Evaluation episode 7 is over. Your score is 1.0.
+Evaluation episode 8 is over. Your score is 1.1666666666666667.
+Evaluation episode 9 is over. Your score is 0.53.
+Evaluation episode 10 is over. Your score is 1.32.
+Evaluation episode 11 is over. Your score is 0.7368421052631579.
+Evaluation episode 12 is over. Your score is 0.8701298701298701.
+Evaluation episode 13 is over. Your score is 0.6428571428571429.
+Evaluation episode 14 is over. Your score is 1.25.
+Evaluation episode 15 is over. Your score is 0.3076923076923077.
+Evaluation episode 16 is over. Your score is 1.0526315789473684.
+Evaluation episode 17 is over. Your score is 1.0.
+Evaluation episode 18 is over. Your score is 1.3620689655172413.
+Evaluation episode 19 is over. Your score is 1.4545454545454546.
+Evaluation episode 20 is over. Your score is 1.0754716981132075.
+Evaluation episode 21 is over. Your score is 0.6716417910447762.
+Evaluation episode 22 is over. Your score is 0.5625.
+Evaluation episode 23 is over. Your score is 1.2121212121212122.
+Evaluation episode 24 is over. Your score is 0.952.
+Evaluation episode 25 is over. Your score is 1.391304347826087.
+Evaluation episode 26 is over. Your score is 1.6.
+Evaluation episode 27 is over. Your score is 0.14678899082568808.
+Evaluation episode 28 is over. Your score is 0.7066666666666667.
+Evaluation episode 29 is over. Your score is 0.8571428571428571.
+Evaluation episode 30 is over. Your score is 0.8125.
+Evaluation episode 31 is over. Your score is 0.8.
+Evaluation episode 32 is over. Your score is 0.2653061224489796.
+Evaluation episode 33 is over. Your score is 1.1818181818181819.
+Evaluation episode 34 is over. Your score is 1.6176470588235294.
+Evaluation episode 35 is over. Your score is 0.17708333333333334.
+Evaluation episode 36 is over. Your score is 0.35135135135135137.
+Evaluation episode 37 is over. Your score is 0.9375.
+Evaluation episode 38 is over. Your score is 0.5128205128205128.
+Evaluation episode 39 is over. Your score is 4.285714285714286.
+Evaluation episode 40 is over. Your score is 0.76.
+Evaluation episode 41 is over. Your score is 0.8088235294117647.
+Evaluation episode 42 is over. Your score is 1.0.
+Evaluation episode 43 is over. Your score is 0.44537815126050423.
+Evaluation episode 44 is over. Your score is 1.0.
+Evaluation episode 45 is over. Your score is 0.6160714285714286.
+Evaluation episode 46 is over. Your score is 1.5272727272727273.
+Evaluation episode 47 is over. Your score is 1.875.
+Evaluation episode 48 is over. Your score is 2.2857142857142856.
+Evaluation episode 49 is over. Your score is 1.054054054054054.
+Evaluation episode 50 is over. Your score is 2.9.
+Evaluation episode 51 is over. Your score is 0.5324675324675324.
+Evaluation episode 52 is over. Your score is 1.2608695652173914.
+Evaluation episode 53 is over. Your score is 0.8636363636363636.
+Evaluation episode 54 is over. Your score is 0.9166666666666666.
+Evaluation episode 55 is over. Your score is 1.1111111111111112.
+Evaluation episode 56 is over. Your score is 0.25862068965517243.
+Evaluation episode 57 is over. Your score is 1.4864864864864864.
+Evaluation episode 58 is over. Your score is 0.4.
+Evaluation episode 59 is over. Your score is 0.8048780487804879.
+Evaluation episode 60 is over. Your score is 2.533333333333333.
+Evaluation episode 61 is over. Your score is 1.0714285714285714.
+Evaluation episode 62 is over. Your score is 2.375.
+Evaluation episode 63 is over. Your score is 0.2916666666666667.
+Evaluation episode 64 is over. Your score is 0.5675675675675675.
+Evaluation episode 65 is over. Your score is 3.4.
+Evaluation episode 66 is over. Your score is 2.4545454545454546.
+Evaluation episode 67 is over. Your score is 0.32098765432098764.
+Evaluation episode 68 is over. Your score is 1.8571428571428572.
+Evaluation episode 69 is over. Your score is 0.3870967741935484.
+Evaluation episode 70 is over. Your score is 0.6190476190476191.
+Evaluation episode 71 is over. Your score is 0.25882352941176473.
+Evaluation episode 72 is over. Your score is 4.2727272727272725.
+Evaluation episode 73 is over. Your score is 1.2234042553191489.
+Evaluation episode 74 is over. Your score is 3.1538461538461537.
+Evaluation episode 75 is over. Your score is 0.9.
+Evaluation episode 76 is over. Your score is 1.5333333333333334.
+Evaluation episode 77 is over. Your score is 0.5294117647058824.
+Evaluation episode 78 is over. Your score is 0.7692307692307693.
+Evaluation episode 79 is over. Your score is 1.3333333333333333.
+Evaluation episode 80 is over. Your score is 1.2037037037037037.
+Evaluation episode 81 is over. Your score is 1.6774193548387097.
+Evaluation episode 82 is over. Your score is 0.3170731707317073.
+Evaluation episode 83 is over. Your score is 0.5384615384615384.
+Evaluation episode 84 is over. Your score is 1.2222222222222223.
+Evaluation episode 85 is over. Your score is 2.176470588235294.
+Evaluation episode 86 is over. Your score is 0.4583333333333333.
+Evaluation episode 87 is over. Your score is 1.3571428571428572.
+Evaluation episode 88 is over. Your score is 0.95.
+Evaluation episode 89 is over. Your score is 0.9838709677419355.
+Evaluation episode 90 is over. Your score is 0.7209302325581395.
+Evaluation episode 91 is over. Your score is 1.25.
+Evaluation episode 92 is over. Your score is 0.7264150943396226.
+Evaluation episode 93 is over. Your score is 1.2173913043478262.
+Evaluation episode 94 is over. Your score is 1.0769230769230769.
+Evaluation episode 95 is over. Your score is 1.5789473684210527.
+Evaluation episode 96 is over. Your score is 0.9310344827586207.
+Evaluation episode 97 is over. Your score is 0.34285714285714286.
+Evaluation episode 98 is over. Your score is 1.1333333333333333.
+Evaluation episode 99 is over. Your score is 1.5217391304347827.
+Evaluation episode 100 is over. Your score is 0.1773049645390071.
+Evaluation is done. Median relative score: 0.95, mean relative score: 1.11, iters frac: 0.85
