@@ -24,19 +24,19 @@ def build_argparser():
     parser.add_argument("--no_eval_separately_on_each", dest="eval_separately_on_each", action="store_false")
     parser.set_defaults(eval_separately_on_each=True)
 
-    parser.add_argument("--eval_problems_paths", default='/home/zc/projects/graphqsat_deepgate/aigdata/eval-problems-paths', type=str)
-    parser.add_argument("--eval_freq", default=500, type=int)
+    parser.add_argument("--eval_problems_paths", default='/root/autodl-tmp/zc/graphqsat_deepgate/aigdata/eval-problems-paths', type=str)
+    parser.add_argument("--eval_freq", default=1000, type=int)
     parser.add_argument("--test_time_max_decisions_allowed", default=500, type=int)
 
-    parser.add_argument("--lr_scheduler_frequency", default=1000, type=int)
+    parser.add_argument("--lr_scheduler_frequency", default=3000, type=int)
     parser.add_argument("--lr_scheduler_gamma", default=1.0, type=float)
 
     parser.add_argument("--step_freq", default=4, type=int)
-    parser.add_argument("--batch_size", default=4, type=int)
+    parser.add_argument("--batch_size", default=64, type=int)
 
     parser.add_argument("--penalty_size", default=0.1, type=float)
 
-    parser.add_argument("--aig_dir", default='/home/zc/projects/graphqsat_deepgate/aigdata/train', type=str)
+    parser.add_argument("--aig_dir", default='/root/autodl-tmp/zc/graphqsat_deepgate/aigdata/train', type=str)
     parser.add_argument("--cnf_dir", default='./cnf', type=str)
     parser.add_argument("--tmp_dir", default='./tmp', type=str)
 

@@ -83,6 +83,7 @@ class CircuitLearner:
         self.lr_scheduler.step()
 
         return {
+            "step_ctr": self.step_ctr,
             "loss": loss.item(),
             "grad_norm": grad_norm,
             "lr": lr,

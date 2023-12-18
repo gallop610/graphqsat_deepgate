@@ -18,8 +18,10 @@ from deepgatesat.ckt_model import ckt_net
 import pickle
 import yaml
 import numpy as np
+import json
 
 from tensorboardX import SummaryWriter
+
 
 def save_training_state(
     model,
@@ -106,11 +108,12 @@ if __name__ == '__main__':
     env = make_env(args.train_problems_paths, args, test_mode=False)
 
     net = ckt_net(args)
+    
+    print(str(net))
 
     target_net = copy.deepcopy(net)
 
     buffer = CircuitBuffer(args, args.buffer_size)
-
 
     agent = CircuitAgent(net, args)
     learner = CircuitLearner(net, target_net, buffer, args)
@@ -119,6 +122,10 @@ if __name__ == '__main__':
     ep = 0
 
     batch_updates = 1000000000
+    
+    print(args.__str__())
+    
+    jsonlist = []
     
     while learner.step_ctr < batch_updates:
         ret = 0
@@ -151,8 +158,16 @@ if __name__ == '__main__':
                 or buffer.full
             ):
                 step_info = learner.step()
-                if annealed_eps is not None:
+                if annealed_eps is not None: 
                     step_info["annealed_eps"] = annealed_eps
+                    
+                step_info['grad_norm'] = step_info['grad_norm'].numpy().item()
+                step_info['average_q'] = step_info['average_q'].detach().numpy().item()
+                
+                jsonlist.append(step_info)
+                
+                with open(os.path.join(os.getcwd(), 'info.json'), "w") as f:
+                    json.dump(jsonlist, f)
 
                 if (not learner.step_ctr % args.eval_freq) or eval_resume_signal:
                     scores, _, eval_resume_signal = evaluate(agent, args, include_train_set=False)
@@ -184,8 +199,6 @@ if __name__ == '__main__':
         print(f"Episode {ep + 1}: Return {ret}.")
 
         ep += 1
-
-        torch.cuda.empty_cache()
     
         if save_flag:
             status_path = save_training_state(
@@ -199,3 +212,8 @@ if __name__ == '__main__':
                 in_eval_mode=eval_resume_signal
             )
             save_flag = False
+    
+    # plot reward change and loss change
+    with open(os.path.join(os.getcwd(), 'info.json'), "w") as f:
+        json.dump(jsonlist, f)
+    del jsonlist
