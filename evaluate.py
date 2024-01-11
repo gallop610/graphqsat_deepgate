@@ -18,9 +18,9 @@ import torch
 import pickle
 import yaml
 
-from gqsat.utils import build_eval_argparser, evaluate
-from gqsat.models import SatModel
-from gqsat.agents import GraphAgent
+from deepgatesat.utils import build_eval_argparser, evaluate
+from deepgatesat.ckt_model import ckt_net
+from deepgatesat.agents import CircuitAgent
 
 import os
 import time
@@ -41,9 +41,7 @@ if __name__ == "__main__":
         if args.no_cuda or not torch.cuda.is_available()
         else torch.device("cuda")
     )
-    net = SatModel.load_from_yaml(os.path.join(args.model_dir, "model.yaml")).to(
-        args.device
-    )
+    net = ckt_net(args)
 
     # modify core steps for the eval as requested
     if args.core_steps != -1:
@@ -54,22 +52,15 @@ if __name__ == "__main__":
         torch.load(os.path.join(args.model_dir, args.model_checkpoint)), strict=False
     )
 
-    agent = GraphAgent(net, args)
+    agent = CircuitAgent(net, args)
 
     st_time = time.time()
     scores, eval_metadata, _ = evaluate(agent, args)
     end_time = time.time()
 
-    print(
-        f"Evaluation is over. It took {end_time - st_time} seconds for the whole procedure"
-    )
-
-    # with open("../eval_results.pkl", "wb") as f:
-    #     pickle.dump(scores, f)
+    print(f"Evaluation is over. It took {end_time - st_time} seconds for the whole procedure")
 
     for pset, pset_res in scores.items():
         res_list = [el for el in pset_res.values()]
         print(f"Results for {pset}")
-        print(
-            f"median_relative_score: {np.nanmedian(res_list)}, mean_relative_score: {np.mean(res_list)}"
-        )
+        print(f"median_relative_score: {np.nanmedian(res_list)}, mean_relative_score: {np.mean(res_list)}")

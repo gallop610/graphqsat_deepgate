@@ -14,7 +14,7 @@ def build_argparser():
     parser.add_argument("--save_freq", type=int, default=500)
 
     parser.add_argument("--eps_init", type=float, default=1.0)
-    parser.add_argument("--eps_final", type=float, default=0.1)
+    parser.add_argument("--eps_final", type=float, default=0.01)
     parser.add_argument("--init_exploration_steps", type=int, default=5000)
     parser.add_argument("--eps_decay_steps", type=int, default=30000)
 
@@ -28,6 +28,8 @@ def build_argparser():
     parser.add_argument("--eval_freq", default=1000, type=int)
     parser.add_argument("--test_time_max_decisions_allowed", default=500, type=int)
 
+    parser.add_argument("--lr", type=float, default=2e-5, help="learning rate")
+    parser.add_argument("--gamma", type=float, default=0.99, help="Discounting")
     parser.add_argument("--lr_scheduler_frequency", default=3000, type=int)
     parser.add_argument("--lr_scheduler_gamma", default=1.0, type=float)
 
@@ -39,6 +41,8 @@ def build_argparser():
     parser.add_argument("--aig_dir", default='/root/autodl-tmp/zc/graphqsat_deepgate/aigdata/train', type=str)
     parser.add_argument("--cnf_dir", default='./cnf', type=str)
     parser.add_argument("--tmp_dir", default='./tmp', type=str)
+    
+    parser.add_argument("--target-update-freq", type=int, default=10, help="How often to copy the parameters to traget.")
 
     parser.add_argument("--with_restarts", action="store_true", dest="with_restarts")
     parser.add_argument("--no_restarts", action="store_false", dest="with_restarts")
@@ -66,9 +70,9 @@ def build_argparser():
 
     parser.add_argument("--grad_clip", type=float, default=1.0)
 
-    parser.add_argument("--grad_clip_norm_type", type=int, default=2)
+    parser.add_argument("--grad_clip_norm_type", type=float, default=2)
 
-    parser.add_argument("--batch_updates", type=int, default=1000000000)
+    parser.add_argument("--batch_updates", type=int, default=50000)
 
     parser.add_argument("--history_len", type=int, default=1)
 
@@ -77,6 +81,107 @@ def build_argparser():
     parser.add_argument("--input_type", type=str, default="ckt")
 
     return parser
+
+def build_eval_argparser():
+    parser = argparse.ArgumentParser()
+    
+    parser.add_argument(
+        "--core-steps",
+        type=int,
+        help="Number of message passing iterations. "
+        "\-1 for the same number as used for training",
+        default=-1,
+    )
+    
+    parser.add_argument(
+        "--eval-time-limit",
+        type=int,
+        help="Time limit for evaluation. If it takes more, return what it has and quit eval. In seconds.",
+    )
+    
+    parser.add_argument(
+        "--with_restarts",
+        action="store_true",
+        help="Do restarts in Minisat if set",
+        dest="with_restarts",
+    )
+    parser.add_argument(
+        "--no_restarts",
+        action="store_false",
+        help="Do not do restarts in Minisat if set",
+        dest="with_restarts",
+    )
+    parser.set_defaults(with_restarts=False)
+
+    parser.add_argument(
+        "--compare_with_restarts",
+        action="store_true",
+        help="Compare to MiniSAT with restarts",
+        dest="compare_with_restarts",
+    )
+    parser.add_argument(
+        "--compare_no_restarts",
+        action="store_false",
+        help="Compare to MiniSAT without restarts",
+        dest="compare_with_restarts",
+    )
+    parser.set_defaults(compare_with_restarts=False)
+    parser.add_argument(
+        "--test_max_data_limit_per_set",
+        type=int,
+        help="Max number of problems to load from the dataset for the env. EVAL/TEST mode.",
+        default=None,
+    )
+
+    parser.add_argument(
+        "--test_time_max_decisions_allowed",
+        type=int,
+        help="Number of steps the agent will act from the beginning of the episode when evaluating. "
+        "Otherwise it will return -1 asking minisat to make a decision. "
+        "Float because I want infinity by default (no minisat at all)",
+    )
+    parser.add_argument("--env-name", type=str, default="sat-v0", help="Environment.")
+    parser.add_argument(
+        "--debug",
+        action="store_true",
+        help="Modify the flow of the script, i.e. run for less iterations",
+    )
+
+    parser.add_argument(
+        "--model-dir",
+        help="Path to the folder with checkpoints and model.yaml file",
+        type=str,
+    )
+    parser.add_argument(
+        "--model-checkpoint",
+        help="Filename of the checkpoint, relative to the --model-dir param.",
+        type=str,
+    )
+    parser.add_argument("--logdir", type=str, help="Dir for writing the logs")
+    parser.add_argument(
+        "--eps-final", type=float, default=0.1, help="Final epsilon value."
+    )
+    parser.add_argument(
+        "--eval-problems-paths",
+        help="Path to the problem dataset for evaluation",
+        type=str,
+    )
+    parser.add_argument(
+        "--train_max_data_limit_per_set",
+        type=int,
+        help="Max number of problems to load from the dataset for the env. TRAIN mode.",
+        default=None,
+    )
+    parser.add_argument("--no-cuda", action="store_false", help="Use the cpu")
+
+    parser.add_argument(
+        "--dump_timings_path",
+        type=str,
+        help="If not empty, defines the directory to save the wallclock time performance",
+    )
+    
+    return parser
+    
 
 def make_env(problems_paths, args, test_mode = False):
     max_data_limit_per_set = None
@@ -142,6 +247,10 @@ def evaluate(agent, args, include_train_set=False):
                 if eval_env.aig_problem != None:
                     walltime[eval_env.aig_problem] = time.time() - p_st_time
                     propagations[eval_env.aig_problem] = int(eval_env.S.getPropagations() / eval_env.step_ctr)
+                    
+                    print(
+                        f"It took {walltime[eval_env.aig_problem]} seconds to solve problem {eval_env.aig_problem}."
+                    )
 
                     sctr = 1 if eval_env.step_ctr == 0 else eval_env.step_ctr
                     ns = eval_env.normalized_score(sctr, eval_env.aig_problem)

@@ -65,7 +65,7 @@ def get_json(filePath):
     return avgdata, maxdata, mindata
 
 def plot_reward():
-    info_json = os.path.join(os.getcwd(), 'info.json')
+    info_json = os.path.join(os.getcwd(), 'json/info.json')
     
     avgdata, maxdata, mindata = get_json(info_json)
     

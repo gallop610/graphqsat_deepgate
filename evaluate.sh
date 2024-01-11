@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# --eval-problems-paths: ./aigdata/validation
+# --model-dir: ./runs/Dec29_01-11-28_autodl-container-7de8118d52-7f04756c
+# --model-checkpoint: model_4000.chkp
+
 python3 evaluate.py \
   --logdir ./log \
   --env-name sat-v0 \

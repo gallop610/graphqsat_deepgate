@@ -32,17 +32,12 @@ class CircuitAgent:
 
     def act(self, hist_buffer, eps):
         graph = hist_buffer[-1]
-        # if np.random.random() < eps:
-        #     acts = range(len(graph.valid_mask)*2)
-        #     return int(np.random.choice(acts))
-        # else:
-        qs = self.forward(graph)
-        return self.choose_actions(qs)
+        if np.random.random() < eps:
+            acts = range(len(graph.valid_mask)*2)
+            return int(np.random.choice(acts))
+        else:
+            qs = self.forward(graph)
+            return self.choose_actions(qs)
 
     def choose_actions(self, qs):
-        var = qs.flatten().argmax().item()
-        if(random.random() < 0.5):
-            action = var * 2
-        else:
-            action = var * 2 + 1
-        return action
+        return qs.flatten().argmax().item()

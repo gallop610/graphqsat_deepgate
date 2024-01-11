@@ -1,0 +1,208 @@
+nohup: ignoring input
+Starting evaluation.
+/root/autodl-tmp/zc/graphqsat_deepgate/deepgate/utils/utils.py:206: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  ../torch/csrc/utils/tensor_new.cpp:201.)
+  hs[pi_node] = torch.tensor(pi_vec, dtype=torch.float)
+It took 1.6203656196594238 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0829.aiger.
+Evaluation episode 1 is over. Your score is 0.45794392523364486.
+It took 1.7935128211975098 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-083.aiger.
+Evaluation episode 2 is over. Your score is 0.5.
+It took 1.3010036945343018 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0830.aiger.
+Evaluation episode 3 is over. Your score is 0.6136363636363636.
+It took 1.4788932800292969 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0831.aiger.
+Evaluation episode 4 is over. Your score is 0.28735632183908044.
+It took 1.5010452270507812 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0832.aiger.
+Evaluation episode 5 is over. Your score is 0.5476190476190477.
+It took 1.2014188766479492 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0833.aiger.
+Evaluation episode 6 is over. Your score is 0.8775510204081632.
+It took 2.899419069290161 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0834.aiger.
+Evaluation episode 7 is over. Your score is 0.0547112462006079.
+It took 1.0955283641815186 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0835.aiger.
+Evaluation episode 8 is over. Your score is 1.6296296296296295.
+It took 1.498764991760254 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0836.aiger.
+Evaluation episode 9 is over. Your score is 0.20481927710843373.
+It took 1.9148528575897217 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0837.aiger.
+Evaluation episode 10 is over. Your score is 0.09032258064516129.
+It took 1.695920705795288 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0838.aiger.
+Evaluation episode 11 is over. Your score is 0.22131147540983606.
+It took 1.2970781326293945 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0839.aiger.
+Evaluation episode 12 is over. Your score is 1.078125.
+It took 1.400740385055542 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-084.aiger.
+Evaluation episode 13 is over. Your score is 0.45901639344262296.
+It took 1.2946627140045166 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0840.aiger.
+Evaluation episode 14 is over. Your score is 0.5151515151515151.
+It took 1.4970192909240723 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0841.aiger.
+Evaluation episode 15 is over. Your score is 0.3380281690140845.
+It took 1.0403425693511963 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0842.aiger.
+Evaluation episode 16 is over. Your score is 0.7333333333333333.
+It took 1.6835944652557373 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0844.aiger.
+Evaluation episode 17 is over. Your score is 0.26785714285714285.
+It took 1.0947504043579102 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0845.aiger.
+Evaluation episode 18 is over. Your score is 0.4375.
+It took 1.2104589939117432 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0846.aiger.
+Evaluation episode 19 is over. Your score is 0.4.
+It took 1.0654017925262451 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0847.aiger.
+Evaluation episode 20 is over. Your score is 2.875.
+It took 1.1048457622528076 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0848.aiger.
+Evaluation episode 21 is over. Your score is 1.0625.
+It took 2.01253080368042 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0849.aiger.
+Evaluation episode 22 is over. Your score is 0.4514285714285714.
+It took 2.222170352935791 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-085.aiger.
+Evaluation episode 23 is over. Your score is 0.48514851485148514.
+It took 1.5648694038391113 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0850.aiger.
+Evaluation episode 24 is over. Your score is 0.2912621359223301.
+It took 1.294236183166504 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0851.aiger.
+Evaluation episode 25 is over. Your score is 0.6440677966101694.
+It took 1.203645944595337 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0852.aiger.
+Evaluation episode 26 is over. Your score is 2.3.
+It took 1.6235618591308594 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0853.aiger.
+Evaluation episode 27 is over. Your score is 0.09090909090909091.
+It took 1.4929375648498535 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0854.aiger.
+Evaluation episode 28 is over. Your score is 1.2698412698412698.
+It took 1.8134338855743408 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0855.aiger.
+Evaluation episode 29 is over. Your score is 0.22794117647058823.
+It took 2.193788766860962 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0856.aiger.
+Evaluation episode 30 is over. Your score is 0.5574712643678161.
+It took 1.4978785514831543 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0857.aiger.
+Evaluation episode 31 is over. Your score is 0.7567567567567568.
+It took 1.583772897720337 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0858.aiger.
+Evaluation episode 32 is over. Your score is 0.3118279569892473.
+It took 1.9283690452575684 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0859.aiger.
+Evaluation episode 33 is over. Your score is 0.38285714285714284.
+It took 1.2818360328674316 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0860.aiger.
+Evaluation episode 34 is over. Your score is 0.45454545454545453.
+It took 1.5214450359344482 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0861.aiger.
+Evaluation episode 35 is over. Your score is 0.43023255813953487.
+It took 1.802274465560913 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0862.aiger.
+Evaluation episode 36 is over. Your score is 0.5.
+It took 1.5793540477752686 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0863.aiger.
+Evaluation episode 37 is over. Your score is 0.5728155339805825.
+It took 1.3778738975524902 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0864.aiger.
+Evaluation episode 38 is over. Your score is 1.1029411764705883.
+It took 1.2240064144134521 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0865.aiger.
+Evaluation episode 39 is over. Your score is 0.8958333333333334.
+It took 1.175161600112915 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0866.aiger.
+Evaluation episode 40 is over. Your score is 2.235294117647059.
+It took 1.4231393337249756 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0867.aiger.
+Evaluation episode 41 is over. Your score is 0.6626506024096386.
+It took 2.016979455947876 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0868.aiger.
+Evaluation episode 42 is over. Your score is 0.3956043956043956.
+It took 2.29223895072937 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0869.aiger.
+Evaluation episode 43 is over. Your score is 0.10407239819004525.
+It took 1.9980747699737549 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-087.aiger.
+Evaluation episode 44 is over. Your score is 0.3.
+It took 1.3937921524047852 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0870.aiger.
+Evaluation episode 45 is over. Your score is 0.3392857142857143.
+It took 1.2135820388793945 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0871.aiger.
+Evaluation episode 46 is over. Your score is 0.9545454545454546.
+It took 1.1639389991760254 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0872.aiger.
+Evaluation episode 47 is over. Your score is 3.25.
+It took 1.2248296737670898 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0873.aiger.
+Evaluation episode 48 is over. Your score is 1.9148936170212767.
+It took 1.6785228252410889 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0874.aiger.
+Evaluation episode 49 is over. Your score is 0.16666666666666666.
+It took 1.2178797721862793 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0875.aiger.
+Evaluation episode 50 is over. Your score is 0.37209302325581395.
+It took 1.4937803745269775 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0877.aiger.
+Evaluation episode 51 is over. Your score is 0.44155844155844154.
+It took 1.392418622970581 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0878.aiger.
+Evaluation episode 52 is over. Your score is 0.3382352941176471.
+It took 1.6094160079956055 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0879.aiger.
+Evaluation episode 53 is over. Your score is 0.25225225225225223.
+It took 1.792365550994873 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-088.aiger.
+Evaluation episode 54 is over. Your score is 0.45112781954887216.
+It took 1.5044076442718506 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0880.aiger.
+Evaluation episode 55 is over. Your score is 0.4864864864864865.
+It took 1.5992727279663086 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0881.aiger.
+Evaluation episode 56 is over. Your score is 0.1717171717171717.
+It took 1.6886630058288574 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0882.aiger.
+Evaluation episode 57 is over. Your score is 0.5.
+It took 1.209596872329712 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0883.aiger.
+Evaluation episode 58 is over. Your score is 1.6666666666666667.
+It took 1.090240716934204 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0884.aiger.
+Evaluation episode 59 is over. Your score is 1.4.
+It took 0.9168214797973633 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0885.aiger.
+Evaluation episode 60 is over. Your score is 5.5.
+It took 0.9177196025848389 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0886.aiger.
+Evaluation episode 61 is over. Your score is 1.0.
+It took 1.1124484539031982 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0887.aiger.
+Evaluation episode 62 is over. Your score is 1.6875.
+It took 0.8918581008911133 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0888.aiger.
+Evaluation episode 63 is over. Your score is 1.05.
+It took 2.0657119750976562 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0889.aiger.
+Evaluation episode 64 is over. Your score is 0.37575757575757573.
+It took 1.2016863822937012 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-089.aiger.
+Evaluation episode 65 is over. Your score is 0.19047619047619047.
+It took 1.0959343910217285 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0890.aiger.
+Evaluation episode 66 is over. Your score is 0.6842105263157895.
+It took 1.0249617099761963 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0891.aiger.
+Evaluation episode 67 is over. Your score is 4.555555555555555.
+It took 1.7982850074768066 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0893.aiger.
+Evaluation episode 68 is over. Your score is 0.23684210526315788.
+It took 1.1687893867492676 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0894.aiger.
+Evaluation episode 69 is over. Your score is 0.9285714285714286.
+It took 1.234072208404541 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0895.aiger.
+Evaluation episode 70 is over. Your score is 0.5245901639344263.
+It took 1.6979317665100098 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0896.aiger.
+Evaluation episode 71 is over. Your score is 0.4146341463414634.
+It took 1.5710468292236328 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0897.aiger.
+Evaluation episode 72 is over. Your score is 0.8611111111111112.
+It took 1.8315844535827637 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0898.aiger.
+Evaluation episode 73 is over. Your score is 0.1640625.
+It took 1.8729054927825928 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0899.aiger.
+Evaluation episode 74 is over. Your score is 0.09523809523809523.
+It took 1.4384236335754395 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-09.aiger.
+Evaluation episode 75 is over. Your score is 0.9135802469135802.
+It took 1.1640253067016602 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-090.aiger.
+Evaluation episode 76 is over. Your score is 0.7241379310344828.
+It took 1.4966421127319336 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0900.aiger.
+Evaluation episode 77 is over. Your score is 0.17647058823529413.
+It took 1.3311777114868164 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0901.aiger.
+Evaluation episode 78 is over. Your score is 1.294871794871795.
+It took 1.510394811630249 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0902.aiger.
+Evaluation episode 79 is over. Your score is 0.5189873417721519.
+It took 1.6902008056640625 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0903.aiger.
+Evaluation episode 80 is over. Your score is 0.2719298245614035.
+It took 1.0857701301574707 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0904.aiger.
+Evaluation episode 81 is over. Your score is 5.3125.
+It took 1.4910447597503662 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0905.aiger.
+Evaluation episode 82 is over. Your score is 1.1153846153846154.
+It took 1.3140578269958496 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0906.aiger.
+Evaluation episode 83 is over. Your score is 1.3035714285714286.
+It took 1.3772714138031006 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0907.aiger.
+Evaluation episode 84 is over. Your score is 0.6885245901639344.
+It took 1.334137201309204 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0909.aiger.
+Evaluation episode 85 is over. Your score is 1.125.
+It took 1.078540325164795 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-091.aiger.
+Evaluation episode 86 is over. Your score is 0.25.
+It took 1.7061796188354492 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0910.aiger.
+Evaluation episode 87 is over. Your score is 0.6826923076923077.
+It took 1.7997410297393799 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0911.aiger.
+Evaluation episode 88 is over. Your score is 0.2721518987341772.
+It took 1.2760038375854492 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0912.aiger.
+Evaluation episode 89 is over. Your score is 0.6923076923076923.
+It took 1.2992966175079346 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0913.aiger.
+Evaluation episode 90 is over. Your score is 1.2063492063492063.
+It took 1.5434885025024414 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0914.aiger.
+Evaluation episode 91 is over. Your score is 1.0864197530864197.
+It took 1.1603848934173584 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0915.aiger.
+Evaluation episode 92 is over. Your score is 0.6666666666666666.
+It took 1.8325891494750977 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0916.aiger.
+Evaluation episode 93 is over. Your score is 0.06493506493506493.
+It took 1.790327787399292 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0917.aiger.
+Evaluation episode 94 is over. Your score is 0.37142857142857144.
+It took 1.5040233135223389 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0918.aiger.
+Evaluation episode 95 is over. Your score is 0.37962962962962965.
+It took 1.4666576385498047 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0919.aiger.
+Evaluation episode 96 is over. Your score is 0.2.
+It took 1.439316987991333 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-092.aiger.
+Evaluation episode 97 is over. Your score is 0.3595505617977528.
+It took 1.3780179023742676 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0920.aiger.
+Evaluation episode 98 is over. Your score is 1.3703703703703705.
+It took 1.114684820175171 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0921.aiger.
+Evaluation episode 99 is over. Your score is 0.8148148148148148.
+It took 1.108581304550171 seconds to solve problem /root/autodl-tmp/zc/graphqsat_deepgate/aigdata/validation/uf50-0922.aiger.
+Evaluation episode 100 is over. Your score is 1.6666666666666667.
+Evaluation is done. Median relative score: 0.51, mean relative score: 0.84, iters frac: 0.52
+Evaluation is over. It took 147.23392534255981 seconds for the whole procedure
+Results for ./aigdata/validation
+median_relative_score: 0.5075757575757576, mean_relative_score: 0.8357793326152904

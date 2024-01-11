@@ -48,7 +48,7 @@ from os import path
 
 if __name__ == "__main__":
     results, args = main()
-    for pdir in args.eval_problems_paths.split(":"):
+    for pdir in args.eval_problems_paths.split(":"): 
         with open(os.path.join(pdir, "METADATA"), "w") as f:
             for el in sorted(results.keys()):
                 cur_dir, pname = path.split(el)

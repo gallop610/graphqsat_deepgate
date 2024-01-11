@@ -23,7 +23,7 @@ graph_emb_dict = {}
 
 
 class MLP(nn.Module):
-    def __init__(self, dim_in=256, dim_hidden=32, dim_pred=1, num_layer=3, norm_layer=None, act_layer=None, p_drop=0.5, sigmoid=False, tanh=False):
+    def __init__(self, dim_in=256, dim_hidden=32, dim_pred=2, num_layer=3, norm_layer=None, act_layer=None, p_drop=0.5, sigmoid=False, tanh=False):
         super(MLP, self).__init__()
 
         assert num_layer >= 2, "The number of layers should be larger or equal to 2."
@@ -76,8 +76,8 @@ class ckt_net(nn.Module):
 
         self.ckt_model.load_pretrained()
 
-        self.mlp = MLP(dim_in=256, dim_hidden=32, dim_pred=1, 
-                       num_layer=3, p_drop=0.2, act_layer='relu').to(args.device)
+        self.mlp = MLP(dim_in=256, dim_hidden=32, dim_pred=2, 
+                       num_layer=6, p_drop=0.2, act_layer='relu').to(args.device)
 
         self.device = args.device
 

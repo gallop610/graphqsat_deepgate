@@ -10,18 +10,19 @@ class CircuitLearner:
         self.target = target
         self.target.eval()
 
-        self.optimizer = torch.optim.Adam(self.net.parameters(), lr = 2e-5)
+        self.optimizer = torch.optim.Adam(self.net.parameters(), lr=args.lr)
         self.lr_scheduler = StepLR(self.optimizer, step_size=args.lr_scheduler_frequency, gamma=args.lr_scheduler_gamma)
 
         self.loss = nn.MSELoss()
 
         self.batch_size = args.batch_size
-        self.gamma = 0.99
+        self.gamma = args.gamma
         self.buffer = buffer
-        self.target_update_freq = 10
+        self.target_update_freq = args.target_update_freq
+        
         self.step_ctr = 0
-        self.grad_clip = 1.0
-        self.grad_clip_norm_type = 2
+        self.grad_clip = args.grad_clip
+        self.grad_clip_norm_type = args.grad_clip_norm_type
         self.device = args.device
 
     def get_qs(self, states):
@@ -42,7 +43,7 @@ class CircuitLearner:
         with torch.no_grad():
             target_qs, target_vertex_sizes = self.get_target_qs(s_next)
             idx_for_scatter = [
-                [idx] * el.item() for idx, el in enumerate(target_vertex_sizes)
+                [idx] * el.item() * 2 for idx, el in enumerate(target_vertex_sizes)
             ]
 
             idx_for_scatter = torch.tensor(
@@ -60,10 +61,7 @@ class CircuitLearner:
         gather_idx = (vertex_sizes * qs.shape[1]).cumsum(0).roll(1).to(self.device)
         gather_idx[0] = 0
 
-        for idx, value in enumerate(a):
-            a[idx] = value // 2
-
-        qs = qs.flatten()[torch.tensor(gather_idx + a, dtype=torch.long)]
+        qs = qs.flatten()[gather_idx + a]
 
         loss = self.loss(qs, targets)
 
